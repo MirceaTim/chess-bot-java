@@ -1,0 +1,336 @@
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. e4 c5
+{xboard exit (Clocks: 276, 301)} *
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... +0.13"]
+
+1. e4 c5 2. Qg4 Nf6 {+0.13/3 0.1} 3. Qf5 e6 {+0.29/3 0.1} 4. Qxe6+ fxe6
+{+6.68/3 0.1} 5. Be2 g6 {+6.55/3 0.1} 6. e5 Ne4 {+6.58/3 0.1} 7. Bb5 Nc6
+{+6.75/3 0.1} 8. Nh3 Nxe5 {+7.37/3 0.1} 9. Bxd7+ Bxd7 {+7.41/3 0.1} 10. Nc3
+Qh4 {+7.90/3 0.1} 11. O-O Nxc3 {+8.54/3 0.1} 12. Kh1 Nd5 {+10.79/3 0.1} 13.
+f3 Bg7 {+11.49/3 0.1} 14. Rf2 Nf4 {+11.95/3 0.1} 15. d4 Nxh3 {+15.05/3 0.1}
+16. gxh3 Qxf2 {+19.44/3 0.1} 17. dxe5 Qf1# {+149.99/3 0.1}
+{Xboard adjudication: Checkmate} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "make"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0.02"]
+
+1. c3 {+0.02/4} c6 2. d4 {+0.24/3 0.1} d5 3. Nf3 {+0.22/3 0.1} b5 4. Bf4
+{+0.33/3 0.1} h5 5. a4 {+0.53/3 0.1} Nd7 6. axb5 {+0.87/3 0.1} cxb5 7. Qb3
+{+1.51/3 0.1} Qc7 8. Bxc7 {+10.73/3 0.1} Bb7 9. Qxb5 {+12.50/3 0.1} Rd8 10.
+Qxb7 {+17.54/3 0.1} f5 11. Bxd8 {+19.07/3 0.1} Ngf6 12. Bc7 {+22.17/3 0.1}
+Kf7 13. Ng5+ {+22.17/3 0.1} Kg6 14. Ne6 {+24.95/3 0.1} h4 15. Nf4+
+{+25.83/3 0.1} Kh6 16. Rxa7 {+26.67/3 0.1} e5 17. Nxd5 {+27.57/3 0.1} Bd6
+18. Bxd6 {+29.85/3 0.1} h3 19. Nxf6 {+36.02/3 0.1} gxf6 20. Bf8+
+{+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... -0.06"]
+
+1. e4 Nc6 2. Bc4 e6 {-0.06/3 0.1} 3. Bb5 Nf6 {+0.30/3 0.1} 4. Nc3 Bc5
+{+0.46/3 0.1} 5. Kf1 Bxf2 {+1.45/3 0.1} 6. d3 Bxg1 {+1.87/3 0.1} 7. Kxg1
+O-O {+1.76/3 0.1} 8. d4 e5 {+1.64/3 0.1} 9. Nd5 Nxd5 {+2.80/3 0.1} 10. Bxc6
+dxc6 {+2.94/3 0.1} 11. dxe5 Nc3 {+5.23/3 0.1} 12. Qxd8 Ne2+ {+5.35/3 0.1}
+13. Kf2 Rxd8 {+5.01/3 0.1} 14. Bg5 Rd4 {+4.96/3 0.1} 15. Rad1 Be6
+{+4.96/3 0.1} 16. Rxd4 Nxd4 {+4.72/3 0.1} 17. a4 Nxc2 {+5.84/3 0.1} 18. h4
+h6 {+5.96/3 0.1} 19. Be7 Re8 {+5.96/3 0.1} 20. Rc1 Bb3 {+6.88/3 0.1} 21.
+Rd1 Rxe7 {+8.18/3 0.1} 22. Rd8+ Kh7 {+8.18/3 0.1} 23. Rh8+ Kxh8
+{+11.08/3 0.1} 24. Kg1 Rxe5 {+13.13/3 0.1} 25. Kh1 Rxe4 {+16.07/3 0.1} 26.
+g3 Re1+ {+149.99/3 0.1} 27. Kh2 Re2+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "make"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0.02"]
+
+1. d4 {+0.02/4} e6 2. Nc3 {+0.33/3 0.1} Bb4 3. Bd2 {+0.29/3 0.1} c5 4. e3
+{+0.33/3 0.1} cxd4 5. exd4 {+0.33/3 0.1} Bxc3 6. bxc3 {+0.51/3 0.1} Qf6 7.
+Rb1 {+0.79/3 0.1} Qf5 8. Be2 {+0.80/3 0.1} Qe4 9. Nf3 {+1.15/3 0.1} Nc6 10.
+O-O {+1.18/3 0.1} a6 11. Bd3 {+1.22/3 0.1} Qd5 12. c4 {+1.30/3 0.1} Qh5 13.
+Re1 {+1.36/3 0.1} Kf8 14. Bb4+ {+3.11/3 0.1} Nxb4 15. Re5 {+3.19/3 0.1} Qg4
+16. h3 {+3.08/3 0.1} Qf4 17. Rxb4 {+2.88/3 0.1} Qc1 18. Qxc1 {+12.20/3 0.1}
+d6 19. Re1 {+12.03/3 0.1} a5 20. Rb6 {+12.28/3 0.1} Ra6 21. c5
+{+12.33/3 0.1} dxc5 22. Bxa6 {+14.20/3 0.1} f6 23. Bxb7 {+17.50/3 0.1} Ne7
+24. Bxc8 {+18.50/3 0.1} Nxc8 25. Rb8 {+21.39/3 0.1} Kf7 26. Rb7+
+{+149.99/3 0.1} Kg8 27. Rxg7+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "3"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... -0.39"]
+
+1. e4 c5 2. Bc4 e6 {-0.39/3 0.1} 3. Bb5 Nc6 {-0.03/3 0.1}
+{xboard exit (Clocks: 295, 305)} *
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. e4 c5
+{xboard exit (Clocks: 238, 301)} *
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... -0.39"]
+
+1. e4 c5 2. Bc4 e6 {-0.39/3 0.1} 3. Bb5 Nc6 {-0.03/3 0.1} 4. h4 Bd6
+{+0.24/3 0.1} 5. Bxc6 bxc6 {+0.31/3 0.1} 6. Qf3 Rb8 {+0.63/3 0.1} 7. a4 Nf6
+{+0.84/3 0.1} 8. c4 O-O {+0.89/3 0.1} 9. Kf1 Be5 {+1.25/3 0.1} 10. g4 Bxb2
+{+1.97/3 0.1} 11. Qg3 Ba6 {+4.75/3 0.1} 12. Bxb2 Bxc4+ {+4.75/3 0.1} 13.
+Kg2 Bf1+ {+4.73/3 0.1} 14. Kxf1 Nxe4 {+11.67/3 0.1} 15. Kg2 Nxg3
+{+11.99/3 0.1} 16. fxg3 Qc7 {+12.13/3 0.1} 17. Bc3 Qxg3+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... +0.24"]
+
+1. e3 e6 2. Bb5 Qg5 {+0.24/3 0.1} 3. Bxd7+ Nxd7 {+1.02/3 0.1} 4. g3 Ngf6
+{+0.75/3 0.1} 5. c4 Nc5 {+1.24/3 0.1} 6. d4 Nd3+ {+2.18/3 0.1} 7. Kf1 Nxb2
+{+0.67/3 0.1} 8. Bxb2 Bd7 {+0.35/3 0.1} 9. Ba3 Ng4 {+1.60/3 0.1} 10. Nf3
+Nxe3+ {+2.74/3 0.1} 11. fxe3 Qxe3 {+149.99/3 0.1} 12. Bxf8 Qf2+
+{+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "make"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0.02"]
+
+1. d4 {+0.02/4} e6 2. Nc3 {+0.33/3 0.1} Bb4 3. Bd2 {+0.29/3 0.1} Nc6 4. Nf3
+{+0.18/3 0.1} f5 5. e3 {+0.35/3 0.1} Bxc3 6. Bxc3 {+0.47/3 0.1} a6 7. d5
+{+0.70/3 0.1} d6 8. Bxg7 {+5.08/3 0.1} Qe7 9. Bxh8 {+6.73/3 0.1} Nb4 10.
+Nd4 {+7.25/3 0.1} Nxc2+ 11. Qxc2 {+7.54/3 0.1} c6 12. Be2 {+8.88/3 0.1} Qf7
+13. dxc6 {+9.30/3 0.1} Nf6 14. Bxf6 {+11.81/3 0.1} b5 15. c7 {+12.52/3 0.1}
+Qxf6 16. Qc6+ {+16.20/3 0.1} Ke7 17. Nxf5+ {+149.99/3 0.1} exf5 18. Qd7+
+{+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... +0.12"]
+
+1. e3 Nc6 2. Bb5 Nf6 {+0.12/3 0.1} 3. Nc3 e6 {+0.12/3 0.1} 4. Qf3 Bd6
+{+0.40/3 0.1} 5. Nge2 Ne5 {+0.49/3 0.1} 6. Bxd7+ Qxd7 {+1.21/3 0.1} 7. Qh3
+O-O {+1.07/3 0.1} 8. f4 Nc6 {+0.87/3 0.1} 9. O-O b6 {+1.58/3 0.1} 10. a4
+Nb4 {+1.69/3 0.1} 11. Qf3 Ba6 {+2.58/3 0.1} 12. Qxa8 Rxa8 {+6.49/3 0.1} 13.
+Nb5 Nxc2 {+7.53/3 0.1} 14. Ra2 Bxb5 {+7.53/3 0.1} 15. axb5 Nb4
+{+7.43/3 0.1} 16. Ra3 Qxb5 {+7.31/3 0.1} 17. Nd4 Qc4 {+7.26/3 0.1} 18. Rc3
+Qa2 {+7.31/3 0.1} 19. Nc6 Nxc6 {+7.72/3 0.1} 20. Rxc6 Qd5 {+7.64/3 0.1} 21.
+Rc3 Ne4 {+7.80/3 0.1} 22. Ra3 Bxa3 {+10.27/3 0.1}
+{xboard exit (Clocks: 247, 342)} *
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... +0.12"]
+
+1. e3 Nc6 2. Bb5 Nf6 {+0.12/3 0.1} 3. Bc4 d5 {+0.57/3 0.1} 4. Bb5 Bd7
+{+0.42/3 0.1} 5. Bxc6 bxc6 {+0.61/3 0.1} 6. Ke2 Bg4+ {+3.24/3 0.1} 7. f3
+Bxf3+ {+3.56/3 0.1} 8. gxf3 Rb8 {+3.71/3 0.1} 9. Nc3 e6 {+3.71/3 0.1} 10.
+Kf2 Ng4+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "make"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0.02"]
+
+1. Nc3 {+0.02/4} b6 2. e4 {+0.57/3 0.1} Nf6 3. e5 {+0.91/3 0.1} Bb7 4. exf6
+{+2.38/3 0.1} e6 5. fxg7 {+3.16/3 0.1} Bxg7 6. d4 {+3.13/3 0.1} Bh6 7. Bxh6
+{+6.50/3 0.1} Ke7 8. Bg5+ {+10.04/3 0.1} f6 9. Bxf6+ {+149.99/3 0.1} Kxf6
+10. Qf3+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1... +0.24"]
+
+1. d3 e5 {+0.24/3 0.1} 2. c3 Nc6 {+0.49/3 0.1} 3. g3 d5 {+0.68/3 0.1} 4.
+Bg2 Bc5 {+0.78/3 0.1} 5. d4 exd4 {+1.52/3 0.1} 6. Bh3 dxc3 {+3.36/3 0.1} 7.
+Bd7+ Bxd7 {+5.37/3 0.1} 8. Nxc3 Bxf2+ {+6.07/3 0.1} 9. Kf1 Bd4
+{+6.54/3 0.1} 10. Bf4 g5 {+7.48/3 0.1} 11. Nb5 gxf4 {+7.97/3 0.1} 12. Rc1
+Bxb2 {+10.38/3 0.1} 13. Nxc7+ Qxc7 {+10.38/3 0.1} 14. Rc2 Qe5
+{+10.58/3 0.1} 15. Rxb2 Bh3+ {+149.99/3 0.1} 16. Nxh3 Qxe2+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "2... +0.24"]
+
+1. e3 e6 2. Qf3 Nf6 {+0.24/3 0.1} 3. d4 Bb4+ {+2.28/3 0.1} 4. c3 Bxc3+
+{+2.82/3 0.1} 5. bxc3 O-O {+2.97/3 0.1} 6. Ba3 d6 {+2.78/3 0.1} 7. Bd3 Nc6
+{+2.80/3 0.1} 8. Bxh7+ Nxh7 {+3.08/3 0.1} 9. Qg3 Ng5 {+3.70/3 0.1} 10. Qh4
+Nf3+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "make"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0.02"]
+
+1. e3 {+0.02/4} d6 2. Bb5+ {+2.39/3 0.1} c6 3. Bxc6+ {+2.67/3 0.1} bxc6 4.
+Qf3 {+149.99/3 0.1} Qb6 5. Qxc6+ {+149.99/3 0.1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "1"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "0-1"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. d3 e5 {-0.14/2 0.1} 2. c3 Bc5 {+0.23/2 0.1} 3. d4 exd4 {+1.10/2 0.1} 4.
+Qc2 d3 {+2.82/2 0.1} 5. Qxd3 Bxf2+ {+2.97/2 0.1} 6. Kxf2 Qh4+ {+3.11/2 0.1}
+7. Qg3 Qxg3+ {+149.99/2 0.1}
+{Xboard adjudication: 3rd check} 0-1
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "2"]
+[White "pulsar2009-9b-64"]
+[Black "make"]
+[Result "1-0"]
+[TimeControl "300+2"]
+[Variant "3check"]
+[Annotator "1. +0.02"]
+
+1. e4 {+0.02/4} g6 2. d4 {+0.31/2 0.1} Bg7 3. Nc3 {+0.55/2 0.1} Nc6 4. Nf3
+{+0.51/2 0.1} Nb4 5. Bc4 {+0.93/2 0.1} Nxc2+ 6. Qxc2 {+1.59/2 0.1} d5 7.
+Bb5+ {+3.71/2 0.1} c6 8. Bxc6+ {+3.71/2 0.1} bxc6 9. Bf4 {+3.83/2 0.1} Qb6
+10. O-O-O {+3.96/2 0.1} Bg4 11. exd5 {+4.25/2 0.1} e5 12. dxe5
+{+6.04/2 0.1} Rb8 13. e6 {+6.44/2 0.1} Qxb2+ 14. Qxb2 {+6.28/2 0.1} Rxb2
+15. exf7+ {+149.99/2 0.1}
+{Xboard adjudication: 3rd check} 1-0
+
+[Event "Computer Chess Game"]
+[Site "Evghenii"]
+[Date "2021.05.22"]
+[Round "3"]
+[White "make"]
+[Black "pulsar2009-9b-64"]
+[Result "*"]
+[TimeControl "300+2"]
+[Variant "3check"]
+
+1. d3 e5 {-0.14/2 0.1}
+{xboard exit (Clocks: 296, 301)} *
+

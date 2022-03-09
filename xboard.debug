@@ -1,0 +1,4311 @@
+locale = en_US.UTF-8
+recognized '3check' (-1) as variant 3check
+recognized '3check' (-1) as variant 3check
+recognized '3check' (-1) as variant 3check
+shuffleOpenings = 0
+shuffleOpenings = 0
+Version: xboard 4.9.1 + make ()
+Reset(1, 0) from gameMode 0
+recognized '3check' (-1) as variant 3check
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") make run
+111 >first : xboard
+protover 2
+113 <first : java Main
+213 <first : feature sigint=0
+213 >first : accepted sigint
+213 <first : feature san=0
+213 >first : accepted san
+213 <first : feature name=MEM chess engine
+213 >first : accepted name
+213 >first : rejected chess engine
+10120 >first : new
+random
+10121 >first : variant 3check
+10121 >first : level 0 5 2
+10121 >first : post
+10121 >first : hard
+Reset(0, 1) from gameMode 0
+recognized '3check' (-1) as variant 3check
+GameEnds(0, (null), 2)
+10121 >first : quit
+shuffleOpenings = 0
+StartChildProcess (dir=".") make run
+10133 >first : xboard
+protover 2
+10133 >first : new
+random
+10133 >first : variant 3check
+10133 >first : level 0 5 2
+10133 >first : post
+10133 >first : hard
+10134 >first : force
+StartChildProcess (dir=".") pulsar2009-9b-64 mxT-3
+10135 >second: xboard
+protover 2
+10138 <second: # atomicBookBlack is atomicBookBlack.txt  atomicBookWhite is atomicBookWhite.txt 
+10138 <second: 
+10138 <second: # max depthT is level 3
+10138 <second: # Losers Values
+10138 <second: # pawn or p -200
+10138 <second: # n or knight 300
+10138 <second: # b or bishop 300
+10138 <second: # rook or r 500
+10138 <second: # queen or q 100
+10138 <second: # nopawns is a bonus if pulsar has no pawns
+10138 <second: # nopawns 1500
+10138 <second: # Type quit to exit to free hash memory
+10138 <second: # Suicide or giveaway values
+10138 <second: # pawn or p -400
+10138 <second: # n or knight -200
+10138 <second: # b or bishop -300
+10138 <second: # rook or r -100
+10138 <second: # queen or q -200
+10138 <second: # king or k -100
+10138 <second: # Type quit to exit to free hash memory
+10138 <second: # crazyhouse values
+10138 <second: # pawn or p 125
+10138 <second: # n or knight 300
+10138 <second: # b or bishop 300
+10138 <second: # rook or r 450
+10138 <second: # queen or q 600
+10139 <second: # checklevel or h 1
+10139 <second: # checklevel is the ply in which pulsar starts extending for checks.  It can be set higher than the default to weaken it.
+10139 <second: # Type quit to exit to free hash memory
+10139 <second: 
+10139 <second: # In the pulsar.rc2 file you can use the letter and below it the value 
+10139 <second: # or you can use the name of the bonus such as 'h' or 'checklevel' both work
+10139 <second: # p or pawn is 135
+10139 <second: # n or knight is 250
+10139 <second: # b or bishop is 250
+10139 <second: # r or rook is 550
+10139 <second: # q or queen is 1000
+10139 <second: # y or passedbonus is 100
+10139 <second: # z or casltebonus is 40
+10139 <second: # h or checklevel is 2
+10139 <second: # i or rookkingbonus is 150
+10139 <second: # j or kingkingbonus is 100
+10139 <second: # k or randombonus is 20
+10139 <second: # l or bishopkingbonus is 50
+10139 <second: # m or queencheckbonus is 50
+10139 <second: # a or kingpawnpenalty is 15
+10139 <second: # o or sidekingpawnpentalty is 10
+10139 <second: 
+10139 <second: 
+10139 <second: # x increases or decreases agressiveness of pawn advances. It can only be changed in the pulsar.rc file, not rc2.
+10139 <second: # y or passedbonus = passed bonus, points for getting a passed pawn.
+10139 <second: # z or castlebonus = castle bonus. points for castling.  If pulsar knows it should castle it will develop better is the theory by moving pieces out of the catle path.
+10139 <second: # h or checklevel = at what depth check extensions are turned on. Set it high they never come on. 
+10139 <second: # You can start check extensions at depth 1 at the minimum. I.e. search one extra depth for root moves that put the king in check. 
+10139 <second: # If you increase h it will not extend for check tell it reaches that level which gives more general depth.
+10139 <second: # i or rookingbonus = connected rook king bonus.
+10139 <second: # j kingkingbonus = connected king king bonus ( for losing side )
+10139 <second: # k or randombonus = randombonus ( pulsar has this but random is not on without the rand program artgument.  +9 more random, -9 less, or set a value in the pulasar.rc2 file.
+10139 <second: # l or bishopkingbonus = connected bishop king bonus. Points for getting bishop adjacent to the king.
+10139 <second: # m or queencheckbonus = value of queen putting king in check.
+10139 <second: # a or kingpawnpenalty = penalty for losing the pawn in kings file its own or the opponents
+10139 <second: # o or sidekingpawnpenalty = penalty for losing pawn in file next to king ( right left , its own or opponents)
+10139 <second: 
+10139 <second: 
+10139 <second: # pulsar regular values, be sure to type quit, to close the program as that frees the hash tables memory. 
+10139 <second: 
+10139 <second: 
+10139 <second: # pulsar regular material values: p 100 n 305 b 295 r 520 q 930
+10139 <second: # be sure to type quit to close the program as that frees the hash memory.  if opened with winboard then winboard will send quit.
+10140 <second: # pulsars pulsar/blitz/chessicwilds pawn values
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: 9 9 9 0 0 9 9 9
+10140 <second: 6 8 8 10 10 8 8 6
+10140 <second: 6 8 12 20 20 12 8 6
+10140 <second: 8 12 12 16 16 12 12 8
+10140 <second: 42 46 44 42 42 44 46 42
+10140 <second: 82 86 84 82 82 84 86 82
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: # opponents pulsar/blitz/chessic wilds pawn values
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: -82 -86 -84 -82 -82 -84 -86 -82
+10140 <second: -42 -46 -44 -42 -42 -44 -46 -42
+10140 <second: -8 -12 -12 -26 -16 -12 -12 -8
+10140 <second: -6 -8 -12 -20 -20 -12 -8 -6
+10140 <second: -6 -8 -8 -10 -10 -8 -8 -6
+10140 <second: -9 -9 -9 0 0 -9 -9 -9
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: # pulsars atomic pawn values
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: 10 10 10 10 10 10 10 10
+10140 <second: 16 16 16 12 12 16 16 16
+10140 <second: 24 24 24 24 24 24 24 24
+10140 <second: 34 34 34 34 34 34 34 34
+10140 <second: 44 44 44 44 44 44 44 44
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: # opponents atomic pawn values
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: -44 -44 -44 -44 -44 -44 -44 -44
+10140 <second: -34 -34 -34 -34 -34 -34 -34 -34
+10140 <second: -24 -24 -24 -24 -24 -24 -24 -24
+10140 <second: -16 -16 -16 -12 -12 -16 -16 -16
+10140 <second: -10 -10 -10 -10 -10 -10 -10 -10
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: 0 0 0 0 0 0 0 0
+10140 <second: # pulsars losers/giveaway/suicide pawn values
+10140 <second: # 0 0 0 0 0 0 0 0
+10140 <second: # 9 9 9 0 0 9 9 9
+10140 <second: # 6 8 8 10 10 8 8 6
+10140 <second: # 6 8 12 16 26 12 8 6
+10140 <second: # 8 12 12 16 16 12 12 8
+10140 <second: # 42 46 44 42 42 44 46 42
+10140 <second: # 82 86 84 82 82 84 86 82
+10140 <second: # 0 0 0 0 0 0 0 0
+10140 <first : java Main
+10169 <second: # opponents losers/giveaway/suicide pawn values
+10169 <second: # 0 0 0 0 0 0 0 0
+10169 <second: # -82 -86 -84 -82 -82 -84 -86 -82
+10169 <second: # -42 -46 -44 -42 -42 -44 -46 -42
+10169 <second: # -8 -12 -12 -26 -16 -12 -12 -8
+10169 <second: # -6 -8 -12 -16 -16 -12 -8 -6
+10169 <second: # -6 -8 -8 -10 -10 -8 -8 -6
+10169 <second: # -9 -9 -9 0 0 -9 -9 -9
+10169 <second: # 0 0 0 0 0 0 0 0
+10169 <second: # crazyhouse pawn values
+10169 <second: # 0 0 0 0 0 0 0 0
+10169 <second: # 0 0 0 0 0 25 20 20
+10169 <second: # 8 8 8 10 10 8 8 8
+10169 <second: # 16 16 16 18 18 16 16 16
+10169 <second: # 24 24 24 26 26 24 24 24
+10169 <second: # 32 32 32 34 34 32 32 32
+10169 <second: # 42 42 42 44 44 40 40 40
+10169 <second: # 0 0 0 0 0 0 0 0
+10169 <second: # opponents crazyhouse pawn values
+10169 <second: # 0 0 0 0 0 0 0 0
+10169 <second: # -42 -42 -42 -44 -44 -40 -40 -40
+10169 <second: # -32 -32 -32 -34 -34 -32 -32 -32
+10169 <second: # -24 -24 -24 -26 -26 -24 -24 -24
+10169 <second: # -16 -16 -16 -18 -18 -16 -16 -16
+10169 <second: # -8 -8 -8 -10 -10 -8 -8 -8
+10169 <second: # 0 0 0 0 0 -25 -20 -20
+10169 <second: # 0 0 0 0 0 0 0 0
+10169 <second: # Type quit to close the program and free memory, dont just close with x
+10169 <second: 
+10169 <second: 
+10169 <second: # type quit  to quit then hit enter, this will also free up memory
+10169 <second: # hash size is number of slots ( 4194304) * size of each node or 32 bytes which is 131072 killobytes or 128 megabytes
+10169 <second: finishedfinished# bookcounter=134058, bigbookidcounter=134058
+10169 <second: 
+10169 <second: # calling getmove turn is 1
+10169 <second: #testing crazyhouse evaluate is 0
+10169 <second: 
+10169 <second: feature setboard=1 debug=1 ics=1 colors=0 oocastle=1 variants="normal,fischerandom,nocastle,wildcastle,atomic,3check,losers,giveaway,suicide,crazyhouse,twokings,wild29,shatranj" done=1
+10169 >second: accepted setboard
+10169 >second: accepted debug
+10169 >second: accepted ics
+10169 >second: accepted colors
+10169 >second: accepted oocastle
+10169 >second: accepted variants
+10169 >second: accepted done
+10169 <second: #testing crazyhouse evaluate is 0
+10169 <second: #testing crazyhouse evaluate is 0
+10171 >second: new
+random
+10171 >second: variant 3check
+10171 >second: ics -
+10171 >second: level 0 5 2
+10171 >second: post
+10171 >second: hard
+10171 >second: force
+10171 <second: #testing crazyhouse evaluate is 0
+New game (1): make-pulsar2009-9b-64 (w)
+10182 >first : computer
+10182 >second: computer
+10182 >first : black
+10182 >first : time 30000
+10182 >first : otim 30000
+10182 >first : white
+book hit = (NULL)
+10182 >first : go
+nps: w=-1, b=-1
+10202 <second: # new game read
+10232 <second: # I called variant with a normal variant call
+10232 <second: # level 0 29700 200
+10232 <second: #testing crazyhouse evaluate is 0
+10232 <second: #force is 1
+10263 <first : feature sigint=0
+10263 >first : accepted sigint
+10263 <first : feature san=0
+10263 >first : accepted san
+10263 <first : feature name=MEM chess engine
+10263 >first : accepted name
+10263 >first : rejected chess engine
+10446 <first : Making move with king
+10484 <first : To d7 while cord = e8 ; starting = e8
+10484 <first : Coord eq startCoord
+10486 <first : Making move with king
+10486 <first : To d7 while cord = e8 ; starting = e8
+10486 <first : Coord eq startCoord
+10487 <first : Making move with king
+10487 <first : To d7 while cord = e8 ; starting = e8
+10487 <first : Coord eq startCoord
+10489 <first : Making move with king
+10489 <first : To d7 while cord = e8 ; starting = e8
+10489 <first : Coord eq startCoord
+10490 <first : Making move with king
+10490 <first : To d7 while cord = e8 ; starting = e8
+10490 <first : Coord eq startCoord
+10491 <first : Making move with king
+10491 <first : To d7 while cord = e8 ; starting = e8
+10491 <first : Coord eq startCoord
+10491 <first : Making move with king
+10491 <first : To d7 while cord = e8 ; starting = e8
+10491 <first : Coord eq startCoord
+10492 <first : Making move with king
+10492 <first : To d7 while cord = e8 ; starting = e8
+10492 <first : Coord eq startCoord
+10493 <first : Making move with king
+10493 <first : To d7 while cord = e8 ; starting = e8
+10493 <first : Coord eq startCoord
+10508 <first : Making move with king
+10509 <first : To d7 while cord = e8 ; starting = e8
+10509 <first : Coord eq startCoord
+10511 <first : Making move with king
+10511 <first : To d7 while cord = e8 ; starting = e8
+10511 <first : Coord eq startCoord
+10513 <first : Making move with king
+10513 <first : To d7 while cord = e8 ; starting = e8
+10513 <first : Coord eq startCoord
+10515 <first : Making move with king
+10515 <first : To d7 while cord = e8 ; starting = e8
+10515 <first : Coord eq startCoord
+10518 <first : Making move with king
+10518 <first : To d7 while cord = e8 ; starting = e8
+10518 <first : Coord eq startCoord
+10520 <first : Making move with king
+10520 <first : To d7 while cord = e8 ; starting = e8
+10520 <first : Coord eq startCoord
+10523 <first : Making move with king
+10523 <first : To d7 while cord = e8 ; starting = e8
+10523 <first : Coord eq startCoord
+10525 <first : Making move with king
+10525 <first : To d7 while cord = e8 ; starting = e8
+10525 <first : Coord eq startCoord
+10527 <first : Making move with king
+10527 <first : To d7 while cord = e8 ; starting = e8
+10527 <first : Coord eq startCoord
+10529 <first : Making move with king
+10529 <first : To d7 while cord = e8 ; starting = e8
+10529 <first : Coord eq startCoord
+10531 <first : Making move with king
+10531 <first : To d7 while cord = e8 ; starting = e8
+10531 <first : Coord eq startCoord
+10533 <first : Making move with king
+10533 <first : To d7 while cord = e8 ; starting = e8
+10533 <first : Coord eq startCoord
+10535 <first : Making move with king
+10535 <first : To d7 while cord = e8 ; starting = e8
+10535 <first : Coord eq startCoord
+10536 <first : Making move with king
+10536 <first : To d7 while cord = e8 ; starting = e8
+10536 <first : Coord eq startCoord
+10539 <first : Making move with king
+10539 <first : To d7 while cord = e8 ; starting = e8
+10539 <first : Coord eq startCoord
+10541 <first : Making move with king
+10541 <first : To d7 while cord = e8 ; starting = e8
+10541 <first : Coord eq startCoord
+10543 <first : Making move with king
+10543 <first : To d7 while cord = e8 ; starting = e8
+10543 <first : Coord eq startCoord
+10545 <first : Making move with king
+10545 <first : To d7 while cord = e8 ; starting = e8
+10545 <first : Coord eq startCoord
+10548 <first : Making move with king
+10548 <first : To d7 while cord = e8 ; starting = e8
+10548 <first : Coord eq startCoord
+10550 <first : Making move with king
+10550 <first : To d7 while cord = e8 ; starting = e8
+10550 <first : Coord eq startCoord
+10552 <first : Making move with king
+10552 <first : To d7 while cord = e8 ; starting = e8
+10552 <first : Coord eq startCoord
+10555 <first : Making move with king
+10555 <first : To d7 while cord = e8 ; starting = e8
+10555 <first : Coord eq startCoord
+10557 <first : Making move with king
+10557 <first : To d7 while cord = e8 ; starting = e8
+10557 <first : Coord eq startCoord
+10557 <first : Making move with king
+10557 <first : To d7 while cord = e8 ; starting = e8
+10557 <first : Coord eq startCoord
+10558 <first : Making move with king
+10558 <first : To d7 while cord = e8 ; starting = e8
+10558 <first : Coord eq startCoord
+10560 <first : Making move with king
+10560 <first : To d7 while cord = e8 ; starting = e8
+10560 <first : Coord eq startCoord
+10561 <first : Making move with king
+10561 <first : To d7 while cord = e8 ; starting = e8
+10561 <first : Coord eq startCoord
+10561 <first : Making move with king
+10562 <first : To d7 while cord = e8 ; starting = e8
+10562 <first : Coord eq startCoord
+10563 <first : Making move with king
+10564 <first : To e7 while cord = e8 ; starting = e8
+10564 <first : Coord eq startCoord
+10566 <first : Making move with king
+10566 <first : To e7 while cord = e8 ; starting = e8
+10566 <first : Coord eq startCoord
+10567 <first : Making move with king
+10567 <first : To e7 while cord = e8 ; starting = e8
+10567 <first : Coord eq startCoord
+10571 <first : Making move with king
+10571 <first : To e7 while cord = e8 ; starting = e8
+10571 <first : Coord eq startCoord
+10573 <first : Making move with king
+10573 <first : To e7 while cord = e8 ; starting = e8
+10573 <first : Coord eq startCoord
+10574 <first : Making move with king
+10574 <first : To e7 while cord = e8 ; starting = e8
+10574 <first : Coord eq startCoord
+10576 <first : Making move with king
+10576 <first : To e7 while cord = e8 ; starting = e8
+10576 <first : Coord eq startCoord
+10578 <first : Making move with king
+10578 <first : To e7 while cord = e8 ; starting = e8
+10578 <first : Coord eq startCoord
+10579 <first : Making move with king
+10579 <first : To e7 while cord = e8 ; starting = e8
+10579 <first : Coord eq startCoord
+10581 <first : Making move with king
+10581 <first : To e7 while cord = e8 ; starting = e8
+10581 <first : Coord eq startCoord
+10583 <first : Making move with king
+10583 <first : To e7 while cord = e8 ; starting = e8
+10583 <first : Coord eq startCoord
+10584 <first : Making move with king
+10584 <first : To e7 while cord = e8 ; starting = e8
+10584 <first : Coord eq startCoord
+10587 <first : Making move with king
+10587 <first : To e7 while cord = e8 ; starting = e8
+10587 <first : Coord eq startCoord
+10589 <first : Making move with king
+10589 <first : To e7 while cord = e8 ; starting = e8
+10589 <first : Coord eq startCoord
+10591 <first : Making move with king
+10591 <first : To e7 while cord = e8 ; starting = e8
+10591 <first : Coord eq startCoord
+10595 <first : Making move with king
+10595 <first : To e7 while cord = e8 ; starting = e8
+10595 <first : Coord eq startCoord
+10597 <first : Making move with king
+10597 <first : To e7 while cord = e8 ; starting = e8
+10597 <first : Coord eq startCoord
+10597 <first : Making move with king
+10597 <first : To e7 while cord = e8 ; starting = e8
+10598 <first : Coord eq startCoord
+10599 <first : Making move with king
+10599 <first : To e7 while cord = e8 ; starting = e8
+10599 <first : Coord eq startCoord
+10601 <first : Making move with king
+10601 <first : To e7 while cord = e8 ; starting = e8
+10601 <first : Coord eq startCoord
+10601 <first : Making move with king
+10601 <first : To e7 while cord = e8 ; starting = e8
+10601 <first : Coord eq startCoord
+10603 <first : Making move with king
+10603 <first : To e7 while cord = e8 ; starting = e8
+10603 <first : Coord eq startCoord
+10615 <first : Making move with king
+10615 <first : To e7 while cord = e8 ; starting = e8
+10615 <first : Coord eq startCoord
+10616 <first : Making move with king
+10616 <first : To e7 while cord = e8 ; starting = e8
+10616 <first : Coord eq startCoord
+10617 <first : Making move with king
+10617 <first : To e7 while cord = e8 ; starting = e8
+10617 <first : Coord eq startCoord
+10619 <first : Making move with king
+10619 <first : To e7 while cord = e8 ; starting = e8
+10619 <first : Coord eq startCoord
+10622 <first : Making move with king
+10622 <first : To f7 while cord = e8 ; starting = e8
+10622 <first : Coord eq startCoord
+10623 <first : Making move with king
+10623 <first : To f7 while cord = e8 ; starting = e8
+10623 <first : Coord eq startCoord
+10624 <first : Making move with king
+10624 <first : To f7 while cord = e8 ; starting = e8
+10624 <first : Coord eq startCoord
+10624 <first : Making move with king
+10624 <first : To f7 while cord = e8 ; starting = e8
+10624 <first : Coord eq startCoord
+10625 <first : Making move with king
+10625 <first : To f7 while cord = e8 ; starting = e8
+10625 <first : Coord eq startCoord
+10759 <first : Making move with king
+10759 <first : To d7 while cord = e8 ; starting = e8
+10759 <first : Coord eq startCoord
+10760 <first : Making move with king
+10760 <first : To d7 while cord = e8 ; starting = e8
+10760 <first : Coord eq startCoord
+10761 <first : Making move with king
+10761 <first : To d7 while cord = e8 ; starting = e8
+10761 <first : Coord eq startCoord
+10763 <first : Making move with king
+10763 <first : To d7 while cord = e8 ; starting = e8
+10763 <first : Coord eq startCoord
+10764 <first : Making move with king
+10764 <first : To d7 while cord = e8 ; starting = e8
+10764 <first : Coord eq startCoord
+10765 <first : Making move with king
+10765 <first : To d7 while cord = e8 ; starting = e8
+10765 <first : Coord eq startCoord
+10766 <first : Making move with king
+10766 <first : To d7 while cord = e8 ; starting = e8
+10766 <first : Coord eq startCoord
+10767 <first : Making move with king
+10767 <first : To d7 while cord = e8 ; starting = e8
+10767 <first : Coord eq startCoord
+10769 <first : Making move with king
+10769 <first : To d7 while cord = e8 ; starting = e8
+10769 <first : Coord eq startCoord
+10771 <first : Making move with king
+10771 <first : To d7 while cord = e8 ; starting = e8
+10771 <first : Coord eq startCoord
+10773 <first : Making move with king
+10773 <first : To d7 while cord = e8 ; starting = e8
+10773 <first : Coord eq startCoord
+10775 <first : Making move with king
+10775 <first : To d7 while cord = e8 ; starting = e8
+10775 <first : Coord eq startCoord
+10777 <first : Making move with king
+10777 <first : To d7 while cord = e8 ; starting = e8
+10777 <first : Coord eq startCoord
+10778 <first : Making move with king
+10778 <first : To d7 while cord = e8 ; starting = e8
+10778 <first : Coord eq startCoord
+10780 <first : Making move with king
+10780 <first : To d7 while cord = e8 ; starting = e8
+10780 <first : Coord eq startCoord
+10781 <first : Making move with king
+10781 <first : To d7 while cord = e8 ; starting = e8
+10781 <first : Coord eq startCoord
+10782 <first : Making move with king
+10782 <first : To d7 while cord = e8 ; starting = e8
+10782 <first : Coord eq startCoord
+10783 <first : Making move with king
+10783 <first : To d7 while cord = e8 ; starting = e8
+10783 <first : Coord eq startCoord
+10784 <first : Making move with king
+10784 <first : To d7 while cord = e8 ; starting = e8
+10784 <first : Coord eq startCoord
+10785 <first : Making move with king
+10785 <first : To d7 while cord = e8 ; starting = e8
+10785 <first : Coord eq startCoord
+10786 <first : Making move with king
+10786 <first : To d7 while cord = e8 ; starting = e8
+10786 <first : Coord eq startCoord
+10787 <first : Making move with king
+10787 <first : To d7 while cord = e8 ; starting = e8
+10787 <first : Coord eq startCoord
+10788 <first : Making move with king
+10788 <first : To d7 while cord = e8 ; starting = e8
+10788 <first : Coord eq startCoord
+10789 <first : Making move with king
+10789 <first : To d7 while cord = e8 ; starting = e8
+10789 <first : Coord eq startCoord
+10789 <first : Making move with king
+10789 <first : To d7 while cord = e8 ; starting = e8
+10789 <first : Coord eq startCoord
+10790 <first : Making move with king
+10790 <first : To d7 while cord = e8 ; starting = e8
+10790 <first : Coord eq startCoord
+10791 <first : Making move with king
+10791 <first : To d7 while cord = e8 ; starting = e8
+10791 <first : Coord eq startCoord
+10791 <first : Making move with king
+10791 <first : To d7 while cord = e8 ; starting = e8
+10791 <first : Coord eq startCoord
+10792 <first : Making move with king
+10792 <first : To d7 while cord = e8 ; starting = e8
+10792 <first : Coord eq startCoord
+10792 <first : Making move with king
+10792 <first : To d7 while cord = e8 ; starting = e8
+10792 <first : Coord eq startCoord
+10792 <first : Making move with king
+10792 <first : To d7 while cord = e8 ; starting = e8
+10792 <first : Coord eq startCoord
+10793 <first : Making move with king
+10793 <first : To d7 while cord = e8 ; starting = e8
+10793 <first : Coord eq startCoord
+10793 <first : Making move with king
+10793 <first : To d7 while cord = e8 ; starting = e8
+10793 <first : Coord eq startCoord
+10793 <first : Making move with king
+10793 <first : To d7 while cord = e8 ; starting = e8
+10793 <first : Coord eq startCoord
+10794 <first : Making move with king
+10794 <first : To e7 while cord = e8 ; starting = e8
+10794 <first : Coord eq startCoord
+10795 <first : Making move with king
+10795 <first : To e7 while cord = e8 ; starting = e8
+10795 <first : Coord eq startCoord
+10795 <first : Making move with king
+10795 <first : To e7 while cord = e8 ; starting = e8
+10795 <first : Coord eq startCoord
+10796 <first : Making move with king
+10796 <first : To e7 while cord = e8 ; starting = e8
+10796 <first : Coord eq startCoord
+10811 <first : Making move with king
+10811 <first : To e7 while cord = e8 ; starting = e8
+10811 <first : Coord eq startCoord
+10811 <first : Making move with king
+10811 <first : To e7 while cord = e8 ; starting = e8
+10811 <first : Coord eq startCoord
+10812 <first : Making move with king
+10812 <first : To e7 while cord = e8 ; starting = e8
+10812 <first : Coord eq startCoord
+10813 <first : Making move with king
+10813 <first : To e7 while cord = e8 ; starting = e8
+10813 <first : Coord eq startCoord
+10813 <first : Making move with king
+10813 <first : To e7 while cord = e8 ; starting = e8
+10813 <first : Coord eq startCoord
+10813 <first : Making move with king
+10813 <first : To e7 while cord = e8 ; starting = e8
+10813 <first : Coord eq startCoord
+10814 <first : Making move with king
+10814 <first : To e7 while cord = e8 ; starting = e8
+10814 <first : Coord eq startCoord
+10814 <first : Making move with king
+10814 <first : To e7 while cord = e8 ; starting = e8
+10814 <first : Coord eq startCoord
+10814 <first : Making move with king
+10814 <first : To e7 while cord = e8 ; starting = e8
+10814 <first : Coord eq startCoord
+10815 <first : Making move with king
+10815 <first : To e7 while cord = e8 ; starting = e8
+10815 <first : Coord eq startCoord
+10815 <first : Making move with king
+10815 <first : To e7 while cord = e8 ; starting = e8
+10815 <first : Coord eq startCoord
+10815 <first : Making move with king
+10815 <first : To e7 while cord = e8 ; starting = e8
+10815 <first : Coord eq startCoord
+10816 <first : Making move with king
+10816 <first : To e7 while cord = e8 ; starting = e8
+10816 <first : Coord eq startCoord
+10817 <first : Making move with king
+10817 <first : To e7 while cord = e8 ; starting = e8
+10817 <first : Coord eq startCoord
+10817 <first : Making move with king
+10817 <first : To e7 while cord = e8 ; starting = e8
+10817 <first : Coord eq startCoord
+10818 <first : Making move with king
+10818 <first : To e7 while cord = e8 ; starting = e8
+10818 <first : Coord eq startCoord
+10818 <first : Making move with king
+10818 <first : To e7 while cord = e8 ; starting = e8
+10818 <first : Coord eq startCoord
+10819 <first : Making move with king
+10819 <first : To e7 while cord = e8 ; starting = e8
+10819 <first : Coord eq startCoord
+10819 <first : Making move with king
+10819 <first : To e7 while cord = e8 ; starting = e8
+10819 <first : Coord eq startCoord
+10820 <first : Making move with king
+10820 <first : To e7 while cord = e8 ; starting = e8
+10820 <first : Coord eq startCoord
+10821 <first : Making move with king
+10821 <first : To f7 while cord = e8 ; starting = e8
+10821 <first : Coord eq startCoord
+10821 <first : Making move with king
+10821 <first : To f7 while cord = e8 ; starting = e8
+10821 <first : Coord eq startCoord
+10918 <first : Making move with king
+10918 <first : To d7 while cord = e8 ; starting = e8
+10918 <first : Coord eq startCoord
+10918 <first : Making move with king
+10918 <first : To d7 while cord = e8 ; starting = e8
+10919 <first : Coord eq startCoord
+10919 <first : Making move with king
+10919 <first : To d7 while cord = e8 ; starting = e8
+10919 <first : Coord eq startCoord
+10919 <first : Making move with king
+10919 <first : To d7 while cord = e8 ; starting = e8
+10919 <first : Coord eq startCoord
+10920 <first : Making move with king
+10920 <first : To d7 while cord = e8 ; starting = e8
+10920 <first : Coord eq startCoord
+10921 <first : Making move with king
+10921 <first : To d7 while cord = e8 ; starting = e8
+10921 <first : Coord eq startCoord
+10921 <first : Making move with king
+10921 <first : To d7 while cord = e8 ; starting = e8
+10921 <first : Coord eq startCoord
+10921 <first : Making move with king
+10921 <first : To d7 while cord = e8 ; starting = e8
+10921 <first : Coord eq startCoord
+10922 <first : Making move with king
+10922 <first : To d7 while cord = e8 ; starting = e8
+10922 <first : Coord eq startCoord
+10922 <first : Making move with king
+10922 <first : To d7 while cord = e8 ; starting = e8
+10922 <first : Coord eq startCoord
+10922 <first : Making move with king
+10922 <first : To d7 while cord = e8 ; starting = e8
+10922 <first : Coord eq startCoord
+10923 <first : Making move with king
+10923 <first : To d7 while cord = e8 ; starting = e8
+10923 <first : Coord eq startCoord
+10923 <first : Making move with king
+10923 <first : To d7 while cord = e8 ; starting = e8
+10923 <first : Coord eq startCoord
+10923 <first : Making move with king
+10923 <first : To d7 while cord = e8 ; starting = e8
+10923 <first : Coord eq startCoord
+10924 <first : Making move with king
+10924 <first : To d7 while cord = e8 ; starting = e8
+10924 <first : Coord eq startCoord
+10924 <first : Making move with king
+10924 <first : To d7 while cord = e8 ; starting = e8
+10924 <first : Coord eq startCoord
+10924 <first : Making move with king
+10924 <first : To d7 while cord = e8 ; starting = e8
+10924 <first : Coord eq startCoord
+10925 <first : Making move with king
+10925 <first : To d7 while cord = e8 ; starting = e8
+10925 <first : Coord eq startCoord
+10925 <first : Making move with king
+10925 <first : To d7 while cord = e8 ; starting = e8
+10925 <first : Coord eq startCoord
+10925 <first : Making move with king
+10925 <first : To d7 while cord = e8 ; starting = e8
+10925 <first : Coord eq startCoord
+10925 <first : Making move with king
+10926 <first : To d7 while cord = e8 ; starting = e8
+10926 <first : Coord eq startCoord
+10926 <first : Making move with king
+10926 <first : To d7 while cord = e8 ; starting = e8
+10926 <first : Coord eq startCoord
+10927 <first : Making move with king
+10927 <first : To d7 while cord = e8 ; starting = e8
+10927 <first : Coord eq startCoord
+10927 <first : Making move with king
+10927 <first : To d7 while cord = e8 ; starting = e8
+10927 <first : Coord eq startCoord
+10928 <first : Making move with king
+10928 <first : To d7 while cord = e8 ; starting = e8
+10928 <first : Coord eq startCoord
+10928 <first : Making move with king
+10928 <first : To d7 while cord = e8 ; starting = e8
+10928 <first : Coord eq startCoord
+10929 <first : Making move with king
+10929 <first : To d7 while cord = e8 ; starting = e8
+10929 <first : Coord eq startCoord
+10929 <first : Making move with king
+10929 <first : To d7 while cord = e8 ; starting = e8
+10929 <first : Coord eq startCoord
+10929 <first : Making move with king
+10929 <first : To d7 while cord = e8 ; starting = e8
+10929 <first : Coord eq startCoord
+10930 <first : Making move with king
+10930 <first : To d7 while cord = e8 ; starting = e8
+10930 <first : Coord eq startCoord
+10930 <first : Making move with king
+10930 <first : To d7 while cord = e8 ; starting = e8
+10930 <first : Coord eq startCoord
+10930 <first : Making move with king
+10930 <first : To d7 while cord = e8 ; starting = e8
+10930 <first : Coord eq startCoord
+10931 <first : Making move with king
+10931 <first : To d7 while cord = e8 ; starting = e8
+10931 <first : Coord eq startCoord
+10931 <first : Making move with king
+10931 <first : To d7 while cord = e8 ; starting = e8
+10931 <first : Coord eq startCoord
+10931 <first : Making move with king
+10931 <first : To d7 while cord = e8 ; starting = e8
+10931 <first : Coord eq startCoord
+10932 <first : Making move with king
+10932 <first : To d7 while cord = e8 ; starting = e8
+10932 <first : Coord eq startCoord
+10932 <first : Making move with king
+10932 <first : To d7 while cord = e8 ; starting = e8
+10932 <first : Coord eq startCoord
+10932 <first : Making move with king
+10932 <first : To d7 while cord = e8 ; starting = e8
+10932 <first : Coord eq startCoord
+10932 <first : Making move with king
+10932 <first : To d7 while cord = e8 ; starting = e8
+10932 <first : Coord eq startCoord
+10933 <first : Making move with king
+10933 <first : To d7 while cord = e8 ; starting = e8
+10933 <first : Coord eq startCoord
+10933 <first : Making move with king
+10933 <first : To e7 while cord = e8 ; starting = e8
+10933 <first : Coord eq startCoord
+10934 <first : Making move with king
+10934 <first : To e7 while cord = e8 ; starting = e8
+10934 <first : Coord eq startCoord
+10934 <first : Making move with king
+10934 <first : To e7 while cord = e8 ; starting = e8
+10934 <first : Coord eq startCoord
+10936 <first : Making move with king
+10936 <first : To e7 while cord = e8 ; starting = e8
+10936 <first : Coord eq startCoord
+10936 <first : Making move with king
+10936 <first : To e7 while cord = e8 ; starting = e8
+10936 <first : Coord eq startCoord
+10936 <first : Making move with king
+10936 <first : To e7 while cord = e8 ; starting = e8
+10936 <first : Coord eq startCoord
+10937 <first : Making move with king
+10937 <first : To e7 while cord = e8 ; starting = e8
+10937 <first : Coord eq startCoord
+10938 <first : Making move with king
+10938 <first : To e7 while cord = e8 ; starting = e8
+10938 <first : Coord eq startCoord
+10939 <first : Making move with king
+10939 <first : To e7 while cord = e8 ; starting = e8
+10939 <first : Coord eq startCoord
+10940 <first : Making move with king
+10940 <first : To f7 while cord = e8 ; starting = e8
+10940 <first : Coord eq startCoord
+10940 <first : Making move with king
+10940 <first : To f7 while cord = e8 ; starting = e8
+10940 <first : Coord eq startCoord
+11015 <first : Making move with king
+11015 <first : To d7 while cord = e8 ; starting = e8
+11015 <first : Coord eq startCoord
+11016 <first : Making move with king
+11016 <first : To d7 while cord = e8 ; starting = e8
+11016 <first : Coord eq startCoord
+11016 <first : Making move with king
+11016 <first : To d7 while cord = e8 ; starting = e8
+11016 <first : Coord eq startCoord
+11017 <first : Making move with king
+11017 <first : To d7 while cord = e8 ; starting = e8
+11017 <first : Coord eq startCoord
+11017 <first : Making move with king
+11017 <first : To d7 while cord = e8 ; starting = e8
+11017 <first : Coord eq startCoord
+11017 <first : Making move with king
+11017 <first : To d7 while cord = e8 ; starting = e8
+11017 <first : Coord eq startCoord
+11018 <first : Making move with king
+11018 <first : To d7 while cord = e8 ; starting = e8
+11018 <first : Coord eq startCoord
+11019 <first : Making move with king
+11019 <first : To d7 while cord = e8 ; starting = e8
+11019 <first : Coord eq startCoord
+11019 <first : Making move with king
+11019 <first : To d7 while cord = e8 ; starting = e8
+11019 <first : Coord eq startCoord
+11020 <first : Making move with king
+11020 <first : To d7 while cord = e8 ; starting = e8
+11020 <first : Coord eq startCoord
+11020 <first : Making move with king
+11020 <first : To d7 while cord = e8 ; starting = e8
+11020 <first : Coord eq startCoord
+11021 <first : Making move with king
+11021 <first : To d7 while cord = e8 ; starting = e8
+11021 <first : Coord eq startCoord
+11021 <first : Making move with king
+11021 <first : To d7 while cord = e8 ; starting = e8
+11021 <first : Coord eq startCoord
+11022 <first : Making move with king
+11022 <first : To d7 while cord = e8 ; starting = e8
+11022 <first : Coord eq startCoord
+11022 <first : Making move with king
+11022 <first : To d7 while cord = e8 ; starting = e8
+11022 <first : Coord eq startCoord
+11023 <first : Making move with king
+11023 <first : To d7 while cord = e8 ; starting = e8
+11023 <first : Coord eq startCoord
+11024 <first : Making move with king
+11024 <first : To d7 while cord = e8 ; starting = e8
+11024 <first : Coord eq startCoord
+11024 <first : Making move with king
+11024 <first : To d7 while cord = e8 ; starting = e8
+11024 <first : Coord eq startCoord
+11025 <first : Making move with king
+11025 <first : To d7 while cord = e8 ; starting = e8
+11025 <first : Coord eq startCoord
+11025 <first : Making move with king
+11025 <first : To d7 while cord = e8 ; starting = e8
+11025 <first : Coord eq startCoord
+11027 <first : Making move with king
+11027 <first : To d7 while cord = e8 ; starting = e8
+11027 <first : Coord eq startCoord
+11027 <first : Making move with king
+11027 <first : To d7 while cord = e8 ; starting = e8
+11027 <first : Coord eq startCoord
+11027 <first : Making move with king
+11027 <first : To d7 while cord = e8 ; starting = e8
+11027 <first : Coord eq startCoord
+11028 <first : Making move with king
+11028 <first : To d7 while cord = e8 ; starting = e8
+11028 <first : Coord eq startCoord
+11029 <first : Making move with king
+11029 <first : To d7 while cord = e8 ; starting = e8
+11029 <first : Coord eq startCoord
+11030 <first : Making move with king
+11030 <first : To d7 while cord = e8 ; starting = e8
+11030 <first : Coord eq startCoord
+11030 <first : Making move with king
+11030 <first : To d7 while cord = e8 ; starting = e8
+11030 <first : Coord eq startCoord
+11030 <first : Making move with king
+11030 <first : To d7 while cord = e8 ; starting = e8
+11030 <first : Coord eq startCoord
+11031 <first : Making move with king
+11031 <first : To d7 while cord = e8 ; starting = e8
+11031 <first : Coord eq startCoord
+11032 <first : Making move with king
+11032 <first : To d7 while cord = e8 ; starting = e8
+11032 <first : Coord eq startCoord
+11032 <first : Making move with king
+11032 <first : To d7 while cord = e8 ; starting = e8
+11032 <first : Coord eq startCoord
+11033 <first : Making move with king
+11033 <first : To d7 while cord = e8 ; starting = e8
+11033 <first : Coord eq startCoord
+11033 <first : Making move with king
+11033 <first : To d7 while cord = e8 ; starting = e8
+11033 <first : Coord eq startCoord
+11034 <first : Making move with king
+11034 <first : To d7 while cord = e8 ; starting = e8
+11034 <first : Coord eq startCoord
+11034 <first : Making move with king
+11034 <first : To d7 while cord = e8 ; starting = e8
+11034 <first : Coord eq startCoord
+11034 <first : Making move with king
+11034 <first : To e7 while cord = e8 ; starting = e8
+11034 <first : Coord eq startCoord
+11035 <first : Making move with king
+11035 <first : To e7 while cord = e8 ; starting = e8
+11035 <first : Coord eq startCoord
+11036 <first : Making move with king
+11036 <first : To e7 while cord = e8 ; starting = e8
+11036 <first : Coord eq startCoord
+11036 <first : Making move with king
+11036 <first : To e7 while cord = e8 ; starting = e8
+11036 <first : Coord eq startCoord
+11036 <first : Making move with king
+11036 <first : To e7 while cord = e8 ; starting = e8
+11036 <first : Coord eq startCoord
+11036 <first : Making move with king
+11036 <first : To e7 while cord = e8 ; starting = e8
+11036 <first : Coord eq startCoord
+11037 <first : Making move with king
+11037 <first : To e7 while cord = e8 ; starting = e8
+11037 <first : Coord eq startCoord
+11038 <first : Making move with king
+11038 <first : To e7 while cord = e8 ; starting = e8
+11038 <first : Coord eq startCoord
+11038 <first : Making move with king
+11038 <first : To e7 while cord = e8 ; starting = e8
+11038 <first : Coord eq startCoord
+11038 <first : Making move with king
+11038 <first : To e7 while cord = e8 ; starting = e8
+11038 <first : Coord eq startCoord
+11039 <first : Making move with king
+11039 <first : To e7 while cord = e8 ; starting = e8
+11039 <first : Coord eq startCoord
+11039 <first : Making move with king
+11039 <first : To e7 while cord = e8 ; starting = e8
+11039 <first : Coord eq startCoord
+11040 <first : Making move with king
+11040 <first : To e7 while cord = e8 ; starting = e8
+11040 <first : Coord eq startCoord
+11040 <first : Making move with king
+11040 <first : To e7 while cord = e8 ; starting = e8
+11040 <first : Coord eq startCoord
+11041 <first : Making move with king
+11041 <first : To e7 while cord = e8 ; starting = e8
+11041 <first : Coord eq startCoord
+11042 <first : Making move with king
+11042 <first : To e7 while cord = e8 ; starting = e8
+11042 <first : Coord eq startCoord
+11043 <first : Making move with king
+11043 <first : To e7 while cord = e8 ; starting = e8
+11043 <first : Coord eq startCoord
+11043 <first : Making move with king
+11043 <first : To e7 while cord = e8 ; starting = e8
+11043 <first : Coord eq startCoord
+11043 <first : Making move with king
+11043 <first : To e7 while cord = e8 ; starting = e8
+11043 <first : Coord eq startCoord
+11044 <first : Making move with king
+11044 <first : To e7 while cord = e8 ; starting = e8
+11044 <first : Coord eq startCoord
+11044 <first : Making move with king
+11044 <first : To e7 while cord = e8 ; starting = e8
+11044 <first : Coord eq startCoord
+11045 <first : Making move with king
+11045 <first : To f7 while cord = e8 ; starting = e8
+11045 <first : Coord eq startCoord
+11045 <first : Making move with king
+11045 <first : To f7 while cord = e8 ; starting = e8
+11045 <first : Coord eq startCoord
+11046 <first : Making move with king
+11046 <first : To f7 while cord = e8 ; starting = e8
+11046 <first : Coord eq startCoord
+11110 <first : Making move with king
+11110 <first : To d7 while cord = e8 ; starting = e8
+11110 <first : Coord eq startCoord
+11111 <first : Making move with king
+11111 <first : To d7 while cord = e8 ; starting = e8
+11111 <first : Coord eq startCoord
+11111 <first : Making move with king
+11111 <first : To d7 while cord = e8 ; starting = e8
+11111 <first : Coord eq startCoord
+11112 <first : Making move with king
+11112 <first : To d7 while cord = e8 ; starting = e8
+11112 <first : Coord eq startCoord
+11112 <first : Making move with king
+11112 <first : To d7 while cord = e8 ; starting = e8
+11112 <first : Coord eq startCoord
+11112 <first : Making move with king
+11112 <first : To d7 while cord = e8 ; starting = e8
+11112 <first : Coord eq startCoord
+11113 <first : Making move with king
+11113 <first : To d7 while cord = e8 ; starting = e8
+11113 <first : Coord eq startCoord
+11114 <first : Making move with king
+11114 <first : To d7 while cord = e8 ; starting = e8
+11114 <first : Coord eq startCoord
+11114 <first : Making move with king
+11114 <first : To d7 while cord = e8 ; starting = e8
+11114 <first : Coord eq startCoord
+11115 <first : Making move with king
+11115 <first : To d7 while cord = e8 ; starting = e8
+11115 <first : Coord eq startCoord
+11115 <first : Making move with king
+11115 <first : To d7 while cord = e8 ; starting = e8
+11115 <first : Coord eq startCoord
+11116 <first : Making move with king
+11116 <first : To d7 while cord = e8 ; starting = e8
+11116 <first : Coord eq startCoord
+11116 <first : Making move with king
+11116 <first : To d7 while cord = e8 ; starting = e8
+11116 <first : Coord eq startCoord
+11117 <first : Making move with king
+11117 <first : To d7 while cord = e8 ; starting = e8
+11117 <first : Coord eq startCoord
+11117 <first : Making move with king
+11117 <first : To d7 while cord = e8 ; starting = e8
+11117 <first : Coord eq startCoord
+11118 <first : Making move with king
+11118 <first : To d7 while cord = e8 ; starting = e8
+11118 <first : Coord eq startCoord
+11118 <first : Making move with king
+11118 <first : To d7 while cord = e8 ; starting = e8
+11118 <first : Coord eq startCoord
+11119 <first : Making move with king
+11119 <first : To d7 while cord = e8 ; starting = e8
+11119 <first : Coord eq startCoord
+11120 <first : Making move with king
+11120 <first : To d7 while cord = e8 ; starting = e8
+11120 <first : Coord eq startCoord
+11121 <first : Making move with king
+11121 <first : To d7 while cord = e8 ; starting = e8
+11121 <first : Coord eq startCoord
+11122 <first : Making move with king
+11122 <first : To d7 while cord = e8 ; starting = e8
+11122 <first : Coord eq startCoord
+11123 <first : Making move with king
+11123 <first : To d7 while cord = e8 ; starting = e8
+11123 <first : Coord eq startCoord
+11124 <first : Making move with king
+11124 <first : To d7 while cord = e8 ; starting = e8
+11124 <first : Coord eq startCoord
+11125 <first : Making move with king
+11125 <first : To d7 while cord = e8 ; starting = e8
+11125 <first : Coord eq startCoord
+11125 <first : Making move with king
+11125 <first : To d7 while cord = e8 ; starting = e8
+11125 <first : Coord eq startCoord
+11126 <first : Making move with king
+11126 <first : To d7 while cord = e8 ; starting = e8
+11126 <first : Coord eq startCoord
+11126 <first : Making move with king
+11126 <first : To d7 while cord = e8 ; starting = e8
+11126 <first : Coord eq startCoord
+11127 <first : Making move with king
+11127 <first : To d7 while cord = e8 ; starting = e8
+11127 <first : Coord eq startCoord
+11127 <first : Making move with king
+11127 <first : To d7 while cord = e8 ; starting = e8
+11127 <first : Coord eq startCoord
+11127 <first : Making move with king
+11127 <first : To e7 while cord = e8 ; starting = e8
+11127 <first : Coord eq startCoord
+11128 <first : Making move with king
+11128 <first : To e7 while cord = e8 ; starting = e8
+11128 <first : Coord eq startCoord
+11128 <first : Making move with king
+11128 <first : To e7 while cord = e8 ; starting = e8
+11128 <first : Coord eq startCoord
+11129 <first : Making move with king
+11129 <first : To e7 while cord = e8 ; starting = e8
+11129 <first : Coord eq startCoord
+11129 <first : Making move with king
+11129 <first : To e7 while cord = e8 ; starting = e8
+11129 <first : Coord eq startCoord
+11130 <first : Making move with king
+11130 <first : To e7 while cord = e8 ; starting = e8
+11130 <first : Coord eq startCoord
+11130 <first : Making move with king
+11130 <first : To e7 while cord = e8 ; starting = e8
+11130 <first : Coord eq startCoord
+11130 <first : Making move with king
+11130 <first : To e7 while cord = e8 ; starting = e8
+11130 <first : Coord eq startCoord
+11131 <first : Making move with king
+11131 <first : To e7 while cord = e8 ; starting = e8
+11131 <first : Coord eq startCoord
+11131 <first : Making move with king
+11131 <first : To e7 while cord = e8 ; starting = e8
+11131 <first : Coord eq startCoord
+11132 <first : Making move with king
+11132 <first : To e7 while cord = e8 ; starting = e8
+11132 <first : Coord eq startCoord
+11132 <first : Making move with king
+11132 <first : To e7 while cord = e8 ; starting = e8
+11132 <first : Coord eq startCoord
+11132 <first : Making move with king
+11132 <first : To e7 while cord = e8 ; starting = e8
+11132 <first : Coord eq startCoord
+11133 <first : Making move with king
+11133 <first : To e7 while cord = e8 ; starting = e8
+11133 <first : Coord eq startCoord
+11133 <first : Making move with king
+11133 <first : To e7 while cord = e8 ; starting = e8
+11133 <first : Coord eq startCoord
+11133 <first : Making move with king
+11133 <first : To e7 while cord = e8 ; starting = e8
+11133 <first : Coord eq startCoord
+11134 <first : Making move with king
+11134 <first : To e7 while cord = e8 ; starting = e8
+11134 <first : Coord eq startCoord
+11134 <first : Making move with king
+11134 <first : To e7 while cord = e8 ; starting = e8
+11134 <first : Coord eq startCoord
+11134 <first : Making move with king
+11134 <first : To e7 while cord = e8 ; starting = e8
+11134 <first : Coord eq startCoord
+11134 <first : Making move with king
+11134 <first : To e7 while cord = e8 ; starting = e8
+11134 <first : Coord eq startCoord
+11135 <first : Making move with king
+11135 <first : To e7 while cord = e8 ; starting = e8
+11135 <first : Coord eq startCoord
+11136 <first : Making move with king
+11136 <first : To e7 while cord = e8 ; starting = e8
+11136 <first : Coord eq startCoord
+11136 <first : Making move with king
+11136 <first : To e7 while cord = e8 ; starting = e8
+11136 <first : Coord eq startCoord
+11136 <first : Making move with king
+11136 <first : To e7 while cord = e8 ; starting = e8
+11136 <first : Coord eq startCoord
+11137 <first : Making move with king
+11137 <first : To e7 while cord = e8 ; starting = e8
+11137 <first : Coord eq startCoord
+11137 <first : Making move with king
+11137 <first : To e7 while cord = e8 ; starting = e8
+11137 <first : Coord eq startCoord
+11138 <first : Making move with king
+11138 <first : To e7 while cord = e8 ; starting = e8
+11138 <first : Coord eq startCoord
+11138 <first : Making move with king
+11138 <first : To e7 while cord = e8 ; starting = e8
+11138 <first : Coord eq startCoord
+11138 <first : Making move with king
+11138 <first : To e7 while cord = e8 ; starting = e8
+11138 <first : Coord eq startCoord
+11139 <first : Making move with king
+11139 <first : To e7 while cord = e8 ; starting = e8
+11139 <first : Coord eq startCoord
+11140 <first : Making move with king
+11140 <first : To e7 while cord = e8 ; starting = e8
+11140 <first : Coord eq startCoord
+11140 <first : Making move with king
+11140 <first : To e7 while cord = e8 ; starting = e8
+11140 <first : Coord eq startCoord
+11141 <first : Making move with king
+11141 <first : To e7 while cord = e8 ; starting = e8
+11141 <first : Coord eq startCoord
+11141 <first : Making move with king
+11141 <first : To e7 while cord = e8 ; starting = e8
+11141 <first : Coord eq startCoord
+11141 <first : Making move with king
+11141 <first : To e7 while cord = e8 ; starting = e8
+11141 <first : Coord eq startCoord
+11142 <first : Making move with king
+11142 <first : To e7 while cord = e8 ; starting = e8
+11142 <first : Coord eq startCoord
+11143 <first : Making move with king
+11143 <first : To e7 while cord = e8 ; starting = e8
+11143 <first : Coord eq startCoord
+11143 <first : Making move with king
+11143 <first : To e7 while cord = e8 ; starting = e8
+11143 <first : Coord eq startCoord
+11144 <first : Making move with king
+11144 <first : To f7 while cord = e8 ; starting = e8
+11144 <first : Coord eq startCoord
+11146 <first : Making move with king
+11146 <first : To f7 while cord = e8 ; starting = e8
+11146 <first : Coord eq startCoord
+11239 <first : Making move with king
+11239 <first : To d7 while cord = e8 ; starting = e8
+11239 <first : Coord eq startCoord
+11240 <first : Making move with king
+11240 <first : To d7 while cord = e8 ; starting = e8
+11240 <first : Coord eq startCoord
+11240 <first : Making move with king
+11240 <first : To d7 while cord = e8 ; starting = e8
+11240 <first : Coord eq startCoord
+11240 <first : Making move with king
+11240 <first : To d7 while cord = e8 ; starting = e8
+11240 <first : Coord eq startCoord
+11241 <first : Making move with king
+11241 <first : To d7 while cord = e8 ; starting = e8
+11241 <first : Coord eq startCoord
+11241 <first : Making move with king
+11241 <first : To d7 while cord = e8 ; starting = e8
+11241 <first : Coord eq startCoord
+11242 <first : Making move with king
+11242 <first : To d7 while cord = e8 ; starting = e8
+11242 <first : Coord eq startCoord
+11242 <first : Making move with king
+11242 <first : To d7 while cord = e8 ; starting = e8
+11242 <first : Coord eq startCoord
+11243 <first : Making move with king
+11243 <first : To d7 while cord = e8 ; starting = e8
+11243 <first : Coord eq startCoord
+11243 <first : Making move with king
+11243 <first : To d7 while cord = e8 ; starting = e8
+11243 <first : Coord eq startCoord
+11243 <first : Making move with king
+11243 <first : To d7 while cord = e8 ; starting = e8
+11243 <first : Coord eq startCoord
+11244 <first : Making move with king
+11244 <first : To d7 while cord = e8 ; starting = e8
+11244 <first : Coord eq startCoord
+11244 <first : Making move with king
+11244 <first : To d7 while cord = e8 ; starting = e8
+11244 <first : Coord eq startCoord
+11245 <first : Making move with king
+11245 <first : To d7 while cord = e8 ; starting = e8
+11245 <first : Coord eq startCoord
+11245 <first : Making move with king
+11245 <first : To d7 while cord = e8 ; starting = e8
+11245 <first : Coord eq startCoord
+11246 <first : Making move with king
+11246 <first : To d7 while cord = e8 ; starting = e8
+11246 <first : Coord eq startCoord
+11246 <first : Making move with king
+11246 <first : To d7 while cord = e8 ; starting = e8
+11246 <first : Coord eq startCoord
+11247 <first : Making move with king
+11247 <first : To d7 while cord = e8 ; starting = e8
+11247 <first : Coord eq startCoord
+11247 <first : Making move with king
+11247 <first : To d7 while cord = e8 ; starting = e8
+11247 <first : Coord eq startCoord
+11247 <first : Making move with king
+11247 <first : To d7 while cord = e8 ; starting = e8
+11247 <first : Coord eq startCoord
+11248 <first : Making move with king
+11248 <first : To d7 while cord = e8 ; starting = e8
+11248 <first : Coord eq startCoord
+11248 <first : Making move with king
+11248 <first : To d7 while cord = e8 ; starting = e8
+11248 <first : Coord eq startCoord
+11248 <first : Making move with king
+11248 <first : To d7 while cord = e8 ; starting = e8
+11248 <first : Coord eq startCoord
+11263 <first : Making move with king
+11263 <first : To d7 while cord = e8 ; starting = e8
+11263 <first : Coord eq startCoord
+11264 <first : Making move with king
+11264 <first : To d7 while cord = e8 ; starting = e8
+11264 <first : Coord eq startCoord
+11265 <first : Making move with king
+11265 <first : To d7 while cord = e8 ; starting = e8
+11265 <first : Coord eq startCoord
+11265 <first : Making move with king
+11265 <first : To d7 while cord = e8 ; starting = e8
+11265 <first : Coord eq startCoord
+11266 <first : Making move with king
+11266 <first : To d7 while cord = e8 ; starting = e8
+11266 <first : Coord eq startCoord
+11267 <first : Making move with king
+11267 <first : To d7 while cord = e8 ; starting = e8
+11267 <first : Coord eq startCoord
+11268 <first : Making move with king
+11268 <first : To d7 while cord = e8 ; starting = e8
+11268 <first : Coord eq startCoord
+11269 <first : Making move with king
+11269 <first : To d7 while cord = e8 ; starting = e8
+11269 <first : Coord eq startCoord
+11269 <first : Making move with king
+11269 <first : To d7 while cord = e8 ; starting = e8
+11269 <first : Coord eq startCoord
+11270 <first : Making move with king
+11270 <first : To d7 while cord = e8 ; starting = e8
+11270 <first : Coord eq startCoord
+11272 <first : Making move with king
+11273 <first : To d7 while cord = e8 ; starting = e8
+11273 <first : Coord eq startCoord
+11273 <first : Making move with king
+11273 <first : To d7 while cord = e8 ; starting = e8
+11273 <first : Coord eq startCoord
+11273 <first : Making move with king
+11273 <first : To d7 while cord = e8 ; starting = e8
+11273 <first : Coord eq startCoord
+11273 <first : Making move with king
+11273 <first : To e7 while cord = e8 ; starting = e8
+11273 <first : Coord eq startCoord
+11273 <first : Making move with king
+11273 <first : To e7 while cord = e8 ; starting = e8
+11273 <first : Coord eq startCoord
+11273 <first : Making move with king
+11273 <first : To e7 while cord = e8 ; starting = e8
+11273 <first : Coord eq startCoord
+11274 <first : Making move with king
+11274 <first : To e7 while cord = e8 ; starting = e8
+11274 <first : Coord eq startCoord
+11275 <first : Making move with king
+11275 <first : To e7 while cord = e8 ; starting = e8
+11275 <first : Coord eq startCoord
+11275 <first : Making move with king
+11275 <first : To e7 while cord = e8 ; starting = e8
+11275 <first : Coord eq startCoord
+11276 <first : Making move with king
+11276 <first : To e7 while cord = e8 ; starting = e8
+11276 <first : Coord eq startCoord
+11276 <first : Making move with king
+11276 <first : To e7 while cord = e8 ; starting = e8
+11276 <first : Coord eq startCoord
+11277 <first : Making move with king
+11277 <first : To e7 while cord = e8 ; starting = e8
+11277 <first : Coord eq startCoord
+11278 <first : Making move with king
+11278 <first : To e7 while cord = e8 ; starting = e8
+11278 <first : Coord eq startCoord
+11278 <first : Making move with king
+11278 <first : To e7 while cord = e8 ; starting = e8
+11278 <first : Coord eq startCoord
+11279 <first : Making move with king
+11279 <first : To e7 while cord = e8 ; starting = e8
+11279 <first : Coord eq startCoord
+11280 <first : Making move with king
+11280 <first : To e7 while cord = e8 ; starting = e8
+11280 <first : Coord eq startCoord
+11281 <first : Making move with king
+11281 <first : To e7 while cord = e8 ; starting = e8
+11281 <first : Coord eq startCoord
+11282 <first : Making move with king
+11282 <first : To e7 while cord = e8 ; starting = e8
+11282 <first : Coord eq startCoord
+11282 <first : Making move with king
+11282 <first : To e7 while cord = e8 ; starting = e8
+11282 <first : Coord eq startCoord
+11283 <first : Making move with king
+11283 <first : To e7 while cord = e8 ; starting = e8
+11283 <first : Coord eq startCoord
+11283 <first : Making move with king
+11283 <first : To e7 while cord = e8 ; starting = e8
+11283 <first : Coord eq startCoord
+11284 <first : Making move with king
+11284 <first : To e7 while cord = e8 ; starting = e8
+11284 <first : Coord eq startCoord
+11285 <first : Making move with king
+11285 <first : To e7 while cord = e8 ; starting = e8
+11285 <first : Coord eq startCoord
+11285 <first : Making move with king
+11285 <first : To e7 while cord = e8 ; starting = e8
+11285 <first : Coord eq startCoord
+11286 <first : Making move with king
+11286 <first : To e7 while cord = e8 ; starting = e8
+11286 <first : Coord eq startCoord
+11287 <first : Making move with king
+11287 <first : To e7 while cord = e8 ; starting = e8
+11287 <first : Coord eq startCoord
+11287 <first : Making move with king
+11287 <first : To e7 while cord = e8 ; starting = e8
+11287 <first : Coord eq startCoord
+11288 <first : Making move with king
+11288 <first : To e7 while cord = e8 ; starting = e8
+11288 <first : Coord eq startCoord
+11289 <first : Making move with king
+11289 <first : To e7 while cord = e8 ; starting = e8
+11289 <first : Coord eq startCoord
+11290 <first : Making move with king
+11290 <first : To f7 while cord = e8 ; starting = e8
+11290 <first : Coord eq startCoord
+11291 <first : Making move with king
+11291 <first : To f7 while cord = e8 ; starting = e8
+11291 <first : Coord eq startCoord
+11291 <first : Making move with king
+11291 <first : To f7 while cord = e8 ; starting = e8
+11291 <first : Coord eq startCoord
+11292 <first : Making move with king
+11292 <first : To f7 while cord = e8 ; starting = e8
+11292 <first : Coord eq startCoord
+11387 <first : Making move with king
+11388 <first : To d7 while cord = e8 ; starting = e8
+11388 <first : Coord eq startCoord
+11388 <first : Making move with king
+11388 <first : To d7 while cord = e8 ; starting = e8
+11388 <first : Coord eq startCoord
+11389 <first : Making move with king
+11389 <first : To d7 while cord = e8 ; starting = e8
+11389 <first : Coord eq startCoord
+11389 <first : Making move with king
+11389 <first : To d7 while cord = e8 ; starting = e8
+11389 <first : Coord eq startCoord
+11390 <first : Making move with king
+11390 <first : To d7 while cord = e8 ; starting = e8
+11390 <first : Coord eq startCoord
+11391 <first : Making move with king
+11391 <first : To d7 while cord = e8 ; starting = e8
+11391 <first : Coord eq startCoord
+11391 <first : Making move with king
+11391 <first : To d7 while cord = e8 ; starting = e8
+11391 <first : Coord eq startCoord
+11391 <first : Making move with king
+11391 <first : To d7 while cord = e8 ; starting = e8
+11391 <first : Coord eq startCoord
+11392 <first : Making move with king
+11392 <first : To d7 while cord = e8 ; starting = e8
+11392 <first : Coord eq startCoord
+11393 <first : Making move with king
+11393 <first : To d7 while cord = e8 ; starting = e8
+11393 <first : Coord eq startCoord
+11393 <first : Making move with king
+11393 <first : To d7 while cord = e8 ; starting = e8
+11393 <first : Coord eq startCoord
+11394 <first : Making move with king
+11394 <first : To d7 while cord = e8 ; starting = e8
+11394 <first : Coord eq startCoord
+11395 <first : Making move with king
+11395 <first : To d7 while cord = e8 ; starting = e8
+11395 <first : Coord eq startCoord
+11396 <first : Making move with king
+11396 <first : To d7 while cord = e8 ; starting = e8
+11396 <first : Coord eq startCoord
+11397 <first : Making move with king
+11397 <first : To d7 while cord = e8 ; starting = e8
+11397 <first : Coord eq startCoord
+11397 <first : Making move with king
+11397 <first : To d7 while cord = e8 ; starting = e8
+11397 <first : Coord eq startCoord
+11398 <first : Making move with king
+11398 <first : To d7 while cord = e8 ; starting = e8
+11398 <first : Coord eq startCoord
+11399 <first : Making move with king
+11399 <first : To d7 while cord = e8 ; starting = e8
+11399 <first : Coord eq startCoord
+11399 <first : Making move with king
+11399 <first : To d7 while cord = e8 ; starting = e8
+11399 <first : Coord eq startCoord
+11400 <first : Making move with king
+11400 <first : To d7 while cord = e8 ; starting = e8
+11400 <first : Coord eq startCoord
+11401 <first : Making move with king
+11401 <first : To d7 while cord = e8 ; starting = e8
+11401 <first : Coord eq startCoord
+11402 <first : Making move with king
+11402 <first : To d7 while cord = e8 ; starting = e8
+11402 <first : Coord eq startCoord
+11402 <first : Making move with king
+11402 <first : To d7 while cord = e8 ; starting = e8
+11402 <first : Coord eq startCoord
+11403 <first : Making move with king
+11403 <first : To d7 while cord = e8 ; starting = e8
+11403 <first : Coord eq startCoord
+11404 <first : Making move with king
+11404 <first : To d7 while cord = e8 ; starting = e8
+11404 <first : Coord eq startCoord
+11405 <first : Making move with king
+11405 <first : To d7 while cord = e8 ; starting = e8
+11405 <first : Coord eq startCoord
+11406 <first : Making move with king
+11406 <first : To d7 while cord = e8 ; starting = e8
+11406 <first : Coord eq startCoord
+11407 <first : Making move with king
+11407 <first : To d7 while cord = e8 ; starting = e8
+11407 <first : Coord eq startCoord
+11407 <first : Making move with king
+11407 <first : To d7 while cord = e8 ; starting = e8
+11407 <first : Coord eq startCoord
+11408 <first : Making move with king
+11408 <first : To d7 while cord = e8 ; starting = e8
+11408 <first : Coord eq startCoord
+11408 <first : Making move with king
+11408 <first : To d7 while cord = e8 ; starting = e8
+11408 <first : Coord eq startCoord
+11409 <first : Making move with king
+11409 <first : To d7 while cord = e8 ; starting = e8
+11409 <first : Coord eq startCoord
+11409 <first : Making move with king
+11409 <first : To d7 while cord = e8 ; starting = e8
+11409 <first : Coord eq startCoord
+11409 <first : Making move with king
+11409 <first : To e7 while cord = e8 ; starting = e8
+11409 <first : Coord eq startCoord
+11410 <first : Making move with king
+11410 <first : To e7 while cord = e8 ; starting = e8
+11410 <first : Coord eq startCoord
+11411 <first : Making move with king
+11411 <first : To e7 while cord = e8 ; starting = e8
+11411 <first : Coord eq startCoord
+11411 <first : Making move with king
+11411 <first : To e7 while cord = e8 ; starting = e8
+11411 <first : Coord eq startCoord
+11412 <first : Making move with king
+11412 <first : To e7 while cord = e8 ; starting = e8
+11412 <first : Coord eq startCoord
+11413 <first : Making move with king
+11413 <first : To e7 while cord = e8 ; starting = e8
+11413 <first : Coord eq startCoord
+11414 <first : Making move with king
+11414 <first : To e7 while cord = e8 ; starting = e8
+11414 <first : Coord eq startCoord
+11414 <first : Making move with king
+11414 <first : To e7 while cord = e8 ; starting = e8
+11414 <first : Coord eq startCoord
+11415 <first : Making move with king
+11415 <first : To e7 while cord = e8 ; starting = e8
+11415 <first : Coord eq startCoord
+11415 <first : Making move with king
+11415 <first : To e7 while cord = e8 ; starting = e8
+11415 <first : Coord eq startCoord
+11417 <first : Making move with king
+11417 <first : To e7 while cord = e8 ; starting = e8
+11417 <first : Coord eq startCoord
+11417 <first : Making move with king
+11417 <first : To e7 while cord = e8 ; starting = e8
+11417 <first : Coord eq startCoord
+11417 <first : Making move with king
+11417 <first : To e7 while cord = e8 ; starting = e8
+11417 <first : Coord eq startCoord
+11417 <first : Making move with king
+11417 <first : To e7 while cord = e8 ; starting = e8
+11417 <first : Coord eq startCoord
+11418 <first : Making move with king
+11418 <first : To e7 while cord = e8 ; starting = e8
+11418 <first : Coord eq startCoord
+11418 <first : Making move with king
+11418 <first : To e7 while cord = e8 ; starting = e8
+11418 <first : Coord eq startCoord
+11419 <first : Making move with king
+11419 <first : To e7 while cord = e8 ; starting = e8
+11419 <first : Coord eq startCoord
+11419 <first : Making move with king
+11419 <first : To e7 while cord = e8 ; starting = e8
+11419 <first : Coord eq startCoord
+11419 <first : Making move with king
+11419 <first : To e7 while cord = e8 ; starting = e8
+11419 <first : Coord eq startCoord
+11420 <first : Making move with king
+11420 <first : To f7 while cord = e8 ; starting = e8
+11420 <first : Coord eq startCoord
+11420 <first : Making move with king
+11420 <first : To f7 while cord = e8 ; starting = e8
+11420 <first : Coord eq startCoord
+11449 <first : Making move with king
+11450 <first : To d7 while cord = e8 ; starting = e8
+11450 <first : Coord eq startCoord
+11450 <first : Making move with king
+11450 <first : To d7 while cord = e8 ; starting = e8
+11450 <first : Coord eq startCoord
+11450 <first : Making move with king
+11451 <first : To d7 while cord = e8 ; starting = e8
+11451 <first : Coord eq startCoord
+11451 <first : Making move with king
+11451 <first : To d7 while cord = e8 ; starting = e8
+11451 <first : Coord eq startCoord
+11451 <first : Making move with king
+11451 <first : To d7 while cord = e8 ; starting = e8
+11451 <first : Coord eq startCoord
+11452 <first : Making move with king
+11452 <first : To d7 while cord = e8 ; starting = e8
+11452 <first : Coord eq startCoord
+11452 <first : Making move with king
+11452 <first : To d7 while cord = e8 ; starting = e8
+11452 <first : Coord eq startCoord
+11452 <first : Making move with king
+11453 <first : To d7 while cord = e8 ; starting = e8
+11453 <first : Coord eq startCoord
+11453 <first : Making move with king
+11453 <first : To d7 while cord = e8 ; starting = e8
+11453 <first : Coord eq startCoord
+11453 <first : Making move with king
+11453 <first : To d7 while cord = e8 ; starting = e8
+11453 <first : Coord eq startCoord
+11454 <first : Making move with king
+11454 <first : To d7 while cord = e8 ; starting = e8
+11454 <first : Coord eq startCoord
+11454 <first : Making move with king
+11454 <first : To d7 while cord = e8 ; starting = e8
+11454 <first : Coord eq startCoord
+11455 <first : Making move with king
+11455 <first : To d7 while cord = e8 ; starting = e8
+11455 <first : Coord eq startCoord
+11455 <first : Making move with king
+11455 <first : To d7 while cord = e8 ; starting = e8
+11455 <first : Coord eq startCoord
+11456 <first : Making move with king
+11456 <first : To e7 while cord = e8 ; starting = e8
+11456 <first : Coord eq startCoord
+11456 <first : Making move with king
+11456 <first : To e7 while cord = e8 ; starting = e8
+11456 <first : Coord eq startCoord
+11456 <first : Making move with king
+11457 <first : To e7 while cord = e8 ; starting = e8
+11457 <first : Coord eq startCoord
+11457 <first : Making move with king
+11457 <first : To e7 while cord = e8 ; starting = e8
+11457 <first : Coord eq startCoord
+11457 <first : Making move with king
+11457 <first : To e7 while cord = e8 ; starting = e8
+11457 <first : Coord eq startCoord
+11458 <first : Making move with king
+11458 <first : To e7 while cord = e8 ; starting = e8
+11458 <first : Coord eq startCoord
+11458 <first : Making move with king
+11458 <first : To e7 while cord = e8 ; starting = e8
+11458 <first : Coord eq startCoord
+11458 <first : Making move with king
+11458 <first : To e7 while cord = e8 ; starting = e8
+11458 <first : Coord eq startCoord
+11458 <first : Making move with king
+11458 <first : To e7 while cord = e8 ; starting = e8
+11458 <first : Coord eq startCoord
+11459 <first : Making move with king
+11459 <first : To e7 while cord = e8 ; starting = e8
+11459 <first : Coord eq startCoord
+11459 <first : Making move with king
+11459 <first : To e7 while cord = e8 ; starting = e8
+11459 <first : Coord eq startCoord
+11459 <first : Making move with king
+11459 <first : To e7 while cord = e8 ; starting = e8
+11459 <first : Coord eq startCoord
+11460 <first : Making move with king
+11460 <first : To e7 while cord = e8 ; starting = e8
+11460 <first : Coord eq startCoord
+11460 <first : Making move with king
+11460 <first : To e7 while cord = e8 ; starting = e8
+11460 <first : Coord eq startCoord
+11460 <first : Making move with king
+11460 <first : To e7 while cord = e8 ; starting = e8
+11460 <first : Coord eq startCoord
+11460 <first : Making move with king
+11460 <first : To e7 while cord = e8 ; starting = e8
+11460 <first : Coord eq startCoord
+11461 <first : Making move with king
+11461 <first : To e7 while cord = e8 ; starting = e8
+11461 <first : Coord eq startCoord
+11461 <first : Making move with king
+11461 <first : To e7 while cord = e8 ; starting = e8
+11461 <first : Coord eq startCoord
+11461 <first : Making move with king
+11461 <first : To e7 while cord = e8 ; starting = e8
+11461 <first : Coord eq startCoord
+11461 <first : Making move with king
+11461 <first : To e7 while cord = e8 ; starting = e8
+11461 <first : Coord eq startCoord
+11462 <first : Making move with king
+11462 <first : To e7 while cord = e8 ; starting = e8
+11462 <first : Coord eq startCoord
+11462 <first : Making move with king
+11462 <first : To e7 while cord = e8 ; starting = e8
+11462 <first : Coord eq startCoord
+11462 <first : Making move with king
+11462 <first : To e7 while cord = e8 ; starting = e8
+11462 <first : Coord eq startCoord
+11463 <first : Making move with king
+11463 <first : To e7 while cord = e8 ; starting = e8
+11463 <first : Coord eq startCoord
+11463 <first : Making move with king
+11463 <first : To e7 while cord = e8 ; starting = e8
+11463 <first : Coord eq startCoord
+11463 <first : Making move with king
+11463 <first : To e7 while cord = e8 ; starting = e8
+11463 <first : Coord eq startCoord
+11463 <first : Making move with king
+11463 <first : To e7 while cord = e8 ; starting = e8
+11463 <first : Coord eq startCoord
+11464 <first : Making move with king
+11464 <first : To e7 while cord = e8 ; starting = e8
+11464 <first : Coord eq startCoord
+11464 <first : Making move with king
+11464 <first : To e7 while cord = e8 ; starting = e8
+11464 <first : Coord eq startCoord
+11464 <first : Making move with king
+11464 <first : To e7 while cord = e8 ; starting = e8
+11464 <first : Coord eq startCoord
+11465 <first : Making move with king
+11465 <first : To e7 while cord = e8 ; starting = e8
+11465 <first : Coord eq startCoord
+11465 <first : Making move with king
+11465 <first : To e7 while cord = e8 ; starting = e8
+11465 <first : Coord eq startCoord
+11465 <first : Making move with king
+11465 <first : To e7 while cord = e8 ; starting = e8
+11465 <first : Coord eq startCoord
+11466 <first : Making move with king
+11466 <first : To e7 while cord = e8 ; starting = e8
+11466 <first : Coord eq startCoord
+11466 <first : Making move with king
+11466 <first : To e7 while cord = e8 ; starting = e8
+11466 <first : Coord eq startCoord
+11466 <first : Making move with king
+11466 <first : To e7 while cord = e8 ; starting = e8
+11466 <first : Coord eq startCoord
+11467 <first : Making move with king
+11467 <first : To e7 while cord = e8 ; starting = e8
+11467 <first : Coord eq startCoord
+11467 <first : Making move with king
+11467 <first : To e7 while cord = e8 ; starting = e8
+11467 <first : Coord eq startCoord
+11467 <first : Making move with king
+11467 <first : To e7 while cord = e8 ; starting = e8
+11467 <first : Coord eq startCoord
+11467 <first : Making move with king
+11467 <first : To e7 while cord = e8 ; starting = e8
+11467 <first : Coord eq startCoord
+11467 <first : Making move with king
+11467 <first : To e7 while cord = e8 ; starting = e8
+11467 <first : Coord eq startCoord
+11468 <first : Making move with king
+11468 <first : To e7 while cord = e8 ; starting = e8
+11468 <first : Coord eq startCoord
+11468 <first : Making move with king
+11468 <first : To f7 while cord = e8 ; starting = e8
+11468 <first : Coord eq startCoord
+11468 <first : Making move with king
+11468 <first : To f7 while cord = e8 ; starting = e8
+11468 <first : Coord eq startCoord
+11520 <first : Making move with king
+11520 <first : To d7 while cord = e8 ; starting = e8
+11520 <first : Coord eq startCoord
+11521 <first : Making move with king
+11521 <first : To d7 while cord = e8 ; starting = e8
+11521 <first : Coord eq startCoord
+11521 <first : Making move with king
+11521 <first : To d7 while cord = e8 ; starting = e8
+11521 <first : Coord eq startCoord
+11521 <first : Making move with king
+11521 <first : To d7 while cord = e8 ; starting = e8
+11521 <first : Coord eq startCoord
+11522 <first : Making move with king
+11522 <first : To d7 while cord = e8 ; starting = e8
+11522 <first : Coord eq startCoord
+11523 <first : Making move with king
+11523 <first : To d7 while cord = e8 ; starting = e8
+11523 <first : Coord eq startCoord
+11524 <first : Making move with king
+11524 <first : To d7 while cord = e8 ; starting = e8
+11524 <first : Coord eq startCoord
+11524 <first : Making move with king
+11524 <first : To d7 while cord = e8 ; starting = e8
+11524 <first : Coord eq startCoord
+11524 <first : Making move with king
+11524 <first : To d7 while cord = e8 ; starting = e8
+11524 <first : Coord eq startCoord
+11525 <first : Making move with king
+11525 <first : To d7 while cord = e8 ; starting = e8
+11525 <first : Coord eq startCoord
+11526 <first : Making move with king
+11526 <first : To e7 while cord = e8 ; starting = e8
+11526 <first : Coord eq startCoord
+11526 <first : Making move with king
+11526 <first : To e7 while cord = e8 ; starting = e8
+11526 <first : Coord eq startCoord
+11527 <first : Making move with king
+11527 <first : To e7 while cord = e8 ; starting = e8
+11527 <first : Coord eq startCoord
+11528 <first : Making move with king
+11528 <first : To e7 while cord = e8 ; starting = e8
+11528 <first : Coord eq startCoord
+11528 <first : Making move with king
+11528 <first : To e7 while cord = e8 ; starting = e8
+11528 <first : Coord eq startCoord
+11529 <first : Making move with king
+11529 <first : To e7 while cord = e8 ; starting = e8
+11529 <first : Coord eq startCoord
+11530 <first : Making move with king
+11530 <first : To e7 while cord = e8 ; starting = e8
+11530 <first : Coord eq startCoord
+11530 <first : Making move with king
+11530 <first : To e7 while cord = e8 ; starting = e8
+11530 <first : Coord eq startCoord
+11530 <first : Making move with king
+11530 <first : To e7 while cord = e8 ; starting = e8
+11530 <first : Coord eq startCoord
+11531 <first : Making move with king
+11531 <first : To e7 while cord = e8 ; starting = e8
+11531 <first : Coord eq startCoord
+11531 <first : Making move with king
+11531 <first : To e7 while cord = e8 ; starting = e8
+11531 <first : Coord eq startCoord
+11531 <first : Making move with king
+11531 <first : To e7 while cord = e8 ; starting = e8
+11531 <first : Coord eq startCoord
+11532 <first : Making move with king
+11532 <first : To e7 while cord = e8 ; starting = e8
+11532 <first : Coord eq startCoord
+11532 <first : Making move with king
+11532 <first : To e7 while cord = e8 ; starting = e8
+11532 <first : Coord eq startCoord
+11533 <first : Making move with king
+11533 <first : To e7 while cord = e8 ; starting = e8
+11533 <first : Coord eq startCoord
+11533 <first : Making move with king
+11533 <first : To e7 while cord = e8 ; starting = e8
+11533 <first : Coord eq startCoord
+11534 <first : Making move with king
+11534 <first : To e7 while cord = e8 ; starting = e8
+11534 <first : Coord eq startCoord
+11534 <first : Making move with king
+11534 <first : To e7 while cord = e8 ; starting = e8
+11534 <first : Coord eq startCoord
+11535 <first : Making move with king
+11535 <first : To e7 while cord = e8 ; starting = e8
+11535 <first : Coord eq startCoord
+11536 <first : Making move with king
+11536 <first : To e7 while cord = e8 ; starting = e8
+11536 <first : Coord eq startCoord
+11537 <first : Making move with king
+11537 <first : To e7 while cord = e8 ; starting = e8
+11537 <first : Coord eq startCoord
+11537 <first : Making move with king
+11537 <first : To e7 while cord = e8 ; starting = e8
+11537 <first : Coord eq startCoord
+11538 <first : Making move with king
+11538 <first : To e7 while cord = e8 ; starting = e8
+11538 <first : Coord eq startCoord
+11538 <first : Making move with king
+11538 <first : To e7 while cord = e8 ; starting = e8
+11538 <first : Coord eq startCoord
+11538 <first : Making move with king
+11539 <first : To e7 while cord = e8 ; starting = e8
+11539 <first : Coord eq startCoord
+11539 <first : Making move with king
+11539 <first : To e7 while cord = e8 ; starting = e8
+11539 <first : Coord eq startCoord
+11540 <first : Making move with king
+11540 <first : To e7 while cord = e8 ; starting = e8
+11540 <first : Coord eq startCoord
+11541 <first : Making move with king
+11541 <first : To e7 while cord = e8 ; starting = e8
+11541 <first : Coord eq startCoord
+11541 <first : Making move with king
+11541 <first : To e7 while cord = e8 ; starting = e8
+11541 <first : Coord eq startCoord
+11541 <first : Making move with king
+11541 <first : To e7 while cord = e8 ; starting = e8
+11541 <first : Coord eq startCoord
+11542 <first : Making move with king
+11542 <first : To e7 while cord = e8 ; starting = e8
+11542 <first : Coord eq startCoord
+11542 <first : Making move with king
+11542 <first : To e7 while cord = e8 ; starting = e8
+11542 <first : Coord eq startCoord
+11542 <first : Making move with king
+11542 <first : To e7 while cord = e8 ; starting = e8
+11542 <first : Coord eq startCoord
+11543 <first : Making move with king
+11543 <first : To e7 while cord = e8 ; starting = e8
+11543 <first : Coord eq startCoord
+11543 <first : Making move with king
+11543 <first : To f7 while cord = e8 ; starting = e8
+11543 <first : Coord eq startCoord
+11544 <first : Making move with king
+11544 <first : To f7 while cord = e8 ; starting = e8
+11544 <first : Coord eq startCoord
+11544 <first : Making move with king
+11544 <first : To f7 while cord = e8 ; starting = e8
+11544 <first : Coord eq startCoord
+11545 <first : Making move with king
+11545 <first : To f7 while cord = e8 ; starting = e8
+11545 <first : Coord eq startCoord
+11545 <first : Making move with king
+11545 <first : To f7 while cord = e8 ; starting = e8
+11545 <first : Coord eq startCoord
+11546 <first : Making move with king
+11546 <first : To f7 while cord = e8 ; starting = e8
+11546 <first : Coord eq startCoord
+11626 <first : Making move with king
+11626 <first : To d7 while cord = e8 ; starting = e8
+11626 <first : Coord eq startCoord
+11626 <first : Making move with king
+11626 <first : To d7 while cord = e8 ; starting = e8
+11626 <first : Coord eq startCoord
+11626 <first : Making move with king
+11626 <first : To d7 while cord = e8 ; starting = e8
+11626 <first : Coord eq startCoord
+11627 <first : Making move with king
+11627 <first : To d7 while cord = e8 ; starting = e8
+11627 <first : Coord eq startCoord
+11627 <first : Making move with king
+11627 <first : To d7 while cord = e8 ; starting = e8
+11627 <first : Coord eq startCoord
+11627 <first : Making move with king
+11627 <first : To d7 while cord = e8 ; starting = e8
+11627 <first : Coord eq startCoord
+11629 <first : Making move with king
+11629 <first : To d7 while cord = e8 ; starting = e8
+11629 <first : Coord eq startCoord
+11630 <first : Making move with king
+11630 <first : To d7 while cord = e8 ; starting = e8
+11630 <first : Coord eq startCoord
+11630 <first : Making move with king
+11630 <first : To d7 while cord = e8 ; starting = e8
+11630 <first : Coord eq startCoord
+11631 <first : Making move with king
+11631 <first : To d7 while cord = e8 ; starting = e8
+11631 <first : Coord eq startCoord
+11631 <first : Making move with king
+11631 <first : To d7 while cord = e8 ; starting = e8
+11631 <first : Coord eq startCoord
+11632 <first : Making move with king
+11632 <first : To d7 while cord = e8 ; starting = e8
+11632 <first : Coord eq startCoord
+11634 <first : Making move with king
+11635 <first : To e7 while cord = e8 ; starting = e8
+11635 <first : Coord eq startCoord
+11636 <first : Making move with king
+11636 <first : To e7 while cord = e8 ; starting = e8
+11636 <first : Coord eq startCoord
+11636 <first : Making move with king
+11636 <first : To e7 while cord = e8 ; starting = e8
+11636 <first : Coord eq startCoord
+11637 <first : Making move with king
+11637 <first : To e7 while cord = e8 ; starting = e8
+11637 <first : Coord eq startCoord
+11638 <first : Making move with king
+11638 <first : To e7 while cord = e8 ; starting = e8
+11638 <first : Coord eq startCoord
+11638 <first : Making move with king
+11638 <first : To e7 while cord = e8 ; starting = e8
+11638 <first : Coord eq startCoord
+11639 <first : Making move with king
+11639 <first : To e7 while cord = e8 ; starting = e8
+11639 <first : Coord eq startCoord
+11639 <first : Making move with king
+11639 <first : To e7 while cord = e8 ; starting = e8
+11639 <first : Coord eq startCoord
+11640 <first : Making move with king
+11640 <first : To e7 while cord = e8 ; starting = e8
+11640 <first : Coord eq startCoord
+11640 <first : Making move with king
+11640 <first : To e7 while cord = e8 ; starting = e8
+11640 <first : Coord eq startCoord
+11641 <first : Making move with king
+11641 <first : To e7 while cord = e8 ; starting = e8
+11641 <first : Coord eq startCoord
+11641 <first : Making move with king
+11641 <first : To e7 while cord = e8 ; starting = e8
+11641 <first : Coord eq startCoord
+11641 <first : Making move with king
+11641 <first : To e7 while cord = e8 ; starting = e8
+11641 <first : Coord eq startCoord
+11642 <first : Making move with king
+11642 <first : To e7 while cord = e8 ; starting = e8
+11642 <first : Coord eq startCoord
+11642 <first : Making move with king
+11642 <first : To e7 while cord = e8 ; starting = e8
+11642 <first : Coord eq startCoord
+11643 <first : Making move with king
+11643 <first : To e7 while cord = e8 ; starting = e8
+11643 <first : Coord eq startCoord
+11644 <first : Making move with king
+11644 <first : To e7 while cord = e8 ; starting = e8
+11644 <first : Coord eq startCoord
+11644 <first : Making move with king
+11644 <first : To e7 while cord = e8 ; starting = e8
+11644 <first : Coord eq startCoord
+11645 <first : Making move with king
+11645 <first : To e7 while cord = e8 ; starting = e8
+11645 <first : Coord eq startCoord
+11645 <first : Making move with king
+11645 <first : To e7 while cord = e8 ; starting = e8
+11645 <first : Coord eq startCoord
+11646 <first : Making move with king
+11646 <first : To e7 while cord = e8 ; starting = e8
+11646 <first : Coord eq startCoord
+11646 <first : Making move with king
+11646 <first : To e7 while cord = e8 ; starting = e8
+11646 <first : Coord eq startCoord
+11647 <first : Making move with king
+11647 <first : To e7 while cord = e8 ; starting = e8
+11647 <first : Coord eq startCoord
+11648 <first : Making move with king
+11648 <first : To e7 while cord = e8 ; starting = e8
+11648 <first : Coord eq startCoord
+11648 <first : Making move with king
+11648 <first : To e7 while cord = e8 ; starting = e8
+11648 <first : Coord eq startCoord
+11648 <first : Making move with king
+11649 <first : To e7 while cord = e8 ; starting = e8
+11649 <first : Coord eq startCoord
+11649 <first : Making move with king
+11649 <first : To e7 while cord = e8 ; starting = e8
+11649 <first : Coord eq startCoord
+11649 <first : Making move with king
+11649 <first : To e7 while cord = e8 ; starting = e8
+11649 <first : Coord eq startCoord
+11650 <first : Making move with king
+11650 <first : To e7 while cord = e8 ; starting = e8
+11650 <first : Coord eq startCoord
+11650 <first : Making move with king
+11650 <first : To e7 while cord = e8 ; starting = e8
+11650 <first : Coord eq startCoord
+11650 <first : Making move with king
+11650 <first : To e7 while cord = e8 ; starting = e8
+11650 <first : Coord eq startCoord
+11651 <first : Making move with king
+11651 <first : To e7 while cord = e8 ; starting = e8
+11651 <first : Coord eq startCoord
+11652 <first : Making move with king
+11652 <first : To e7 while cord = e8 ; starting = e8
+11652 <first : Coord eq startCoord
+11652 <first : Making move with king
+11652 <first : To e7 while cord = e8 ; starting = e8
+11652 <first : Coord eq startCoord
+11652 <first : Making move with king
+11652 <first : To e7 while cord = e8 ; starting = e8
+11652 <first : Coord eq startCoord
+11653 <first : Making move with king
+11653 <first : To e7 while cord = e8 ; starting = e8
+11653 <first : Coord eq startCoord
+11654 <first : Making move with king
+11654 <first : To e7 while cord = e8 ; starting = e8
+11654 <first : Coord eq startCoord
+11654 <first : Making move with king
+11654 <first : To e7 while cord = e8 ; starting = e8
+11654 <first : Coord eq startCoord
+11654 <first : Making move with king
+11654 <first : To f7 while cord = e8 ; starting = e8
+11654 <first : Coord eq startCoord
+11655 <first : Making move with king
+11655 <first : To f7 while cord = e8 ; starting = e8
+11655 <first : Coord eq startCoord
+11657 <first : Making move with king
+11657 <first : To d2 while cord = e1 ; starting = e1
+11657 <first : Coord eq startCoord
+11666 <first : Making move with king
+11666 <first : To d2 while cord = e1 ; starting = e1
+11666 <first : Coord eq startCoord
+11676 <first : Making move with king
+11676 <first : To d2 while cord = e1 ; starting = e1
+11676 <first : Coord eq startCoord
+11681 <first : Making move with king
+11682 <first : To d2 while cord = e1 ; starting = e1
+11682 <first : Coord eq startCoord
+11683 <first : Making move with king
+11683 <first : To d2 while cord = e1 ; starting = e1
+11683 <first : Coord eq startCoord
+11688 <first : Making move with king
+11688 <first : To d2 while cord = e1 ; starting = e1
+11688 <first : Coord eq startCoord
+11698 <first : Making move with king
+11698 <first : To d2 while cord = e1 ; starting = e1
+11698 <first : Coord eq startCoord
+11704 <first : Making move with king
+11704 <first : To d2 while cord = e1 ; starting = e1
+11704 <first : Coord eq startCoord
+11714 <first : Making move with king
+11714 <first : To d2 while cord = e1 ; starting = e1
+11714 <first : Coord eq startCoord
+11718 <first : Making move with king
+11718 <first : To d2 while cord = e1 ; starting = e1
+11718 <first : Coord eq startCoord
+11734 <first : Making move with king
+11735 <first : To d2 while cord = e1 ; starting = e1
+11735 <first : Coord eq startCoord
+11735 <first : Making move with king
+11735 <first : To d7 while cord = e8 ; starting = e8
+11735 <first : Coord eq startCoord
+11736 <first : Making move with king
+11736 <first : To d7 while cord = e8 ; starting = e8
+11736 <first : Coord eq startCoord
+11737 <first : Making move with king
+11737 <first : To d7 while cord = e8 ; starting = e8
+11737 <first : Coord eq startCoord
+11738 <first : Making move with king
+11738 <first : To d7 while cord = e8 ; starting = e8
+11738 <first : Coord eq startCoord
+11739 <first : Making move with king
+11739 <first : To d7 while cord = e8 ; starting = e8
+11739 <first : Coord eq startCoord
+11740 <first : Making move with king
+11740 <first : To d2 while cord = e1 ; starting = e1
+11740 <first : Coord eq startCoord
+11740 <first : Making move with king
+11740 <first : To d7 while cord = e8 ; starting = e8
+11740 <first : Coord eq startCoord
+11741 <first : Making move with king
+11741 <first : To d7 while cord = e8 ; starting = e8
+11741 <first : Coord eq startCoord
+11742 <first : Making move with king
+11742 <first : To d7 while cord = e8 ; starting = e8
+11742 <first : Coord eq startCoord
+11743 <first : Making move with king
+11743 <first : To d7 while cord = e8 ; starting = e8
+11743 <first : Coord eq startCoord
+11744 <first : Making move with king
+11744 <first : To d7 while cord = e8 ; starting = e8
+11744 <first : Coord eq startCoord
+11745 <first : Making move with king
+11745 <first : To d7 while cord = e8 ; starting = e8
+11745 <first : Coord eq startCoord
+11746 <first : Making move with king
+11746 <first : To d7 while cord = e8 ; starting = e8
+11746 <first : Coord eq startCoord
+11747 <first : Making move with king
+11747 <first : To d7 while cord = e8 ; starting = e8
+11747 <first : Coord eq startCoord
+11748 <first : Making move with king
+11748 <first : To d7 while cord = e8 ; starting = e8
+11748 <first : Coord eq startCoord
+11749 <first : Making move with king
+11749 <first : To d7 while cord = e8 ; starting = e8
+11749 <first : Coord eq startCoord
+11750 <first : Making move with king
+11750 <first : To d7 while cord = e8 ; starting = e8
+11750 <first : Coord eq startCoord
+11750 <first : Making move with king
+11750 <first : To d7 while cord = e8 ; starting = e8
+11750 <first : Coord eq startCoord
+11750 <first : Making move with king
+11750 <first : To d7 while cord = e8 ; starting = e8
+11750 <first : Coord eq startCoord
+11751 <first : Making move with king
+11751 <first : To d7 while cord = e8 ; starting = e8
+11751 <first : Coord eq startCoord
+11752 <first : Making move with king
+11752 <first : To d7 while cord = e8 ; starting = e8
+11752 <first : Coord eq startCoord
+11753 <first : Making move with king
+11753 <first : To d7 while cord = e8 ; starting = e8
+11753 <first : Coord eq startCoord
+11754 <first : Making move with king
+11754 <first : To d7 while cord = e8 ; starting = e8
+11754 <first : Coord eq startCoord
+11755 <first : Making move with king
+11755 <first : To d7 while cord = e8 ; starting = e8
+11755 <first : Coord eq startCoord
+11756 <first : Making move with king
+11756 <first : To d7 while cord = e8 ; starting = e8
+11756 <first : Coord eq startCoord
+11757 <first : Making move with king
+11757 <first : To d7 while cord = e8 ; starting = e8
+11757 <first : Coord eq startCoord
+11758 <first : Making move with king
+11758 <first : To d7 while cord = e8 ; starting = e8
+11758 <first : Coord eq startCoord
+11759 <first : Making move with king
+11759 <first : To d7 while cord = e8 ; starting = e8
+11759 <first : Coord eq startCoord
+11759 <first : Making move with king
+11759 <first : To d7 while cord = e8 ; starting = e8
+11759 <first : Coord eq startCoord
+11760 <first : Making move with king
+11760 <first : To d7 while cord = e8 ; starting = e8
+11760 <first : Coord eq startCoord
+11761 <first : Making move with king
+11761 <first : To d7 while cord = e8 ; starting = e8
+11761 <first : Coord eq startCoord
+11761 <first : Making move with king
+11761 <first : To d7 while cord = e8 ; starting = e8
+11761 <first : Coord eq startCoord
+11762 <first : Making move with king
+11762 <first : To d7 while cord = e8 ; starting = e8
+11762 <first : Coord eq startCoord
+11763 <first : Making move with king
+11763 <first : To d2 while cord = e1 ; starting = e1
+11763 <first : Coord eq startCoord
+11763 <first : Making move with king
+11763 <first : To e7 while cord = e8 ; starting = e8
+11763 <first : Coord eq startCoord
+11764 <first : Making move with king
+11764 <first : To e7 while cord = e8 ; starting = e8
+11764 <first : Coord eq startCoord
+11766 <first : Making move with king
+11766 <first : To e7 while cord = e8 ; starting = e8
+11766 <first : Coord eq startCoord
+11766 <first : Making move with king
+11766 <first : To e7 while cord = e8 ; starting = e8
+11766 <first : Coord eq startCoord
+11767 <first : Making move with king
+11767 <first : To e7 while cord = e8 ; starting = e8
+11767 <first : Coord eq startCoord
+11767 <first : Making move with king
+11767 <first : To e7 while cord = e8 ; starting = e8
+11767 <first : Coord eq startCoord
+11769 <first : Making move with king
+11769 <first : To d2 while cord = e1 ; starting = e1
+11769 <first : Coord eq startCoord
+11769 <first : Making move with king
+11769 <first : To e7 while cord = e8 ; starting = e8
+11769 <first : Coord eq startCoord
+11770 <first : Making move with king
+11770 <first : To e7 while cord = e8 ; starting = e8
+11770 <first : Coord eq startCoord
+11771 <first : Making move with king
+11771 <first : To e7 while cord = e8 ; starting = e8
+11771 <first : Coord eq startCoord
+11772 <first : Making move with king
+11772 <first : To e7 while cord = e8 ; starting = e8
+11772 <first : Coord eq startCoord
+11772 <first : Making move with king
+11773 <first : To e7 while cord = e8 ; starting = e8
+11773 <first : Coord eq startCoord
+11773 <first : Making move with king
+11773 <first : To e7 while cord = e8 ; starting = e8
+11773 <first : Coord eq startCoord
+11774 <first : Making move with king
+11774 <first : To e7 while cord = e8 ; starting = e8
+11774 <first : Coord eq startCoord
+11775 <first : Making move with king
+11775 <first : To e7 while cord = e8 ; starting = e8
+11775 <first : Coord eq startCoord
+11776 <first : Making move with king
+11776 <first : To e7 while cord = e8 ; starting = e8
+11776 <first : Coord eq startCoord
+11776 <first : Making move with king
+11776 <first : To e7 while cord = e8 ; starting = e8
+11776 <first : Coord eq startCoord
+11777 <first : Making move with king
+11777 <first : To e7 while cord = e8 ; starting = e8
+11777 <first : Coord eq startCoord
+11777 <first : Making move with king
+11777 <first : To e7 while cord = e8 ; starting = e8
+11777 <first : Coord eq startCoord
+11778 <first : Making move with king
+11778 <first : To e7 while cord = e8 ; starting = e8
+11778 <first : Coord eq startCoord
+11778 <first : Making move with king
+11778 <first : To e7 while cord = e8 ; starting = e8
+11778 <first : Coord eq startCoord
+11779 <first : Making move with king
+11779 <first : To e7 while cord = e8 ; starting = e8
+11779 <first : Coord eq startCoord
+11779 <first : Making move with king
+11779 <first : To e7 while cord = e8 ; starting = e8
+11779 <first : Coord eq startCoord
+11780 <first : Making move with king
+11780 <first : To e7 while cord = e8 ; starting = e8
+11780 <first : Coord eq startCoord
+11781 <first : Making move with king
+11781 <first : To e7 while cord = e8 ; starting = e8
+11781 <first : Coord eq startCoord
+11781 <first : Making move with king
+11781 <first : To e7 while cord = e8 ; starting = e8
+11781 <first : Coord eq startCoord
+11782 <first : Making move with king
+11782 <first : To e7 while cord = e8 ; starting = e8
+11782 <first : Coord eq startCoord
+11782 <first : Making move with king
+11782 <first : To e7 while cord = e8 ; starting = e8
+11783 <first : Coord eq startCoord
+11783 <first : Making move with king
+11783 <first : To e7 while cord = e8 ; starting = e8
+11783 <first : Coord eq startCoord
+11784 <first : Making move with king
+11784 <first : To e7 while cord = e8 ; starting = e8
+11784 <first : Coord eq startCoord
+11784 <first : Making move with king
+11784 <first : To e7 while cord = e8 ; starting = e8
+11784 <first : Coord eq startCoord
+11785 <first : Making move with king
+11785 <first : To e7 while cord = e8 ; starting = e8
+11785 <first : Coord eq startCoord
+11785 <first : Making move with king
+11785 <first : To e7 while cord = e8 ; starting = e8
+11785 <first : Coord eq startCoord
+11786 <first : Making move with king
+11786 <first : To d2 while cord = e1 ; starting = e1
+11786 <first : Coord eq startCoord
+11786 <first : Making move with king
+11786 <first : To f7 while cord = e8 ; starting = e8
+11786 <first : Coord eq startCoord
+11786 <first : Making move with king
+11786 <first : To d2 while cord = e1 ; starting = e1
+11786 <first : Coord eq startCoord
+11787 <first : Making move with king
+11787 <first : To f7 while cord = e8 ; starting = e8
+11787 <first : Coord eq startCoord
+11787 <first : Making move with king
+11787 <first : To d2 while cord = e1 ; starting = e1
+11787 <first : Coord eq startCoord
+11788 <first : Making move with king
+11788 <first : To d2 while cord = e1 ; starting = e1
+11788 <first : Coord eq startCoord
+11790 <first : Making move with king
+11790 <first : To d2 while cord = e1 ; starting = e1
+11790 <first : Coord eq startCoord
+11791 <first : Making move with king
+11791 <first : To d2 while cord = e1 ; starting = e1
+11791 <first : Coord eq startCoord
+11792 <first : Making move with king
+11792 <first : To d2 while cord = e1 ; starting = e1
+11792 <first : Coord eq startCoord
+11806 <first : Making move with king
+11806 <first : To d2 while cord = e1 ; starting = e1
+11806 <first : Coord eq startCoord
+11818 <first : Making move with king
+11818 <first : To d2 while cord = e1 ; starting = e1
+11818 <first : Coord eq startCoord
+11820 <first : Making move with king
+11820 <first : To d2 while cord = e1 ; starting = e1
+11820 <first : Coord eq startCoord
+11821 <first : Making move with king
+11821 <first : To d2 while cord = e1 ; starting = e1
+11821 <first : Coord eq startCoord
+11823 <first : Making move with king
+11823 <first : To d2 while cord = e1 ; starting = e1
+11823 <first : Coord eq startCoord
+11829 <first : Making move with king
+11829 <first : To d2 while cord = e1 ; starting = e1
+11829 <first : Coord eq startCoord
+11835 <first : Making move with king
+11835 <first : To d2 while cord = e1 ; starting = e1
+11835 <first : Coord eq startCoord
+11845 <first : Making move with king
+11845 <first : To d2 while cord = e1 ; starting = e1
+11845 <first : Coord eq startCoord
+11847 <first : Making move with king
+11847 <first : To d2 while cord = e1 ; starting = e1
+11847 <first : Coord eq startCoord
+11861 <first : Making move with king
+11861 <first : To d2 while cord = e1 ; starting = e1
+11861 <first : Coord eq startCoord
+11861 <first : Making move with king
+11861 <first : To d7 while cord = e8 ; starting = e8
+11862 <first : Coord eq startCoord
+11862 <first : Making move with king
+11862 <first : To d2 while cord = e1 ; starting = e1
+11862 <first : Coord eq startCoord
+11863 <first : Making move with king
+11863 <first : To d7 while cord = e8 ; starting = e8
+11863 <first : Coord eq startCoord
+11864 <first : Making move with king
+11864 <first : To d7 while cord = e8 ; starting = e8
+11864 <first : Coord eq startCoord
+11865 <first : Making move with king
+11865 <first : To d2 while cord = e1 ; starting = e1
+11865 <first : Coord eq startCoord
+11865 <first : Making move with king
+11865 <first : To e7 while cord = e8 ; starting = e8
+11865 <first : Coord eq startCoord
+11866 <first : Making move with king
+11866 <first : To d2 while cord = e1 ; starting = e1
+11866 <first : Coord eq startCoord
+11867 <first : Making move with king
+11867 <first : To e7 while cord = e8 ; starting = e8
+11867 <first : Coord eq startCoord
+11868 <first : Making move with king
+11868 <first : To e7 while cord = e8 ; starting = e8
+11868 <first : Coord eq startCoord
+11869 <first : Making move with king
+11869 <first : To e7 while cord = e8 ; starting = e8
+11869 <first : Coord eq startCoord
+11870 <first : Making move with king
+11870 <first : To e7 while cord = e8 ; starting = e8
+11870 <first : Coord eq startCoord
+11870 <first : Making move with king
+11870 <first : To e7 while cord = e8 ; starting = e8
+11870 <first : Coord eq startCoord
+11871 <first : Making move with king
+11871 <first : To e7 while cord = e8 ; starting = e8
+11871 <first : Coord eq startCoord
+11872 <first : Making move with king
+11872 <first : To e7 while cord = e8 ; starting = e8
+11872 <first : Coord eq startCoord
+11872 <first : Making move with king
+11872 <first : To e7 while cord = e8 ; starting = e8
+11873 <first : Coord eq startCoord
+11874 <first : Making move with king
+11874 <first : To e7 while cord = e8 ; starting = e8
+11874 <first : Coord eq startCoord
+11874 <first : Making move with king
+11874 <first : To e7 while cord = e8 ; starting = e8
+11874 <first : Coord eq startCoord
+11874 <first : Making move with king
+11874 <first : To e7 while cord = e8 ; starting = e8
+11874 <first : Coord eq startCoord
+11876 <first : Making move with king
+11876 <first : To e7 while cord = e8 ; starting = e8
+11876 <first : Coord eq startCoord
+11876 <first : Making move with king
+11876 <first : To e7 while cord = e8 ; starting = e8
+11876 <first : Coord eq startCoord
+11877 <first : Making move with king
+11877 <first : To e7 while cord = e8 ; starting = e8
+11877 <first : Coord eq startCoord
+11877 <first : Making move with king
+11877 <first : To e7 while cord = e8 ; starting = e8
+11877 <first : Coord eq startCoord
+11878 <first : Making move with king
+11878 <first : To e7 while cord = e8 ; starting = e8
+11878 <first : Coord eq startCoord
+11879 <first : Making move with king
+11879 <first : To e7 while cord = e8 ; starting = e8
+11879 <first : Coord eq startCoord
+11880 <first : Making move with king
+11880 <first : To e7 while cord = e8 ; starting = e8
+11880 <first : Coord eq startCoord
+11880 <first : Making move with king
+11880 <first : To e7 while cord = e8 ; starting = e8
+11880 <first : Coord eq startCoord
+11881 <first : Making move with king
+11881 <first : To e7 while cord = e8 ; starting = e8
+11881 <first : Coord eq startCoord
+11881 <first : Making move with king
+11881 <first : To e7 while cord = e8 ; starting = e8
+11881 <first : Coord eq startCoord
+11882 <first : Making move with king
+11882 <first : To e7 while cord = e8 ; starting = e8
+11882 <first : Coord eq startCoord
+11883 <first : Making move with king
+11883 <first : To e7 while cord = e8 ; starting = e8
+11883 <first : Coord eq startCoord
+11883 <first : Making move with king
+11883 <first : To e7 while cord = e8 ; starting = e8
+11883 <first : Coord eq startCoord
+11884 <first : Making move with king
+11884 <first : To e7 while cord = e8 ; starting = e8
+11884 <first : Coord eq startCoord
+11884 <first : Making move with king
+11884 <first : To e7 while cord = e8 ; starting = e8
+11884 <first : Coord eq startCoord
+11885 <first : Making move with king
+11885 <first : To e7 while cord = e8 ; starting = e8
+11885 <first : Coord eq startCoord
+11885 <first : Making move with king
+11885 <first : To e7 while cord = e8 ; starting = e8
+11885 <first : Coord eq startCoord
+11886 <first : Making move with king
+11886 <first : To d2 while cord = e1 ; starting = e1
+11886 <first : Coord eq startCoord
+11886 <first : Making move with king
+11886 <first : To f7 while cord = e8 ; starting = e8
+11886 <first : Coord eq startCoord
+11887 <first : Making move with king
+11887 <first : To d2 while cord = e1 ; starting = e1
+11887 <first : Coord eq startCoord
+11887 <first : Making move with king
+11887 <first : To f7 while cord = e8 ; starting = e8
+11887 <first : Coord eq startCoord
+11887 <first : Making move with king
+11887 <first : To d2 while cord = e1 ; starting = e1
+11887 <first : Coord eq startCoord
+11888 <first : Making move with king
+11888 <first : To d2 while cord = e1 ; starting = e1
+11888 <first : Coord eq startCoord
+11889 <first : Making move with king
+11889 <first : To d2 while cord = e1 ; starting = e1
+11889 <first : Coord eq startCoord
+11890 <first : Making move with king
+11890 <first : To d2 while cord = e1 ; starting = e1
+11890 <first : Coord eq startCoord
+11891 <first : Making move with king
+11891 <first : To e2 while cord = e1 ; starting = e1
+11891 <first : Coord eq startCoord
+11906 <first : Making move with king
+11906 <first : To e2 while cord = e1 ; starting = e1
+11906 <first : Coord eq startCoord
+11919 <first : Making move with king
+11919 <first : To e2 while cord = e1 ; starting = e1
+11919 <first : Coord eq startCoord
+11926 <first : Making move with king
+11926 <first : To e2 while cord = e1 ; starting = e1
+11926 <first : Coord eq startCoord
+11927 <first : Making move with king
+11927 <first : To e2 while cord = e1 ; starting = e1
+11927 <first : Coord eq startCoord
+11932 <first : Making move with king
+11932 <first : To e2 while cord = e1 ; starting = e1
+11933 <first : Coord eq startCoord
+11945 <first : Making move with king
+11945 <first : To e2 while cord = e1 ; starting = e1
+11945 <first : Coord eq startCoord
+11956 <first : Making move with king
+11956 <first : To e2 while cord = e1 ; starting = e1
+11956 <first : Coord eq startCoord
+11958 <first : Making move with king
+11958 <first : To e2 while cord = e1 ; starting = e1
+11958 <first : Coord eq startCoord
+11962 <first : Making move with king
+11962 <first : To e2 while cord = e1 ; starting = e1
+11962 <first : Coord eq startCoord
+11967 <first : Making move with king
+11967 <first : To e2 while cord = e1 ; starting = e1
+11967 <first : Coord eq startCoord
+11967 <first : Making move with king
+11967 <first : To d7 while cord = e8 ; starting = e8
+11967 <first : Coord eq startCoord
+11968 <first : Making move with king
+11968 <first : To d7 while cord = e8 ; starting = e8
+11968 <first : Coord eq startCoord
+11968 <first : Making move with king
+11968 <first : To d7 while cord = e8 ; starting = e8
+11968 <first : Coord eq startCoord
+11968 <first : Making move with king
+11968 <first : To d7 while cord = e8 ; starting = e8
+11968 <first : Coord eq startCoord
+11968 <first : Making move with king
+11968 <first : To d7 while cord = e8 ; starting = e8
+11968 <first : Coord eq startCoord
+11969 <first : Making move with king
+11969 <first : To d7 while cord = e8 ; starting = e8
+11969 <first : Coord eq startCoord
+11969 <first : Making move with king
+11969 <first : To d7 while cord = e8 ; starting = e8
+11969 <first : Coord eq startCoord
+11969 <first : Making move with king
+11969 <first : To d7 while cord = e8 ; starting = e8
+11969 <first : Coord eq startCoord
+11970 <first : Making move with king
+11970 <first : To e2 while cord = e1 ; starting = e1
+11970 <first : Coord eq startCoord
+11970 <first : Making move with king
+11970 <first : To d7 while cord = e8 ; starting = e8
+11970 <first : Coord eq startCoord
+11971 <first : Making move with king
+11971 <first : To d7 while cord = e8 ; starting = e8
+11971 <first : Coord eq startCoord
+11972 <first : Making move with king
+11972 <first : To d7 while cord = e8 ; starting = e8
+11972 <first : Coord eq startCoord
+11972 <first : Making move with king
+11972 <first : To d7 while cord = e8 ; starting = e8
+11972 <first : Coord eq startCoord
+11973 <first : Making move with king
+11973 <first : To d7 while cord = e8 ; starting = e8
+11973 <first : Coord eq startCoord
+11973 <first : Making move with king
+11973 <first : To d7 while cord = e8 ; starting = e8
+11973 <first : Coord eq startCoord
+11974 <first : Making move with king
+11974 <first : To d7 while cord = e8 ; starting = e8
+11974 <first : Coord eq startCoord
+11974 <first : Making move with king
+11974 <first : To d7 while cord = e8 ; starting = e8
+11974 <first : Coord eq startCoord
+11975 <first : Making move with king
+11975 <first : To e2 while cord = e1 ; starting = e1
+11976 <first : Coord eq startCoord
+11976 <first : Making move with king
+11976 <first : To e7 while cord = e8 ; starting = e8
+11976 <first : Coord eq startCoord
+11978 <first : Making move with king
+11978 <first : To e7 while cord = e8 ; starting = e8
+11978 <first : Coord eq startCoord
+11978 <first : Making move with king
+11978 <first : To e7 while cord = e8 ; starting = e8
+11978 <first : Coord eq startCoord
+11979 <first : Making move with king
+11979 <first : To e7 while cord = e8 ; starting = e8
+11979 <first : Coord eq startCoord
+11979 <first : Making move with king
+11979 <first : To e7 while cord = e8 ; starting = e8
+11979 <first : Coord eq startCoord
+11979 <first : Making move with king
+11979 <first : To e7 while cord = e8 ; starting = e8
+11979 <first : Coord eq startCoord
+11979 <first : Making move with king
+11979 <first : To e7 while cord = e8 ; starting = e8
+11979 <first : Coord eq startCoord
+11980 <first : Making move with king
+11980 <first : To e7 while cord = e8 ; starting = e8
+11980 <first : Coord eq startCoord
+11981 <first : Making move with king
+11981 <first : To e7 while cord = e8 ; starting = e8
+11981 <first : Coord eq startCoord
+11981 <first : Making move with king
+11981 <first : To e7 while cord = e8 ; starting = e8
+11981 <first : Coord eq startCoord
+11981 <first : Making move with king
+11981 <first : To e7 while cord = e8 ; starting = e8
+11981 <first : Coord eq startCoord
+11981 <first : Making move with king
+11981 <first : To e7 while cord = e8 ; starting = e8
+11981 <first : Coord eq startCoord
+11981 <first : Making move with king
+11981 <first : To e7 while cord = e8 ; starting = e8
+11981 <first : Coord eq startCoord
+11982 <first : Making move with king
+11982 <first : To e7 while cord = e8 ; starting = e8
+11982 <first : Coord eq startCoord
+11983 <first : Making move with king
+11983 <first : To e7 while cord = e8 ; starting = e8
+11983 <first : Coord eq startCoord
+11984 <first : Making move with king
+11984 <first : To e7 while cord = e8 ; starting = e8
+11984 <first : Coord eq startCoord
+11984 <first : Making move with king
+11984 <first : To e7 while cord = e8 ; starting = e8
+11984 <first : Coord eq startCoord
+11985 <first : Making move with king
+11985 <first : To e7 while cord = e8 ; starting = e8
+11985 <first : Coord eq startCoord
+11985 <first : Making move with king
+11985 <first : To e7 while cord = e8 ; starting = e8
+11985 <first : Coord eq startCoord
+11986 <first : Making move with king
+11986 <first : To e7 while cord = e8 ; starting = e8
+11986 <first : Coord eq startCoord
+11986 <first : Making move with king
+11986 <first : To e7 while cord = e8 ; starting = e8
+11986 <first : Coord eq startCoord
+11986 <first : Making move with king
+11986 <first : To e7 while cord = e8 ; starting = e8
+11986 <first : Coord eq startCoord
+11986 <first : Making move with king
+11986 <first : To e7 while cord = e8 ; starting = e8
+11986 <first : Coord eq startCoord
+11987 <first : Making move with king
+11987 <first : To e7 while cord = e8 ; starting = e8
+11987 <first : Coord eq startCoord
+11987 <first : Making move with king
+11987 <first : To e7 while cord = e8 ; starting = e8
+11987 <first : Coord eq startCoord
+11987 <first : Making move with king
+11987 <first : To e7 while cord = e8 ; starting = e8
+11987 <first : Coord eq startCoord
+11988 <first : Making move with king
+11988 <first : To e7 while cord = e8 ; starting = e8
+11988 <first : Coord eq startCoord
+11988 <first : Making move with king
+11988 <first : To e7 while cord = e8 ; starting = e8
+11988 <first : Coord eq startCoord
+11989 <first : Making move with king
+11989 <first : To e7 while cord = e8 ; starting = e8
+11989 <first : Coord eq startCoord
+11989 <first : Making move with king
+11989 <first : To e7 while cord = e8 ; starting = e8
+11989 <first : Coord eq startCoord
+11990 <first : Making move with king
+11990 <first : To e2 while cord = e1 ; starting = e1
+11990 <first : Coord eq startCoord
+11990 <first : Making move with king
+11990 <first : To e7 while cord = e8 ; starting = e8
+11990 <first : Coord eq startCoord
+11991 <first : Making move with king
+11991 <first : To e7 while cord = e8 ; starting = e8
+11991 <first : Coord eq startCoord
+11992 <first : Making move with king
+11992 <first : To e7 while cord = e8 ; starting = e8
+11992 <first : Coord eq startCoord
+11992 <first : Making move with king
+11992 <first : To e7 while cord = e8 ; starting = e8
+11992 <first : Coord eq startCoord
+11993 <first : Making move with king
+11993 <first : To e7 while cord = e8 ; starting = e8
+11993 <first : Coord eq startCoord
+11993 <first : Making move with king
+11993 <first : To e7 while cord = e8 ; starting = e8
+11993 <first : Coord eq startCoord
+11994 <first : Making move with king
+11994 <first : To e7 while cord = e8 ; starting = e8
+11994 <first : Coord eq startCoord
+11996 <first : Making move with king
+11996 <first : To e7 while cord = e8 ; starting = e8
+11996 <first : Coord eq startCoord
+11997 <first : Making move with king
+11997 <first : To e7 while cord = e8 ; starting = e8
+11997 <first : Coord eq startCoord
+11998 <first : Making move with king
+11998 <first : To e7 while cord = e8 ; starting = e8
+11998 <first : Coord eq startCoord
+11998 <first : Making move with king
+11998 <first : To e7 while cord = e8 ; starting = e8
+11998 <first : Coord eq startCoord
+11998 <first : Making move with king
+11998 <first : To e7 while cord = e8 ; starting = e8
+11999 <first : Coord eq startCoord
+11999 <first : Making move with king
+11999 <first : To e7 while cord = e8 ; starting = e8
+11999 <first : Coord eq startCoord
+12000 <first : Making move with king
+12000 <first : To e7 while cord = e8 ; starting = e8
+12000 <first : Coord eq startCoord
+12001 <first : Making move with king
+12001 <first : To e7 while cord = e8 ; starting = e8
+12001 <first : Coord eq startCoord
+12003 <first : Making move with king
+12003 <first : To e7 while cord = e8 ; starting = e8
+12003 <first : Coord eq startCoord
+12003 <first : Making move with king
+12003 <first : To e7 while cord = e8 ; starting = e8
+12003 <first : Coord eq startCoord
+12004 <first : Making move with king
+12004 <first : To e7 while cord = e8 ; starting = e8
+12004 <first : Coord eq startCoord
+12005 <first : Making move with king
+12005 <first : To e7 while cord = e8 ; starting = e8
+12005 <first : Coord eq startCoord
+12005 <first : Making move with king
+12005 <first : To e7 while cord = e8 ; starting = e8
+12005 <first : Coord eq startCoord
+12006 <first : Making move with king
+12006 <first : To e7 while cord = e8 ; starting = e8
+12006 <first : Coord eq startCoord
+12007 <first : Making move with king
+12007 <first : To e7 while cord = e8 ; starting = e8
+12007 <first : Coord eq startCoord
+12007 <first : Making move with king
+12007 <first : To e7 while cord = e8 ; starting = e8
+12007 <first : Coord eq startCoord
+12008 <first : Making move with king
+12008 <first : To e7 while cord = e8 ; starting = e8
+12008 <first : Coord eq startCoord
+12008 <first : Making move with king
+12008 <first : To e7 while cord = e8 ; starting = e8
+12008 <first : Coord eq startCoord
+12009 <first : Making move with king
+12009 <first : To e7 while cord = e8 ; starting = e8
+12009 <first : Coord eq startCoord
+12009 <first : Making move with king
+12009 <first : To e7 while cord = e8 ; starting = e8
+12009 <first : Coord eq startCoord
+12010 <first : Making move with king
+12010 <first : To e7 while cord = e8 ; starting = e8
+12010 <first : Coord eq startCoord
+12011 <first : Making move with king
+12011 <first : To e7 while cord = e8 ; starting = e8
+12011 <first : Coord eq startCoord
+12011 <first : Making move with king
+12011 <first : To e7 while cord = e8 ; starting = e8
+12011 <first : Coord eq startCoord
+12012 <first : Making move with king
+12012 <first : To e2 while cord = e1 ; starting = e1
+12012 <first : Coord eq startCoord
+12012 <first : Making move with king
+12012 <first : To f7 while cord = e8 ; starting = e8
+12012 <first : Coord eq startCoord
+12013 <first : Making move with king
+12013 <first : To e2 while cord = e1 ; starting = e1
+12013 <first : Coord eq startCoord
+12013 <first : Making move with king
+12013 <first : To f7 while cord = e8 ; starting = e8
+12013 <first : Coord eq startCoord
+12014 <first : Making move with king
+12014 <first : To e2 while cord = e1 ; starting = e1
+12014 <first : Coord eq startCoord
+12015 <first : Making move with king
+12015 <first : To e2 while cord = e1 ; starting = e1
+12015 <first : Coord eq startCoord
+12016 <first : Making move with king
+12016 <first : To e2 while cord = e1 ; starting = e1
+12016 <first : Coord eq startCoord
+12017 <first : Making move with king
+12017 <first : To e2 while cord = e1 ; starting = e1
+12017 <first : Coord eq startCoord
+12018 <first : Making move with king
+12018 <first : To e2 while cord = e1 ; starting = e1
+12018 <first : Coord eq startCoord
+12033 <first : Making move with king
+12033 <first : To e2 while cord = e1 ; starting = e1
+12033 <first : Coord eq startCoord
+12049 <first : Making move with king
+12049 <first : To e2 while cord = e1 ; starting = e1
+12049 <first : Coord eq startCoord
+12061 <first : Making move with king
+12061 <first : To e2 while cord = e1 ; starting = e1
+12061 <first : Coord eq startCoord
+12062 <first : Making move with king
+12062 <first : To e2 while cord = e1 ; starting = e1
+12062 <first : Coord eq startCoord
+12063 <first : Making move with king
+12063 <first : To e2 while cord = e1 ; starting = e1
+12063 <first : Coord eq startCoord
+12072 <first : Making move with king
+12072 <first : To e2 while cord = e1 ; starting = e1
+12072 <first : Coord eq startCoord
+12083 <first : Making move with king
+12083 <first : To e2 while cord = e1 ; starting = e1
+12083 <first : Coord eq startCoord
+12088 <first : Making move with king
+12088 <first : To e2 while cord = e1 ; starting = e1
+12088 <first : Coord eq startCoord
+12089 <first : Making move with king
+12089 <first : To e2 while cord = e1 ; starting = e1
+12089 <first : Coord eq startCoord
+12096 <first : Making move with king
+12097 <first : To e2 while cord = e1 ; starting = e1
+12097 <first : Coord eq startCoord
+12097 <first : Making move with king
+12097 <first : To d7 while cord = e8 ; starting = e8
+12097 <first : Coord eq startCoord
+12098 <first : Making move with king
+12098 <first : To d7 while cord = e8 ; starting = e8
+12098 <first : Coord eq startCoord
+12098 <first : Making move with king
+12098 <first : To d7 while cord = e8 ; starting = e8
+12098 <first : Coord eq startCoord
+12099 <first : Making move with king
+12099 <first : To d7 while cord = e8 ; starting = e8
+12099 <first : Coord eq startCoord
+12099 <first : Making move with king
+12099 <first : To d7 while cord = e8 ; starting = e8
+12099 <first : Coord eq startCoord
+12099 <first : Making move with king
+12099 <first : To d7 while cord = e8 ; starting = e8
+12099 <first : Coord eq startCoord
+12100 <first : Making move with king
+12100 <first : To d7 while cord = e8 ; starting = e8
+12100 <first : Coord eq startCoord
+12100 <first : Making move with king
+12100 <first : To d7 while cord = e8 ; starting = e8
+12100 <first : Coord eq startCoord
+12101 <first : Making move with king
+12101 <first : To e2 while cord = e1 ; starting = e1
+12101 <first : Coord eq startCoord
+12101 <first : Making move with king
+12101 <first : To d7 while cord = e8 ; starting = e8
+12101 <first : Coord eq startCoord
+12103 <first : Making move with king
+12103 <first : To d7 while cord = e8 ; starting = e8
+12103 <first : Coord eq startCoord
+12103 <first : Making move with king
+12103 <first : To d7 while cord = e8 ; starting = e8
+12103 <first : Coord eq startCoord
+12104 <first : Making move with king
+12104 <first : To d7 while cord = e8 ; starting = e8
+12104 <first : Coord eq startCoord
+12105 <first : Making move with king
+12105 <first : To d7 while cord = e8 ; starting = e8
+12105 <first : Coord eq startCoord
+12106 <first : Making move with king
+12106 <first : To d7 while cord = e8 ; starting = e8
+12106 <first : Coord eq startCoord
+12106 <first : Making move with king
+12106 <first : To d7 while cord = e8 ; starting = e8
+12106 <first : Coord eq startCoord
+12107 <first : Making move with king
+12107 <first : To d7 while cord = e8 ; starting = e8
+12107 <first : Coord eq startCoord
+12109 <first : Making move with king
+12109 <first : To e2 while cord = e1 ; starting = e1
+12109 <first : Coord eq startCoord
+12109 <first : Making move with king
+12109 <first : To e7 while cord = e8 ; starting = e8
+12109 <first : Coord eq startCoord
+12110 <first : Making move with king
+12110 <first : To e7 while cord = e8 ; starting = e8
+12110 <first : Coord eq startCoord
+12110 <first : Making move with king
+12110 <first : To e7 while cord = e8 ; starting = e8
+12110 <first : Coord eq startCoord
+12111 <first : Making move with king
+12111 <first : To e7 while cord = e8 ; starting = e8
+12111 <first : Coord eq startCoord
+12111 <first : Making move with king
+12111 <first : To e7 while cord = e8 ; starting = e8
+12111 <first : Coord eq startCoord
+12111 <first : Making move with king
+12112 <first : To e7 while cord = e8 ; starting = e8
+12112 <first : Coord eq startCoord
+12112 <first : Making move with king
+12112 <first : To e7 while cord = e8 ; starting = e8
+12112 <first : Coord eq startCoord
+12112 <first : Making move with king
+12112 <first : To e7 while cord = e8 ; starting = e8
+12112 <first : Coord eq startCoord
+12113 <first : Making move with king
+12113 <first : To e7 while cord = e8 ; starting = e8
+12113 <first : Coord eq startCoord
+12113 <first : Making move with king
+12113 <first : To e7 while cord = e8 ; starting = e8
+12113 <first : Coord eq startCoord
+12113 <first : Making move with king
+12113 <first : To e7 while cord = e8 ; starting = e8
+12113 <first : Coord eq startCoord
+12114 <first : Making move with king
+12114 <first : To e7 while cord = e8 ; starting = e8
+12114 <first : Coord eq startCoord
+12114 <first : Making move with king
+12114 <first : To e7 while cord = e8 ; starting = e8
+12114 <first : Coord eq startCoord
+12115 <first : Making move with king
+12115 <first : To e7 while cord = e8 ; starting = e8
+12115 <first : Coord eq startCoord
+12116 <first : Making move with king
+12116 <first : To e7 while cord = e8 ; starting = e8
+12116 <first : Coord eq startCoord
+12117 <first : Making move with king
+12117 <first : To e7 while cord = e8 ; starting = e8
+12117 <first : Coord eq startCoord
+12117 <first : Making move with king
+12117 <first : To e7 while cord = e8 ; starting = e8
+12117 <first : Coord eq startCoord
+12118 <first : Making move with king
+12118 <first : To e7 while cord = e8 ; starting = e8
+12118 <first : Coord eq startCoord
+12119 <first : Making move with king
+12119 <first : To e7 while cord = e8 ; starting = e8
+12119 <first : Coord eq startCoord
+12120 <first : Making move with king
+12120 <first : To e7 while cord = e8 ; starting = e8
+12120 <first : Coord eq startCoord
+12120 <first : Making move with king
+12120 <first : To e7 while cord = e8 ; starting = e8
+12120 <first : Coord eq startCoord
+12121 <first : Making move with king
+12121 <first : To e7 while cord = e8 ; starting = e8
+12121 <first : Coord eq startCoord
+12121 <first : Making move with king
+12122 <first : To e7 while cord = e8 ; starting = e8
+12122 <first : Coord eq startCoord
+12122 <first : Making move with king
+12122 <first : To e7 while cord = e8 ; starting = e8
+12122 <first : Coord eq startCoord
+12123 <first : Making move with king
+12123 <first : To e7 while cord = e8 ; starting = e8
+12123 <first : Coord eq startCoord
+12123 <first : Making move with king
+12123 <first : To e7 while cord = e8 ; starting = e8
+12123 <first : Coord eq startCoord
+12124 <first : Making move with king
+12124 <first : To e7 while cord = e8 ; starting = e8
+12124 <first : Coord eq startCoord
+12124 <first : Making move with king
+12124 <first : To e7 while cord = e8 ; starting = e8
+12124 <first : Coord eq startCoord
+12125 <first : Making move with king
+12125 <first : To e7 while cord = e8 ; starting = e8
+12125 <first : Coord eq startCoord
+12126 <first : Making move with king
+12126 <first : To e7 while cord = e8 ; starting = e8
+12126 <first : Coord eq startCoord
+12126 <first : Making move with king
+12126 <first : To e2 while cord = e1 ; starting = e1
+12126 <first : Coord eq startCoord
+12127 <first : Making move with king
+12127 <first : To e7 while cord = e8 ; starting = e8
+12127 <first : Coord eq startCoord
+12128 <first : Making move with king
+12128 <first : To e7 while cord = e8 ; starting = e8
+12128 <first : Coord eq startCoord
+12128 <first : Making move with king
+12128 <first : To e7 while cord = e8 ; starting = e8
+12128 <first : Coord eq startCoord
+12129 <first : Making move with king
+12129 <first : To e7 while cord = e8 ; starting = e8
+12129 <first : Coord eq startCoord
+12131 <first : Making move with king
+12131 <first : To e7 while cord = e8 ; starting = e8
+12131 <first : Coord eq startCoord
+12131 <first : Making move with king
+12131 <first : To e7 while cord = e8 ; starting = e8
+12131 <first : Coord eq startCoord
+12132 <first : Making move with king
+12132 <first : To e7 while cord = e8 ; starting = e8
+12132 <first : Coord eq startCoord
+12133 <first : Making move with king
+12133 <first : To e7 while cord = e8 ; starting = e8
+12133 <first : Coord eq startCoord
+12134 <first : Making move with king
+12134 <first : To e7 while cord = e8 ; starting = e8
+12134 <first : Coord eq startCoord
+12135 <first : Making move with king
+12135 <first : To e7 while cord = e8 ; starting = e8
+12135 <first : Coord eq startCoord
+12135 <first : Making move with king
+12135 <first : To e7 while cord = e8 ; starting = e8
+12135 <first : Coord eq startCoord
+12135 <first : Making move with king
+12135 <first : To e7 while cord = e8 ; starting = e8
+12135 <first : Coord eq startCoord
+12135 <first : Making move with king
+12135 <first : To e7 while cord = e8 ; starting = e8
+12135 <first : Coord eq startCoord
+12136 <first : Making move with king
+12136 <first : To e7 while cord = e8 ; starting = e8
+12136 <first : Coord eq startCoord
+12137 <first : Making move with king
+12137 <first : To e7 while cord = e8 ; starting = e8
+12137 <first : Coord eq startCoord
+12138 <first : Making move with king
+12138 <first : To e7 while cord = e8 ; starting = e8
+12138 <first : Coord eq startCoord
+12138 <first : Making move with king
+12138 <first : To e7 while cord = e8 ; starting = e8
+12138 <first : Coord eq startCoord
+12139 <first : Making move with king
+12139 <first : To e7 while cord = e8 ; starting = e8
+12139 <first : Coord eq startCoord
+12140 <first : Making move with king
+12140 <first : To e7 while cord = e8 ; starting = e8
+12140 <first : Coord eq startCoord
+12141 <first : Making move with king
+12141 <first : To e7 while cord = e8 ; starting = e8
+12141 <first : Coord eq startCoord
+12141 <first : Making move with king
+12141 <first : To e7 while cord = e8 ; starting = e8
+12141 <first : Coord eq startCoord
+12142 <first : Making move with king
+12142 <first : To e7 while cord = e8 ; starting = e8
+12142 <first : Coord eq startCoord
+12143 <first : Making move with king
+12143 <first : To e7 while cord = e8 ; starting = e8
+12143 <first : Coord eq startCoord
+12143 <first : Making move with king
+12143 <first : To e7 while cord = e8 ; starting = e8
+12143 <first : Coord eq startCoord
+12143 <first : Making move with king
+12143 <first : To e7 while cord = e8 ; starting = e8
+12143 <first : Coord eq startCoord
+12144 <first : Making move with king
+12144 <first : To e7 while cord = e8 ; starting = e8
+12144 <first : Coord eq startCoord
+12145 <first : Making move with king
+12145 <first : To e7 while cord = e8 ; starting = e8
+12145 <first : Coord eq startCoord
+12146 <first : Making move with king
+12146 <first : To e7 while cord = e8 ; starting = e8
+12146 <first : Coord eq startCoord
+12147 <first : Making move with king
+12147 <first : To e7 while cord = e8 ; starting = e8
+12147 <first : Coord eq startCoord
+12147 <first : Making move with king
+12147 <first : To e2 while cord = e1 ; starting = e1
+12147 <first : Coord eq startCoord
+12148 <first : Making move with king
+12148 <first : To f7 while cord = e8 ; starting = e8
+12148 <first : Coord eq startCoord
+12148 <first : Making move with king
+12148 <first : To e2 while cord = e1 ; starting = e1
+12148 <first : Coord eq startCoord
+12148 <first : Making move with king
+12148 <first : To f7 while cord = e8 ; starting = e8
+12148 <first : Coord eq startCoord
+12149 <first : Making move with king
+12149 <first : To f7 while cord = e8 ; starting = e8
+12149 <first : Coord eq startCoord
+12150 <first : Making move with king
+12150 <first : To f7 while cord = e8 ; starting = e8
+12150 <first : Coord eq startCoord
+12151 <first : Making move with king
+12151 <first : To f7 while cord = e8 ; starting = e8
+12151 <first : Coord eq startCoord
+12151 <first : Making move with king
+12151 <first : To f7 while cord = e8 ; starting = e8
+12151 <first : Coord eq startCoord
+12152 <first : Making move with king
+12152 <first : To f7 while cord = e8 ; starting = e8
+12152 <first : Coord eq startCoord
+12152 <first : Making move with king
+12152 <first : To f7 while cord = e8 ; starting = e8
+12152 <first : Coord eq startCoord
+12154 <first : Making move with king
+12154 <first : To f7 while cord = e8 ; starting = e8
+12154 <first : Coord eq startCoord
+12154 <first : Making move with king
+12154 <first : To f7 while cord = e8 ; starting = e8
+12154 <first : Coord eq startCoord
+12154 <first : Making move with king
+12154 <first : To f7 while cord = e8 ; starting = e8
+12154 <first : Coord eq startCoord
+12155 <first : Making move with king
+12155 <first : To f7 while cord = e8 ; starting = e8
+12155 <first : Coord eq startCoord
+12156 <first : Making move with king
+12156 <first : To f7 while cord = e8 ; starting = e8
+12156 <first : Coord eq startCoord
+12157 <first : Making move with king
+12157 <first : To f7 while cord = e8 ; starting = e8
+12157 <first : Coord eq startCoord
+12178 <first : Making move with king
+12178 <first : To e2 while cord = e1 ; starting = e1
+12178 <first : Coord eq startCoord
+12180 <first : Making move with king
+12180 <first : To e2 while cord = e1 ; starting = e1
+12180 <first : Coord eq startCoord
+12182 <first : Making move with king
+12182 <first : To e2 while cord = e1 ; starting = e1
+12182 <first : Coord eq startCoord
+12183 <first : Making move with king
+12183 <first : To e2 while cord = e1 ; starting = e1
+12183 <first : Coord eq startCoord
+12185 <first : Making move with king
+12185 <first : To f2 while cord = e1 ; starting = e1
+12185 <first : Coord eq startCoord
+12202 <first : Making move with king
+12202 <first : To f2 while cord = e1 ; starting = e1
+12202 <first : Coord eq startCoord
+12220 <first : Making move with king
+12220 <first : To f2 while cord = e1 ; starting = e1
+12220 <first : Coord eq startCoord
+12234 <first : Making move with king
+12234 <first : To f2 while cord = e1 ; starting = e1
+12234 <first : Coord eq startCoord
+12245 <first : Making move with king
+12245 <first : To f2 while cord = e1 ; starting = e1
+12245 <first : Coord eq startCoord
+12250 <first : Making move with king
+12250 <first : To f2 while cord = e1 ; starting = e1
+12250 <first : Coord eq startCoord
+12258 <first : Making move with king
+12258 <first : To f2 while cord = e1 ; starting = e1
+12258 <first : Coord eq startCoord
+12264 <first : Making move with king
+12264 <first : To f2 while cord = e1 ; starting = e1
+12264 <first : Coord eq startCoord
+12270 <first : Making move with king
+12270 <first : To f2 while cord = e1 ; starting = e1
+12270 <first : Coord eq startCoord
+12272 <first : Making move with king
+12272 <first : To f2 while cord = e1 ; starting = e1
+12272 <first : Coord eq startCoord
+12275 <first : Making move with king
+12275 <first : To f2 while cord = e1 ; starting = e1
+12275 <first : Coord eq startCoord
+12275 <first : Making move with king
+12275 <first : To d7 while cord = e8 ; starting = e8
+12275 <first : Coord eq startCoord
+12276 <first : Making move with king
+12276 <first : To d7 while cord = e8 ; starting = e8
+12276 <first : Coord eq startCoord
+12276 <first : Making move with king
+12276 <first : To d7 while cord = e8 ; starting = e8
+12276 <first : Coord eq startCoord
+12276 <first : Making move with king
+12276 <first : To d7 while cord = e8 ; starting = e8
+12276 <first : Coord eq startCoord
+12277 <first : Making move with king
+12277 <first : To d7 while cord = e8 ; starting = e8
+12277 <first : Coord eq startCoord
+12279 <first : Making move with king
+12279 <first : To d7 while cord = e8 ; starting = e8
+12279 <first : Coord eq startCoord
+12280 <first : Making move with king
+12280 <first : To d7 while cord = e8 ; starting = e8
+12280 <first : Coord eq startCoord
+12280 <first : Making move with king
+12280 <first : To d7 while cord = e8 ; starting = e8
+12280 <first : Coord eq startCoord
+12282 <first : Making move with king
+12282 <first : To d7 while cord = e8 ; starting = e8
+12282 <first : Coord eq startCoord
+12282 <first : Making move with king
+12282 <first : To d7 while cord = e8 ; starting = e8
+12282 <first : Coord eq startCoord
+12283 <first : Making move with king
+12283 <first : To d7 while cord = e8 ; starting = e8
+12283 <first : Coord eq startCoord
+12285 <first : Making move with king
+12285 <first : To f2 while cord = e1 ; starting = e1
+12285 <first : Coord eq startCoord
+12285 <first : Making move with king
+12285 <first : To d7 while cord = e8 ; starting = e8
+12285 <first : Coord eq startCoord
+12287 <first : Making move with king
+12287 <first : To d7 while cord = e8 ; starting = e8
+12287 <first : Coord eq startCoord
+12288 <first : Making move with king
+12288 <first : To d7 while cord = e8 ; starting = e8
+12288 <first : Coord eq startCoord
+12289 <first : Making move with king
+12289 <first : To d7 while cord = e8 ; starting = e8
+12289 <first : Coord eq startCoord
+12290 <first : Making move with king
+12290 <first : To d7 while cord = e8 ; starting = e8
+12290 <first : Coord eq startCoord
+12292 <first : Making move with king
+12292 <first : To d7 while cord = e8 ; starting = e8
+12292 <first : Coord eq startCoord
+12293 <first : Making move with king
+12293 <first : To d7 while cord = e8 ; starting = e8
+12293 <first : Coord eq startCoord
+12294 <first : Making move with king
+12294 <first : To d7 while cord = e8 ; starting = e8
+12294 <first : Coord eq startCoord
+12296 <first : Making move with king
+12296 <first : To d7 while cord = e8 ; starting = e8
+12296 <first : Coord eq startCoord
+12298 <first : Making move with king
+12298 <first : To d7 while cord = e8 ; starting = e8
+12298 <first : Coord eq startCoord
+12298 <first : Making move with king
+12298 <first : To d7 while cord = e8 ; starting = e8
+12298 <first : Coord eq startCoord
+12299 <first : Making move with king
+12300 <first : To d7 while cord = e8 ; starting = e8
+12300 <first : Coord eq startCoord
+12300 <first : Making move with king
+12300 <first : To d7 while cord = e8 ; starting = e8
+12300 <first : Coord eq startCoord
+12301 <first : Making move with king
+12301 <first : To d7 while cord = e8 ; starting = e8
+12301 <first : Coord eq startCoord
+12302 <first : Making move with king
+12302 <first : To d7 while cord = e8 ; starting = e8
+12302 <first : Coord eq startCoord
+12302 <first : Making move with king
+12302 <first : To d7 while cord = e8 ; starting = e8
+12302 <first : Coord eq startCoord
+12303 <first : Making move with king
+12303 <first : To d7 while cord = e8 ; starting = e8
+12303 <first : Coord eq startCoord
+12303 <first : Making move with king
+12303 <first : To d7 while cord = e8 ; starting = e8
+12303 <first : Coord eq startCoord
+12303 <first : Making move with king
+12303 <first : To d7 while cord = e8 ; starting = e8
+12303 <first : Coord eq startCoord
+12304 <first : Making move with king
+12304 <first : To f2 while cord = e1 ; starting = e1
+12304 <first : Coord eq startCoord
+12304 <first : Making move with king
+12304 <first : To e7 while cord = e8 ; starting = e8
+12304 <first : Coord eq startCoord
+12305 <first : Making move with king
+12305 <first : To e7 while cord = e8 ; starting = e8
+12305 <first : Coord eq startCoord
+12305 <first : Making move with king
+12305 <first : To e7 while cord = e8 ; starting = e8
+12305 <first : Coord eq startCoord
+12306 <first : Making move with king
+12306 <first : To e7 while cord = e8 ; starting = e8
+12306 <first : Coord eq startCoord
+12307 <first : Making move with king
+12307 <first : To e7 while cord = e8 ; starting = e8
+12307 <first : Coord eq startCoord
+12308 <first : Making move with king
+12308 <first : To e7 while cord = e8 ; starting = e8
+12308 <first : Coord eq startCoord
+12309 <first : Making move with king
+12309 <first : To e7 while cord = e8 ; starting = e8
+12309 <first : Coord eq startCoord
+12309 <first : Making move with king
+12309 <first : To e7 while cord = e8 ; starting = e8
+12309 <first : Coord eq startCoord
+12310 <first : Making move with king
+12310 <first : To e7 while cord = e8 ; starting = e8
+12310 <first : Coord eq startCoord
+12311 <first : Making move with king
+12311 <first : To e7 while cord = e8 ; starting = e8
+12311 <first : Coord eq startCoord
+12311 <first : Making move with king
+12311 <first : To e7 while cord = e8 ; starting = e8
+12311 <first : Coord eq startCoord
+12312 <first : Making move with king
+12312 <first : To e7 while cord = e8 ; starting = e8
+12312 <first : Coord eq startCoord
+12312 <first : Making move with king
+12312 <first : To e7 while cord = e8 ; starting = e8
+12312 <first : Coord eq startCoord
+12313 <first : Making move with king
+12313 <first : To e7 while cord = e8 ; starting = e8
+12313 <first : Coord eq startCoord
+12314 <first : Making move with king
+12314 <first : To e7 while cord = e8 ; starting = e8
+12314 <first : Coord eq startCoord
+12314 <first : Making move with king
+12314 <first : To e7 while cord = e8 ; starting = e8
+12314 <first : Coord eq startCoord
+12315 <first : Making move with king
+12315 <first : To f2 while cord = e1 ; starting = e1
+12315 <first : Coord eq startCoord
+12315 <first : Making move with king
+12315 <first : To e7 while cord = e8 ; starting = e8
+12315 <first : Coord eq startCoord
+12316 <first : Making move with king
+12316 <first : To e7 while cord = e8 ; starting = e8
+12316 <first : Coord eq startCoord
+12316 <first : Making move with king
+12316 <first : To e7 while cord = e8 ; starting = e8
+12316 <first : Coord eq startCoord
+12316 <first : Making move with king
+12316 <first : To e7 while cord = e8 ; starting = e8
+12316 <first : Coord eq startCoord
+12317 <first : Making move with king
+12317 <first : To e7 while cord = e8 ; starting = e8
+12317 <first : Coord eq startCoord
+12317 <first : Making move with king
+12317 <first : To e7 while cord = e8 ; starting = e8
+12317 <first : Coord eq startCoord
+12318 <first : Making move with king
+12318 <first : To e7 while cord = e8 ; starting = e8
+12318 <first : Coord eq startCoord
+12318 <first : Making move with king
+12318 <first : To e7 while cord = e8 ; starting = e8
+12318 <first : Coord eq startCoord
+12318 <first : Making move with king
+12318 <first : To e7 while cord = e8 ; starting = e8
+12318 <first : Coord eq startCoord
+12319 <first : Making move with king
+12319 <first : To e7 while cord = e8 ; starting = e8
+12319 <first : Coord eq startCoord
+12319 <first : Making move with king
+12319 <first : To e7 while cord = e8 ; starting = e8
+12319 <first : Coord eq startCoord
+12319 <first : Making move with king
+12319 <first : To e7 while cord = e8 ; starting = e8
+12319 <first : Coord eq startCoord
+12320 <first : Making move with king
+12320 <first : To e7 while cord = e8 ; starting = e8
+12320 <first : Coord eq startCoord
+12320 <first : Making move with king
+12320 <first : To e7 while cord = e8 ; starting = e8
+12320 <first : Coord eq startCoord
+12320 <first : Making move with king
+12320 <first : To e7 while cord = e8 ; starting = e8
+12320 <first : Coord eq startCoord
+12321 <first : Making move with king
+12321 <first : To e7 while cord = e8 ; starting = e8
+12321 <first : Coord eq startCoord
+12321 <first : Making move with king
+12321 <first : To e7 while cord = e8 ; starting = e8
+12321 <first : Coord eq startCoord
+12321 <first : Making move with king
+12321 <first : To e7 while cord = e8 ; starting = e8
+12321 <first : Coord eq startCoord
+12322 <first : Making move with king
+12322 <first : To e7 while cord = e8 ; starting = e8
+12322 <first : Coord eq startCoord
+12322 <first : Making move with king
+12322 <first : To f2 while cord = e1 ; starting = e1
+12322 <first : Coord eq startCoord
+12322 <first : Making move with king
+12322 <first : To f7 while cord = e8 ; starting = e8
+12322 <first : Coord eq startCoord
+12322 <first : Making move with king
+12322 <first : To f2 while cord = e1 ; starting = e1
+12322 <first : Coord eq startCoord
+12322 <first : Making move with king
+12322 <first : To f7 while cord = e8 ; starting = e8
+12322 <first : Coord eq startCoord
+12323 <first : Making move with king
+12323 <first : To f2 while cord = e1 ; starting = e1
+12323 <first : Coord eq startCoord
+12323 <first : Making move with king
+12323 <first : To f2 while cord = e1 ; starting = e1
+12323 <first : Coord eq startCoord
+12323 <first : Making move with king
+12323 <first : To f2 while cord = e1 ; starting = e1
+12323 <first : Coord eq startCoord
+12324 <first : Making move with king
+12324 <first : To f2 while cord = e1 ; starting = e1
+12324 <first : Coord eq startCoord
+12324 <first : Making move with king
+12324 <first : To f2 while cord = e1 ; starting = e1
+12324 <first : Coord eq startCoord
+12330 <first : Making move with king
+12330 <first : To f2 while cord = e1 ; starting = e1
+12330 <first : Coord eq startCoord
+12335 <first : Making move with king
+12335 <first : To f2 while cord = e1 ; starting = e1
+12335 <first : Coord eq startCoord
+12339 <first : Making move with king
+12339 <first : To f2 while cord = e1 ; starting = e1
+12339 <first : Coord eq startCoord
+12342 <first : Making move with king
+12342 <first : To f2 while cord = e1 ; starting = e1
+12342 <first : Coord eq startCoord
+12345 <first : Making move with king
+12345 <first : To f2 while cord = e1 ; starting = e1
+12345 <first : Coord eq startCoord
+12349 <first : Making move with king
+12349 <first : To f2 while cord = e1 ; starting = e1
+12349 <first : Coord eq startCoord
+12353 <first : Making move with king
+12353 <first : To f2 while cord = e1 ; starting = e1
+12353 <first : Coord eq startCoord
+12358 <first : Making move with king
+12358 <first : To f2 while cord = e1 ; starting = e1
+12358 <first : Coord eq startCoord
+12369 <first : Making move with king
+12369 <first : To f2 while cord = e1 ; starting = e1
+12369 <first : Coord eq startCoord
+12373 <first : Making move with king
+12373 <first : To f2 while cord = e1 ; starting = e1
+12373 <first : Coord eq startCoord
+12373 <first : Making move with king
+12373 <first : To d7 while cord = e8 ; starting = e8
+12373 <first : Coord eq startCoord
+12374 <first : Making move with king
+12374 <first : To d7 while cord = e8 ; starting = e8
+12374 <first : Coord eq startCoord
+12374 <first : Making move with king
+12374 <first : To d7 while cord = e8 ; starting = e8
+12374 <first : Coord eq startCoord
+12375 <first : Making move with king
+12375 <first : To d7 while cord = e8 ; starting = e8
+12375 <first : Coord eq startCoord
+12375 <first : Making move with king
+12375 <first : To d7 while cord = e8 ; starting = e8
+12375 <first : Coord eq startCoord
+12375 <first : Making move with king
+12375 <first : To d7 while cord = e8 ; starting = e8
+12375 <first : Coord eq startCoord
+12376 <first : Making move with king
+12376 <first : To d7 while cord = e8 ; starting = e8
+12376 <first : Coord eq startCoord
+12376 <first : Making move with king
+12376 <first : To d7 while cord = e8 ; starting = e8
+12376 <first : Coord eq startCoord
+12377 <first : Making move with king
+12377 <first : To d7 while cord = e8 ; starting = e8
+12377 <first : Coord eq startCoord
+12377 <first : Making move with king
+12377 <first : To d7 while cord = e8 ; starting = e8
+12377 <first : Coord eq startCoord
+12377 <first : Making move with king
+12377 <first : To d7 while cord = e8 ; starting = e8
+12377 <first : Coord eq startCoord
+12378 <first : Making move with king
+12378 <first : To d7 while cord = e8 ; starting = e8
+12378 <first : Coord eq startCoord
+12378 <first : Making move with king
+12378 <first : To d7 while cord = e8 ; starting = e8
+12378 <first : Coord eq startCoord
+12379 <first : Making move with king
+12379 <first : To d7 while cord = e8 ; starting = e8
+12379 <first : Coord eq startCoord
+12379 <first : Making move with king
+12379 <first : To f2 while cord = e1 ; starting = e1
+12379 <first : Coord eq startCoord
+12379 <first : Making move with king
+12379 <first : To d7 while cord = e8 ; starting = e8
+12379 <first : Coord eq startCoord
+12380 <first : Making move with king
+12380 <first : To d7 while cord = e8 ; starting = e8
+12380 <first : Coord eq startCoord
+12380 <first : Making move with king
+12380 <first : To d7 while cord = e8 ; starting = e8
+12380 <first : Coord eq startCoord
+12381 <first : Making move with king
+12381 <first : To d7 while cord = e8 ; starting = e8
+12381 <first : Coord eq startCoord
+12381 <first : Making move with king
+12381 <first : To d7 while cord = e8 ; starting = e8
+12381 <first : Coord eq startCoord
+12382 <first : Making move with king
+12382 <first : To d7 while cord = e8 ; starting = e8
+12382 <first : Coord eq startCoord
+12382 <first : Making move with king
+12382 <first : To d7 while cord = e8 ; starting = e8
+12382 <first : Coord eq startCoord
+12382 <first : Making move with king
+12382 <first : To d7 while cord = e8 ; starting = e8
+12382 <first : Coord eq startCoord
+12383 <first : Making move with king
+12383 <first : To d7 while cord = e8 ; starting = e8
+12383 <first : Coord eq startCoord
+12383 <first : Making move with king
+12383 <first : To d7 while cord = e8 ; starting = e8
+12383 <first : Coord eq startCoord
+12384 <first : Making move with king
+12384 <first : To d7 while cord = e8 ; starting = e8
+12384 <first : Coord eq startCoord
+12384 <first : Making move with king
+12384 <first : To d7 while cord = e8 ; starting = e8
+12384 <first : Coord eq startCoord
+12385 <first : Making move with king
+12385 <first : To d7 while cord = e8 ; starting = e8
+12385 <first : Coord eq startCoord
+12386 <first : Making move with king
+12386 <first : To d7 while cord = e8 ; starting = e8
+12386 <first : Coord eq startCoord
+12386 <first : Making move with king
+12386 <first : To d7 while cord = e8 ; starting = e8
+12386 <first : Coord eq startCoord
+12387 <first : Making move with king
+12387 <first : To d7 while cord = e8 ; starting = e8
+12387 <first : Coord eq startCoord
+12387 <first : Making move with king
+12387 <first : To d7 while cord = e8 ; starting = e8
+12387 <first : Coord eq startCoord
+12387 <first : Making move with king
+12387 <first : To d7 while cord = e8 ; starting = e8
+12387 <first : Coord eq startCoord
+12387 <first : Making move with king
+12387 <first : To d7 while cord = e8 ; starting = e8
+12387 <first : Coord eq startCoord
+12388 <first : Making move with king
+12388 <first : To d7 while cord = e8 ; starting = e8
+12388 <first : Coord eq startCoord
+12388 <first : Making move with king
+12388 <first : To f2 while cord = e1 ; starting = e1
+12388 <first : Coord eq startCoord
+12388 <first : Making move with king
+12388 <first : To e7 while cord = e8 ; starting = e8
+12388 <first : Coord eq startCoord
+12389 <first : Making move with king
+12389 <first : To e7 while cord = e8 ; starting = e8
+12389 <first : Coord eq startCoord
+12389 <first : Making move with king
+12389 <first : To e7 while cord = e8 ; starting = e8
+12389 <first : Coord eq startCoord
+12390 <first : Making move with king
+12390 <first : To e7 while cord = e8 ; starting = e8
+12390 <first : Coord eq startCoord
+12390 <first : Making move with king
+12390 <first : To e7 while cord = e8 ; starting = e8
+12390 <first : Coord eq startCoord
+12391 <first : Making move with king
+12391 <first : To e7 while cord = e8 ; starting = e8
+12391 <first : Coord eq startCoord
+12393 <first : Making move with king
+12393 <first : To e7 while cord = e8 ; starting = e8
+12393 <first : Coord eq startCoord
+12395 <first : Making move with king
+12395 <first : To e7 while cord = e8 ; starting = e8
+12395 <first : Coord eq startCoord
+12395 <first : Making move with king
+12395 <first : To e7 while cord = e8 ; starting = e8
+12395 <first : Coord eq startCoord
+12397 <first : Making move with king
+12397 <first : To e7 while cord = e8 ; starting = e8
+12397 <first : Coord eq startCoord
+12397 <first : Making move with king
+12397 <first : To e7 while cord = e8 ; starting = e8
+12397 <first : Coord eq startCoord
+12398 <first : Making move with king
+12398 <first : To e7 while cord = e8 ; starting = e8
+12398 <first : Coord eq startCoord
+12398 <first : Making move with king
+12398 <first : To e7 while cord = e8 ; starting = e8
+12398 <first : Coord eq startCoord
+12399 <first : Making move with king
+12399 <first : To e7 while cord = e8 ; starting = e8
+12399 <first : Coord eq startCoord
+12400 <first : Making move with king
+12400 <first : To e7 while cord = e8 ; starting = e8
+12400 <first : Coord eq startCoord
+12400 <first : Making move with king
+12400 <first : To e7 while cord = e8 ; starting = e8
+12400 <first : Coord eq startCoord
+12401 <first : Making move with king
+12401 <first : To e7 while cord = e8 ; starting = e8
+12401 <first : Coord eq startCoord
+12401 <first : Making move with king
+12401 <first : To f2 while cord = e1 ; starting = e1
+12401 <first : Coord eq startCoord
+12402 <first : Making move with king
+12402 <first : To e7 while cord = e8 ; starting = e8
+12402 <first : Coord eq startCoord
+12403 <first : Making move with king
+12403 <first : To e7 while cord = e8 ; starting = e8
+12403 <first : Coord eq startCoord
+12403 <first : Making move with king
+12403 <first : To e7 while cord = e8 ; starting = e8
+12403 <first : Coord eq startCoord
+12405 <first : Making move with king
+12405 <first : To e7 while cord = e8 ; starting = e8
+12405 <first : Coord eq startCoord
+12405 <first : Making move with king
+12405 <first : To e7 while cord = e8 ; starting = e8
+12405 <first : Coord eq startCoord
+12405 <first : Making move with king
+12405 <first : To e7 while cord = e8 ; starting = e8
+12405 <first : Coord eq startCoord
+12406 <first : Making move with king
+12406 <first : To e7 while cord = e8 ; starting = e8
+12406 <first : Coord eq startCoord
+12407 <first : Making move with king
+12407 <first : To e7 while cord = e8 ; starting = e8
+12407 <first : Coord eq startCoord
+12408 <first : Making move with king
+12408 <first : To e7 while cord = e8 ; starting = e8
+12408 <first : Coord eq startCoord
+12408 <first : Making move with king
+12408 <first : To e7 while cord = e8 ; starting = e8
+12408 <first : Coord eq startCoord
+12409 <first : Making move with king
+12409 <first : To e7 while cord = e8 ; starting = e8
+12409 <first : Coord eq startCoord
+12409 <first : Making move with king
+12409 <first : To e7 while cord = e8 ; starting = e8
+12409 <first : Coord eq startCoord
+12410 <first : Making move with king
+12410 <first : To e7 while cord = e8 ; starting = e8
+12410 <first : Coord eq startCoord
+12410 <first : Making move with king
+12410 <first : To e7 while cord = e8 ; starting = e8
+12410 <first : Coord eq startCoord
+12411 <first : Making move with king
+12411 <first : To e7 while cord = e8 ; starting = e8
+12411 <first : Coord eq startCoord
+12411 <first : Making move with king
+12411 <first : To e7 while cord = e8 ; starting = e8
+12411 <first : Coord eq startCoord
+12412 <first : Making move with king
+12412 <first : To e7 while cord = e8 ; starting = e8
+12412 <first : Coord eq startCoord
+12412 <first : Making move with king
+12412 <first : To e7 while cord = e8 ; starting = e8
+12412 <first : Coord eq startCoord
+12413 <first : Making move with king
+12413 <first : To e7 while cord = e8 ; starting = e8
+12413 <first : Coord eq startCoord
+12414 <first : Making move with king
+12414 <first : To e7 while cord = e8 ; starting = e8
+12414 <first : Coord eq startCoord
+12414 <first : Making move with king
+12414 <first : To e7 while cord = e8 ; starting = e8
+12414 <first : Coord eq startCoord
+12414 <first : Making move with king
+12414 <first : To f2 while cord = e1 ; starting = e1
+12414 <first : Coord eq startCoord
+12415 <first : Making move with king
+12415 <first : To f7 while cord = e8 ; starting = e8
+12415 <first : Coord eq startCoord
+12415 <first : Making move with king
+12415 <first : To f2 while cord = e1 ; starting = e1
+12415 <first : Coord eq startCoord
+12415 <first : Making move with king
+12415 <first : To f7 while cord = e8 ; starting = e8
+12415 <first : Coord eq startCoord
+12416 <first : Making move with king
+12416 <first : To f2 while cord = e1 ; starting = e1
+12416 <first : Coord eq startCoord
+12416 <first : Making move with king
+12416 <first : To f2 while cord = e1 ; starting = e1
+12416 <first : Coord eq startCoord
+12417 <first : Making move with king
+12417 <first : To f2 while cord = e1 ; starting = e1
+12417 <first : Coord eq startCoord
+12418 <first : Making move with king
+12418 <first : To f2 while cord = e1 ; starting = e1
+12418 <first : Coord eq startCoord
+12486 <first : Making move with king
+12486 <first : To d7 while cord = e8 ; starting = e8
+12486 <first : Coord eq startCoord
+12486 <first : Making move with king
+12486 <first : To d7 while cord = e8 ; starting = e8
+12486 <first : Coord eq startCoord
+12486 <first : Making move with king
+12486 <first : To d7 while cord = e8 ; starting = e8
+12486 <first : Coord eq startCoord
+12487 <first : Making move with king
+12487 <first : To d7 while cord = e8 ; starting = e8
+12487 <first : Coord eq startCoord
+12487 <first : Making move with king
+12487 <first : To d7 while cord = e8 ; starting = e8
+12487 <first : Coord eq startCoord
+12488 <first : Making move with king
+12488 <first : To d7 while cord = e8 ; starting = e8
+12488 <first : Coord eq startCoord
+12488 <first : Making move with king
+12488 <first : To d7 while cord = e8 ; starting = e8
+12488 <first : Coord eq startCoord
+12489 <first : Making move with king
+12489 <first : To d7 while cord = e8 ; starting = e8
+12489 <first : Coord eq startCoord
+12489 <first : Making move with king
+12489 <first : To d7 while cord = e8 ; starting = e8
+12489 <first : Coord eq startCoord
+12490 <first : Making move with king
+12490 <first : To d7 while cord = e8 ; starting = e8
+12490 <first : Coord eq startCoord
+12490 <first : Making move with king
+12490 <first : To d7 while cord = e8 ; starting = e8
+12490 <first : Coord eq startCoord
+12490 <first : Making move with king
+12490 <first : To d7 while cord = e8 ; starting = e8
+12490 <first : Coord eq startCoord
+12491 <first : Making move with king
+12491 <first : To d7 while cord = e8 ; starting = e8
+12491 <first : Coord eq startCoord
+12492 <first : Making move with king
+12492 <first : To d7 while cord = e8 ; starting = e8
+12492 <first : Coord eq startCoord
+12492 <first : Making move with king
+12492 <first : To d7 while cord = e8 ; starting = e8
+12492 <first : Coord eq startCoord
+12493 <first : Making move with king
+12493 <first : To d7 while cord = e8 ; starting = e8
+12493 <first : Coord eq startCoord
+12493 <first : Making move with king
+12494 <first : To d7 while cord = e8 ; starting = e8
+12494 <first : Coord eq startCoord
+12494 <first : Making move with king
+12494 <first : To d7 while cord = e8 ; starting = e8
+12494 <first : Coord eq startCoord
+12495 <first : Making move with king
+12495 <first : To d7 while cord = e8 ; starting = e8
+12495 <first : Coord eq startCoord
+12496 <first : Making move with king
+12496 <first : To d7 while cord = e8 ; starting = e8
+12496 <first : Coord eq startCoord
+12496 <first : Making move with king
+12496 <first : To d7 while cord = e8 ; starting = e8
+12496 <first : Coord eq startCoord
+12497 <first : Making move with king
+12497 <first : To d7 while cord = e8 ; starting = e8
+12497 <first : Coord eq startCoord
+12498 <first : Making move with king
+12498 <first : To d7 while cord = e8 ; starting = e8
+12498 <first : Coord eq startCoord
+12498 <first : Making move with king
+12498 <first : To d7 while cord = e8 ; starting = e8
+12498 <first : Coord eq startCoord
+12499 <first : Making move with king
+12499 <first : To d7 while cord = e8 ; starting = e8
+12499 <first : Coord eq startCoord
+12499 <first : Making move with king
+12499 <first : To d7 while cord = e8 ; starting = e8
+12499 <first : Coord eq startCoord
+12500 <first : Making move with king
+12500 <first : To d7 while cord = e8 ; starting = e8
+12500 <first : Coord eq startCoord
+12500 <first : Making move with king
+12500 <first : To d7 while cord = e8 ; starting = e8
+12501 <first : Coord eq startCoord
+12501 <first : Making move with king
+12501 <first : To d7 while cord = e8 ; starting = e8
+12501 <first : Coord eq startCoord
+12501 <first : Making move with king
+12501 <first : To d7 while cord = e8 ; starting = e8
+12501 <first : Coord eq startCoord
+12501 <first : Making move with king
+12501 <first : To d7 while cord = e8 ; starting = e8
+12501 <first : Coord eq startCoord
+12501 <first : Making move with king
+12501 <first : To d7 while cord = e8 ; starting = e8
+12501 <first : Coord eq startCoord
+12502 <first : Making move with king
+12502 <first : To e7 while cord = e8 ; starting = e8
+12502 <first : Coord eq startCoord
+12502 <first : Making move with king
+12502 <first : To e7 while cord = e8 ; starting = e8
+12502 <first : Coord eq startCoord
+12503 <first : Making move with king
+12503 <first : To e7 while cord = e8 ; starting = e8
+12503 <first : Coord eq startCoord
+12503 <first : Making move with king
+12503 <first : To e7 while cord = e8 ; starting = e8
+12503 <first : Coord eq startCoord
+12503 <first : Making move with king
+12503 <first : To e7 while cord = e8 ; starting = e8
+12503 <first : Coord eq startCoord
+12504 <first : Making move with king
+12504 <first : To e7 while cord = e8 ; starting = e8
+12504 <first : Coord eq startCoord
+12504 <first : Making move with king
+12504 <first : To e7 while cord = e8 ; starting = e8
+12504 <first : Coord eq startCoord
+12504 <first : Making move with king
+12504 <first : To e7 while cord = e8 ; starting = e8
+12504 <first : Coord eq startCoord
+12505 <first : Making move with king
+12505 <first : To e7 while cord = e8 ; starting = e8
+12505 <first : Coord eq startCoord
+12506 <first : Making move with king
+12506 <first : To e7 while cord = e8 ; starting = e8
+12506 <first : Coord eq startCoord
+12506 <first : Making move with king
+12506 <first : To e7 while cord = e8 ; starting = e8
+12506 <first : Coord eq startCoord
+12507 <first : Making move with king
+12507 <first : To e7 while cord = e8 ; starting = e8
+12507 <first : Coord eq startCoord
+12507 <first : Making move with king
+12507 <first : To e7 while cord = e8 ; starting = e8
+12507 <first : Coord eq startCoord
+12507 <first : Making move with king
+12507 <first : To e7 while cord = e8 ; starting = e8
+12507 <first : Coord eq startCoord
+12508 <first : Making move with king
+12508 <first : To e7 while cord = e8 ; starting = e8
+12508 <first : Coord eq startCoord
+12508 <first : Making move with king
+12508 <first : To e7 while cord = e8 ; starting = e8
+12508 <first : Coord eq startCoord
+12509 <first : Making move with king
+12509 <first : To e7 while cord = e8 ; starting = e8
+12509 <first : Coord eq startCoord
+12509 <first : Making move with king
+12509 <first : To e7 while cord = e8 ; starting = e8
+12509 <first : Coord eq startCoord
+12510 <first : Making move with king
+12510 <first : To e7 while cord = e8 ; starting = e8
+12510 <first : Coord eq startCoord
+12510 <first : Making move with king
+12510 <first : To e7 while cord = e8 ; starting = e8
+12510 <first : Coord eq startCoord
+12511 <first : Making move with king
+12511 <first : To e7 while cord = e8 ; starting = e8
+12511 <first : Coord eq startCoord
+12512 <first : Making move with king
+12512 <first : To e7 while cord = e8 ; starting = e8
+12512 <first : Coord eq startCoord
+12512 <first : Making move with king
+12512 <first : To e7 while cord = e8 ; starting = e8
+12512 <first : Coord eq startCoord
+12512 <first : Making move with king
+12512 <first : To e7 while cord = e8 ; starting = e8
+12512 <first : Coord eq startCoord
+12513 <first : Making move with king
+12513 <first : To e7 while cord = e8 ; starting = e8
+12513 <first : Coord eq startCoord
+12514 <first : Making move with king
+12514 <first : To f7 while cord = e8 ; starting = e8
+12514 <first : Coord eq startCoord
+12514 <first : Making move with king
+12514 <first : To f7 while cord = e8 ; starting = e8
+12514 <first : Coord eq startCoord
+12572 <first : Making move with king
+12572 <first : To d7 while cord = e8 ; starting = e8
+12572 <first : Coord eq startCoord
+12572 <first : Making move with king
+12572 <first : To d7 while cord = e8 ; starting = e8
+12572 <first : Coord eq startCoord
+12573 <first : Making move with king
+12573 <first : To d7 while cord = e8 ; starting = e8
+12573 <first : Coord eq startCoord
+12573 <first : Making move with king
+12573 <first : To d7 while cord = e8 ; starting = e8
+12573 <first : Coord eq startCoord
+12574 <first : Making move with king
+12574 <first : To d7 while cord = e8 ; starting = e8
+12574 <first : Coord eq startCoord
+12574 <first : Making move with king
+12574 <first : To d7 while cord = e8 ; starting = e8
+12574 <first : Coord eq startCoord
+12574 <first : Making move with king
+12574 <first : To d7 while cord = e8 ; starting = e8
+12574 <first : Coord eq startCoord
+12574 <first : Making move with king
+12574 <first : To d7 while cord = e8 ; starting = e8
+12574 <first : Coord eq startCoord
+12575 <first : Making move with king
+12575 <first : To d7 while cord = e8 ; starting = e8
+12575 <first : Coord eq startCoord
+12576 <first : Making move with king
+12576 <first : To d7 while cord = e8 ; starting = e8
+12576 <first : Coord eq startCoord
+12576 <first : Making move with king
+12576 <first : To d7 while cord = e8 ; starting = e8
+12576 <first : Coord eq startCoord
+12576 <first : Making move with king
+12576 <first : To d7 while cord = e8 ; starting = e8
+12576 <first : Coord eq startCoord
+12577 <first : Making move with king
+12577 <first : To d7 while cord = e8 ; starting = e8
+12577 <first : Coord eq startCoord
+12577 <first : Making move with king
+12578 <first : To d7 while cord = e8 ; starting = e8
+12578 <first : Coord eq startCoord
+12578 <first : Making move with king
+12578 <first : To d7 while cord = e8 ; starting = e8
+12578 <first : Coord eq startCoord
+12578 <first : Making move with king
+12578 <first : To d7 while cord = e8 ; starting = e8
+12578 <first : Coord eq startCoord
+12579 <first : Making move with king
+12579 <first : To d7 while cord = e8 ; starting = e8
+12579 <first : Coord eq startCoord
+12579 <first : Making move with king
+12579 <first : To d7 while cord = e8 ; starting = e8
+12579 <first : Coord eq startCoord
+12579 <first : Making move with king
+12579 <first : To d7 while cord = e8 ; starting = e8
+12579 <first : Coord eq startCoord
+12580 <first : Making move with king
+12580 <first : To d7 while cord = e8 ; starting = e8
+12580 <first : Coord eq startCoord
+12580 <first : Making move with king
+12580 <first : To d7 while cord = e8 ; starting = e8
+12580 <first : Coord eq startCoord
+12580 <first : Making move with king
+12580 <first : To d7 while cord = e8 ; starting = e8
+12580 <first : Coord eq startCoord
+12581 <first : Making move with king
+12581 <first : To d7 while cord = e8 ; starting = e8
+12581 <first : Coord eq startCoord
+12581 <first : Making move with king
+12581 <first : To d7 while cord = e8 ; starting = e8
+12581 <first : Coord eq startCoord
+12581 <first : Making move with king
+12581 <first : To d7 while cord = e8 ; starting = e8
+12581 <first : Coord eq startCoord
+12582 <first : Making move with king
+12582 <first : To d7 while cord = e8 ; starting = e8
+12582 <first : Coord eq startCoord
+12582 <first : Making move with king
+12582 <first : To d7 while cord = e8 ; starting = e8
+12582 <first : Coord eq startCoord
+12582 <first : Making move with king
+12582 <first : To d7 while cord = e8 ; starting = e8
+12582 <first : Coord eq startCoord
+12583 <first : Making move with king
+12583 <first : To d7 while cord = e8 ; starting = e8
+12583 <first : Coord eq startCoord
+12583 <first : Making move with king
+12583 <first : To d7 while cord = e8 ; starting = e8
+12583 <first : Coord eq startCoord
+12584 <first : Making move with king
+12584 <first : To d7 while cord = e8 ; starting = e8
+12584 <first : Coord eq startCoord
+12584 <first : Making move with king
+12584 <first : To d7 while cord = e8 ; starting = e8
+12584 <first : Coord eq startCoord
+12585 <first : Making move with king
+12585 <first : To d7 while cord = e8 ; starting = e8
+12585 <first : Coord eq startCoord
+12585 <first : Making move with king
+12585 <first : To d7 while cord = e8 ; starting = e8
+12585 <first : Coord eq startCoord
+12586 <first : Making move with king
+12586 <first : To d7 while cord = e8 ; starting = e8
+12586 <first : Coord eq startCoord
+12586 <first : Making move with king
+12586 <first : To d7 while cord = e8 ; starting = e8
+12586 <first : Coord eq startCoord
+12587 <first : Making move with king
+12587 <first : To d7 while cord = e8 ; starting = e8
+12587 <first : Coord eq startCoord
+12587 <first : Making move with king
+12587 <first : To d7 while cord = e8 ; starting = e8
+12587 <first : Coord eq startCoord
+12587 <first : Making move with king
+12587 <first : To d7 while cord = e8 ; starting = e8
+12587 <first : Coord eq startCoord
+12587 <first : Making move with king
+12587 <first : To d7 while cord = e8 ; starting = e8
+12587 <first : Coord eq startCoord
+12588 <first : Making move with king
+12588 <first : To d7 while cord = e8 ; starting = e8
+12588 <first : Coord eq startCoord
+12588 <first : Making move with king
+12588 <first : To d7 while cord = e8 ; starting = e8
+12588 <first : Coord eq startCoord
+12588 <first : Making move with king
+12588 <first : To e7 while cord = e8 ; starting = e8
+12588 <first : Coord eq startCoord
+12589 <first : Making move with king
+12589 <first : To e7 while cord = e8 ; starting = e8
+12589 <first : Coord eq startCoord
+12590 <first : Making move with king
+12590 <first : To f7 while cord = e8 ; starting = e8
+12590 <first : Coord eq startCoord
+12590 <first : Making move with king
+12590 <first : To f7 while cord = e8 ; starting = e8
+12590 <first : Coord eq startCoord
+12591 <first : Making move with king
+12591 <first : To f7 while cord = e8 ; starting = e8
+12591 <first : Coord eq startCoord
+12591 <first : Making move with king
+12591 <first : To f7 while cord = e8 ; starting = e8
+12591 <first : Coord eq startCoord
+12592 <first : Making move with king
+12592 <first : To f7 while cord = e8 ; starting = e8
+12592 <first : Coord eq startCoord
+12592 <first : Making move with king
+12592 <first : To f7 while cord = e8 ; starting = e8
+12592 <first : Coord eq startCoord
+12593 <first : Making move with king
+12593 <first : To f7 while cord = e8 ; starting = e8
+12593 <first : Coord eq startCoord
+12593 <first : Making move with king
+12593 <first : To f7 while cord = e8 ; starting = e8
+12593 <first : Coord eq startCoord
+12593 <first : Making move with king
+12593 <first : To f7 while cord = e8 ; starting = e8
+12593 <first : Coord eq startCoord
+12594 <first : Making move with king
+12594 <first : To f7 while cord = e8 ; starting = e8
+12594 <first : Coord eq startCoord
+12594 <first : Making move with king
+12594 <first : To f7 while cord = e8 ; starting = e8
+12594 <first : Coord eq startCoord
+12595 <first : Making move with king
+12595 <first : To f7 while cord = e8 ; starting = e8
+12595 <first : Coord eq startCoord
+12595 <first : Making move with king
+12595 <first : To f7 while cord = e8 ; starting = e8
+12595 <first : Coord eq startCoord
+12596 <first : Making move with king
+12596 <first : To f7 while cord = e8 ; starting = e8
+12596 <first : Coord eq startCoord
+12647 <first : Making move with king
+12647 <first : To d7 while cord = e8 ; starting = e8
+12647 <first : Coord eq startCoord
+12647 <first : Making move with king
+12647 <first : To d7 while cord = e8 ; starting = e8
+12647 <first : Coord eq startCoord
+12648 <first : Making move with king
+12648 <first : To d7 while cord = e8 ; starting = e8
+12648 <first : Coord eq startCoord
+12648 <first : Making move with king
+12648 <first : To d7 while cord = e8 ; starting = e8
+12648 <first : Coord eq startCoord
+12648 <first : Making move with king
+12649 <first : To d7 while cord = e8 ; starting = e8
+12649 <first : Coord eq startCoord
+12649 <first : Making move with king
+12649 <first : To d7 while cord = e8 ; starting = e8
+12649 <first : Coord eq startCoord
+12649 <first : Making move with king
+12649 <first : To d7 while cord = e8 ; starting = e8
+12649 <first : Coord eq startCoord
+12649 <first : Making move with king
+12649 <first : To d7 while cord = e8 ; starting = e8
+12649 <first : Coord eq startCoord
+12650 <first : Making move with king
+12650 <first : To d7 while cord = e8 ; starting = e8
+12650 <first : Coord eq startCoord
+12650 <first : Making move with king
+12650 <first : To d7 while cord = e8 ; starting = e8
+12650 <first : Coord eq startCoord
+12650 <first : Making move with king
+12650 <first : To d7 while cord = e8 ; starting = e8
+12650 <first : Coord eq startCoord
+12651 <first : Making move with king
+12651 <first : To d7 while cord = e8 ; starting = e8
+12651 <first : Coord eq startCoord
+12651 <first : Making move with king
+12651 <first : To d7 while cord = e8 ; starting = e8
+12651 <first : Coord eq startCoord
+12651 <first : Making move with king
+12651 <first : To d7 while cord = e8 ; starting = e8
+12651 <first : Coord eq startCoord
+12652 <first : Making move with king
+12652 <first : To d7 while cord = e8 ; starting = e8
+12652 <first : Coord eq startCoord
+12652 <first : Making move with king
+12652 <first : To d7 while cord = e8 ; starting = e8
+12652 <first : Coord eq startCoord
+12652 <first : Making move with king
+12652 <first : To d7 while cord = e8 ; starting = e8
+12652 <first : Coord eq startCoord
+12652 <first : Making move with king
+12652 <first : To d7 while cord = e8 ; starting = e8
+12652 <first : Coord eq startCoord
+12653 <first : Making move with king
+12653 <first : To d7 while cord = e8 ; starting = e8
+12653 <first : Coord eq startCoord
+12653 <first : Making move with king
+12653 <first : To d7 while cord = e8 ; starting = e8
+12653 <first : Coord eq startCoord
+12653 <first : Making move with king
+12653 <first : To d7 while cord = e8 ; starting = e8
+12653 <first : Coord eq startCoord
+12654 <first : Making move with king
+12654 <first : To d7 while cord = e8 ; starting = e8
+12654 <first : Coord eq startCoord
+12654 <first : Making move with king
+12654 <first : To d7 while cord = e8 ; starting = e8
+12654 <first : Coord eq startCoord
+12654 <first : Making move with king
+12654 <first : To d7 while cord = e8 ; starting = e8
+12654 <first : Coord eq startCoord
+12655 <first : Making move with king
+12655 <first : To d7 while cord = e8 ; starting = e8
+12655 <first : Coord eq startCoord
+12655 <first : Making move with king
+12655 <first : To d7 while cord = e8 ; starting = e8
+12655 <first : Coord eq startCoord
+12655 <first : Making move with king
+12655 <first : To d7 while cord = e8 ; starting = e8
+12655 <first : Coord eq startCoord
+12656 <first : Making move with king
+12656 <first : To d7 while cord = e8 ; starting = e8
+12656 <first : Coord eq startCoord
+12656 <first : Making move with king
+12656 <first : To d7 while cord = e8 ; starting = e8
+12656 <first : Coord eq startCoord
+12656 <first : Making move with king
+12656 <first : To d7 while cord = e8 ; starting = e8
+12656 <first : Coord eq startCoord
+12656 <first : Making move with king
+12656 <first : To d7 while cord = e8 ; starting = e8
+12657 <first : Coord eq startCoord
+12657 <first : Making move with king
+12657 <first : To d7 while cord = e8 ; starting = e8
+12657 <first : Coord eq startCoord
+12657 <first : Making move with king
+12657 <first : To d7 while cord = e8 ; starting = e8
+12657 <first : Coord eq startCoord
+12658 <first : Making move with king
+12658 <first : To d7 while cord = e8 ; starting = e8
+12658 <first : Coord eq startCoord
+12658 <first : Making move with king
+12658 <first : To d7 while cord = e8 ; starting = e8
+12658 <first : Coord eq startCoord
+12658 <first : Making move with king
+12658 <first : To d7 while cord = e8 ; starting = e8
+12658 <first : Coord eq startCoord
+12658 <first : Making move with king
+12658 <first : To d7 while cord = e8 ; starting = e8
+12658 <first : Coord eq startCoord
+12659 <first : Making move with king
+12659 <first : To d7 while cord = e8 ; starting = e8
+12659 <first : Coord eq startCoord
+12659 <first : Making move with king
+12659 <first : To e7 while cord = e8 ; starting = e8
+12659 <first : Coord eq startCoord
+12660 <first : Making move with king
+12660 <first : To e7 while cord = e8 ; starting = e8
+12660 <first : Coord eq startCoord
+12661 <first : Making move with king
+12661 <first : To e7 while cord = e8 ; starting = e8
+12661 <first : Coord eq startCoord
+12661 <first : Making move with king
+12661 <first : To e7 while cord = e8 ; starting = e8
+12661 <first : Coord eq startCoord
+12661 <first : Making move with king
+12661 <first : To e7 while cord = e8 ; starting = e8
+12661 <first : Coord eq startCoord
+12662 <first : Making move with king
+12662 <first : To f7 while cord = e8 ; starting = e8
+12662 <first : Coord eq startCoord
+12662 <first : Making move with king
+12662 <first : To f7 while cord = e8 ; starting = e8
+12662 <first : Coord eq startCoord
+12704 <first : Making move with king
+12704 <first : To d7 while cord = e8 ; starting = e8
+12704 <first : Coord eq startCoord
+12704 <first : Making move with king
+12704 <first : To d7 while cord = e8 ; starting = e8
+12704 <first : Coord eq startCoord
+12705 <first : Making move with king
+12705 <first : To d7 while cord = e8 ; starting = e8
+12705 <first : Coord eq startCoord
+12705 <first : Making move with king
+12705 <first : To d7 while cord = e8 ; starting = e8
+12705 <first : Coord eq startCoord
+12705 <first : Making move with king
+12705 <first : To d7 while cord = e8 ; starting = e8
+12705 <first : Coord eq startCoord
+12705 <first : Making move with king
+12705 <first : To d7 while cord = e8 ; starting = e8
+12705 <first : Coord eq startCoord
+12706 <first : Making move with king
+12706 <first : To d7 while cord = e8 ; starting = e8
+12706 <first : Coord eq startCoord
+12706 <first : Making move with king
+12706 <first : To d7 while cord = e8 ; starting = e8
+12706 <first : Coord eq startCoord
+12706 <first : Making move with king
+12706 <first : To d7 while cord = e8 ; starting = e8
+12706 <first : Coord eq startCoord
+12707 <first : Making move with king
+12707 <first : To d7 while cord = e8 ; starting = e8
+12707 <first : Coord eq startCoord
+12707 <first : Making move with king
+12707 <first : To d7 while cord = e8 ; starting = e8
+12707 <first : Coord eq startCoord
+12707 <first : Making move with king
+12707 <first : To d7 while cord = e8 ; starting = e8
+12707 <first : Coord eq startCoord
+12708 <first : Making move with king
+12708 <first : To d7 while cord = e8 ; starting = e8
+12708 <first : Coord eq startCoord
+12708 <first : Making move with king
+12708 <first : To d7 while cord = e8 ; starting = e8
+12708 <first : Coord eq startCoord
+12709 <first : Making move with king
+12709 <first : To d7 while cord = e8 ; starting = e8
+12709 <first : Coord eq startCoord
+12709 <first : Making move with king
+12709 <first : To d7 while cord = e8 ; starting = e8
+12709 <first : Coord eq startCoord
+12709 <first : Making move with king
+12709 <first : To d7 while cord = e8 ; starting = e8
+12709 <first : Coord eq startCoord
+12710 <first : Making move with king
+12710 <first : To d7 while cord = e8 ; starting = e8
+12710 <first : Coord eq startCoord
+12710 <first : Making move with king
+12710 <first : To d7 while cord = e8 ; starting = e8
+12710 <first : Coord eq startCoord
+12710 <first : Making move with king
+12710 <first : To d7 while cord = e8 ; starting = e8
+12710 <first : Coord eq startCoord
+12711 <first : Making move with king
+12711 <first : To d7 while cord = e8 ; starting = e8
+12711 <first : Coord eq startCoord
+12711 <first : Making move with king
+12711 <first : To d7 while cord = e8 ; starting = e8
+12711 <first : Coord eq startCoord
+12712 <first : Making move with king
+12712 <first : To d7 while cord = e8 ; starting = e8
+12712 <first : Coord eq startCoord
+12712 <first : Making move with king
+12712 <first : To d7 while cord = e8 ; starting = e8
+12712 <first : Coord eq startCoord
+12712 <first : Making move with king
+12712 <first : To d7 while cord = e8 ; starting = e8
+12712 <first : Coord eq startCoord
+12713 <first : Making move with king
+12713 <first : To d7 while cord = e8 ; starting = e8
+12713 <first : Coord eq startCoord
+12713 <first : Making move with king
+12713 <first : To d7 while cord = e8 ; starting = e8
+12713 <first : Coord eq startCoord
+12714 <first : Making move with king
+12714 <first : To d7 while cord = e8 ; starting = e8
+12714 <first : Coord eq startCoord
+12714 <first : Making move with king
+12714 <first : To d7 while cord = e8 ; starting = e8
+12714 <first : Coord eq startCoord
+12715 <first : Making move with king
+12715 <first : To d7 while cord = e8 ; starting = e8
+12715 <first : Coord eq startCoord
+12715 <first : Making move with king
+12715 <first : To d7 while cord = e8 ; starting = e8
+12715 <first : Coord eq startCoord
+12715 <first : Making move with king
+12715 <first : To d7 while cord = e8 ; starting = e8
+12715 <first : Coord eq startCoord
+12715 <first : Making move with king
+12715 <first : To d7 while cord = e8 ; starting = e8
+12715 <first : Coord eq startCoord
+12715 <first : Making move with king
+12715 <first : To d7 while cord = e8 ; starting = e8
+12715 <first : Coord eq startCoord
+12716 <first : Making move with king
+12716 <first : To e7 while cord = e8 ; starting = e8
+12716 <first : Coord eq startCoord
+12716 <first : Making move with king
+12716 <first : To e7 while cord = e8 ; starting = e8
+12716 <first : Coord eq startCoord
+12716 <first : Making move with king
+12716 <first : To e7 while cord = e8 ; starting = e8
+12716 <first : Coord eq startCoord
+12717 <first : Making move with king
+12717 <first : To e7 while cord = e8 ; starting = e8
+12717 <first : Coord eq startCoord
+12717 <first : Making move with king
+12717 <first : To e7 while cord = e8 ; starting = e8
+12717 <first : Coord eq startCoord
+12717 <first : Making move with king
+12717 <first : To e7 while cord = e8 ; starting = e8
+12717 <first : Coord eq startCoord
+12718 <first : Making move with king
+12718 <first : To e7 while cord = e8 ; starting = e8
+12718 <first : Coord eq startCoord
+12718 <first : Making move with king
+12718 <first : To e7 while cord = e8 ; starting = e8
+12718 <first : Coord eq startCoord
+12718 <first : Making move with king
+12718 <first : To e7 while cord = e8 ; starting = e8
+12718 <first : Coord eq startCoord
+12719 <first : Making move with king
+12719 <first : To e7 while cord = e8 ; starting = e8
+12719 <first : Coord eq startCoord
+12726 <first : Making move with king
+12726 <first : To e7 while cord = e8 ; starting = e8
+12726 <first : Coord eq startCoord
+12727 <first : Making move with king
+12727 <first : To e7 while cord = e8 ; starting = e8
+12727 <first : Coord eq startCoord
+12727 <first : Making move with king
+12727 <first : To e7 while cord = e8 ; starting = e8
+12727 <first : Coord eq startCoord
+12728 <first : Making move with king
+12728 <first : To e7 while cord = e8 ; starting = e8
+12728 <first : Coord eq startCoord
+12728 <first : Making move with king
+12728 <first : To e7 while cord = e8 ; starting = e8
+12728 <first : Coord eq startCoord
+12729 <first : Making move with king
+12729 <first : To e7 while cord = e8 ; starting = e8
+12729 <first : Coord eq startCoord
+12730 <first : Making move with king
+12730 <first : To e7 while cord = e8 ; starting = e8
+12730 <first : Coord eq startCoord
+12731 <first : Making move with king
+12731 <first : To e7 while cord = e8 ; starting = e8
+12731 <first : Coord eq startCoord
+12731 <first : Making move with king
+12731 <first : To e7 while cord = e8 ; starting = e8
+12731 <first : Coord eq startCoord
+12732 <first : Making move with king
+12732 <first : To e7 while cord = e8 ; starting = e8
+12732 <first : Coord eq startCoord
+12732 <first : Making move with king
+12732 <first : To e7 while cord = e8 ; starting = e8
+12732 <first : Coord eq startCoord
+12733 <first : Making move with king
+12733 <first : To e7 while cord = e8 ; starting = e8
+12733 <first : Coord eq startCoord
+12734 <first : Making move with king
+12734 <first : To e7 while cord = e8 ; starting = e8
+12734 <first : Coord eq startCoord
+12735 <first : Making move with king
+12735 <first : To e7 while cord = e8 ; starting = e8
+12735 <first : Coord eq startCoord
+12735 <first : Making move with king
+12735 <first : To e7 while cord = e8 ; starting = e8
+12735 <first : Coord eq startCoord
+12736 <first : Making move with king
+12736 <first : To e7 while cord = e8 ; starting = e8
+12736 <first : Coord eq startCoord
+12736 <first : Making move with king
+12736 <first : To e7 while cord = e8 ; starting = e8
+12736 <first : Coord eq startCoord
+12737 <first : Making move with king
+12737 <first : To e7 while cord = e8 ; starting = e8
+12737 <first : Coord eq startCoord
+12738 <first : Making move with king
+12738 <first : To e7 while cord = e8 ; starting = e8
+12738 <first : Coord eq startCoord
+12738 <first : Making move with king
+12738 <first : To e7 while cord = e8 ; starting = e8
+12738 <first : Coord eq startCoord
+12739 <first : Making move with king
+12739 <first : To e7 while cord = e8 ; starting = e8
+12739 <first : Coord eq startCoord
+12740 <first : Making move with king
+12740 <first : To e7 while cord = e8 ; starting = e8
+12740 <first : Coord eq startCoord
+12740 <first : Making move with king
+12740 <first : To e7 while cord = e8 ; starting = e8
+12740 <first : Coord eq startCoord
+12741 <first : Making move with king
+12741 <first : To e7 while cord = e8 ; starting = e8
+12741 <first : Coord eq startCoord
+12741 <first : Making move with king
+12741 <first : To e7 while cord = e8 ; starting = e8
+12741 <first : Coord eq startCoord
+12742 <first : Making move with king
+12742 <first : To e7 while cord = e8 ; starting = e8
+12742 <first : Coord eq startCoord
+12742 <first : Making move with king
+12742 <first : To e7 while cord = e8 ; starting = e8
+12742 <first : Coord eq startCoord
+12743 <first : Making move with king
+12743 <first : To e7 while cord = e8 ; starting = e8
+12743 <first : Coord eq startCoord
+12744 <first : Making move with king
+12744 <first : To e7 while cord = e8 ; starting = e8
+12744 <first : Coord eq startCoord
+12744 <first : Making move with king
+12744 <first : To e7 while cord = e8 ; starting = e8
+12744 <first : Coord eq startCoord
+12745 <first : Making move with king
+12745 <first : To e7 while cord = e8 ; starting = e8
+12745 <first : Coord eq startCoord
+12745 <first : Making move with king
+12745 <first : To e7 while cord = e8 ; starting = e8
+12745 <first : Coord eq startCoord
+12746 <first : Making move with king
+12746 <first : To f7 while cord = e8 ; starting = e8
+12746 <first : Coord eq startCoord
+12747 <first : Making move with king
+12747 <first : To f7 while cord = e8 ; starting = e8
+12747 <first : Coord eq startCoord
+GameEnds(29, xboard exit, 2)
+GE(29, xboard exit, 2) bare king k=16 color=66
+55484 >first : result * {xboard exit}
+55484 >second: result * {xboard exit}
+55484 >second: force
+55484 >first : quit
+55494 >second: quit
